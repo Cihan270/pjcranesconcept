@@ -1,0 +1,1335 @@
+{
+  "Meta": {
+    "title": "PJ Cranes | Handel in mobiele kranen",
+    "description": "PJ Cranes B.V. koopt, verkoopt en bemiddelt in mobiele kranen van 20 tot 1000 ton. Gevestigd in Nijkerk."
+  },
+  "Nav": {
+    "cranes": "Beschikbare kranen",
+    "sell": "Verkoop uw kraan",
+    "find": "Zoek een kraan",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "enquiry": "Aanvraag",
+    "viewInventory": "Bekijk voorraad",
+    "search": "Zoeken",
+    "searchTitle": "Zoek een kraan",
+    "searchDescription": "Doorzoek de beschikbare voorraad op merk, model of referentie.",
+    "searchPlaceholder": "Merk, model of referentie…",
+    "searchSubmit": "Zoeken",
+    "searchBrowseAll": "Alle kranen",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "home": "Home",
+    "skipToContent": "Ga naar inhoud",
+    "mainNav": "Hoofdnavigatie",
+    "mobileNav": "Mobiele navigatie",
+    "breadcrumb": "Broodkruimelnavigatie"
+  },
+  "LocaleSwitcher": {
+    "label": "Taal",
+    "nl": "Nederlands",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français"
+  },
+  "Footer": {
+    "tagline": "Internationale handel in mobiele kranen — kopen, verkopen, vinden en transporteren.",
+    "company": "Bedrijf",
+    "services": "Diensten",
+    "legal": "Juridisch",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Algemene voorwaarden",
+    "cookies": "Cookiebeleid",
+    "faq": "FAQ",
+    "news": "Nieuws",
+    "offices": "Onze kantoren",
+    "headOffice": "Hoofdkantoor · Nijkerk",
+    "phoneGeneral": "Algemeen",
+    "phoneSales": "Sales",
+    "emailLabel": "E-mail",
+    "whatsapp": "WhatsApp",
+    "viewAllOffices": "Bekijk alle kantoren",
+    "kvk": "KvK",
+    "vat": "BTW",
+    "rights": "Alle rechten voorbehouden.",
+    "transport": "Transport & verzending",
+    "documentation": "Documentatie & export"
+  },
+  "Crane": {
+    "reference": "Ref.",
+    "year": "Bouwjaar",
+    "capacity": "Capaciteit",
+    "hours": "Uren",
+    "mileage": "Kilometerstand",
+    "location": "Locatie",
+    "tons": "{value} t",
+    "status": {
+      "available": "Beschikbaar",
+      "reserved": "Gereserveerd",
+      "sold": "Verkocht",
+      "on_request": "Op aanvraag"
+    },
+    "viewDetails": "Bekijk details",
+    "viewMachine": "Bekijk machine",
+    "type": {
+      "mobile": "Mobiele kraan",
+      "crawler": "Rupskraan",
+      "all_terrain": "All-terrain",
+      "city": "Citykraan",
+      "rough_terrain": "Rough terrain",
+      "other": "Overig"
+    },
+    "spec": {
+      "boom": "Giek",
+      "flyJib": "Fly jib",
+      "drive": "Aandrijving",
+      "transmission": "Transmissie",
+      "tyres": "Banden",
+      "engineSuperstructure": "Motor bovenwagen",
+      "engineCarrier": "Motor onderwagen",
+      "lmi": "LMI",
+      "hookblocks": "Hakenblokken",
+      "counterweight": "Contragewicht",
+      "winches": "Lieren",
+      "weight": "Gewicht",
+      "other": "Overig"
+    }
+  },
+  "Services": {
+    "buy": {
+      "title": "Gebruikte kranen",
+      "summary": "Hoogwaardige gebruikte mobiele en rupskranen van Liebherr, Grove, Terex-Demag en Tadano Faun — prijs op aanvraag."
+    },
+    "sell": {
+      "title": "Verkoop uw kraan",
+      "summary": "No cure, no pay: taxatie, exclusiviteit, actieve marktbenadering, documentatie en overdracht."
+    },
+    "find": {
+      "title": "Zoek uw kraan",
+      "summary": "Op zoek naar een specifiek machine? Geef merk, model en capaciteit door — wij zoeken in ons internationale netwerk."
+    },
+    "transport": {
+      "title": "Transport & verzending",
+      "summary": "Weg- en zeetransport op aanvraag, van haven tot deur. Levering wordt apart van de machineprijs berekend."
+    },
+    "documentation": {
+      "title": "Documentatie & export",
+      "summary": "Certificaten, keuringen, douane-coördinatie en het documentenpakket voor internationale overdracht."
+    },
+    "hub": {
+      "meta": {
+        "title": "Diensten",
+        "description": "Kopen, verkopen, sourcen, transport en documentatie — de diensten van PJ Cranes rond internationale kraanhandel."
+      },
+      "explore": "Bekijken",
+      "ctaContact": "Neem contact op",
+      "hero": {
+        "badge": "Vijf gerichte diensten",
+        "title": "Van aankoop tot overdracht",
+        "body": "PJ Cranes begeleidt internationale kraanhandel van eerste vraag tot documentatie en levering — concreet, zonder generieke beloftes."
+      },
+      "trust": {
+        "endToEnd": {
+          "title": "Volledig traject",
+          "body": "Van voorraad of sourcing tot papieren en transport — u houdt één vast aanspreekpunt."
+        },
+        "specialist": {
+          "title": "Specialistische kennis",
+          "body": "Meer dan 20 jaar ervaring met mobiele en rupskranen van circa 20 tot 1000 ton."
+        },
+        "network": {
+          "title": "Internationaal netwerk",
+          "body": "Kopers, verkopers en machines via een bewezen handelsnetwerk in tientallen landen."
+        },
+        "base": {
+          "title": "Gevestigd in Nijkerk",
+          "body": "Uw vaste contact in Nederland, met bereik via internationale kantoren."
+        }
+      },
+      "list": {
+        "eyebrow": "Onze diensten",
+        "title": "Kies het traject dat past",
+        "body": "Vijf gerichte diensten. Elk met een eigen proces — van voorraad tot exportpapieren."
+      },
+      "process": {
+        "eyebrow": "Samenwerking",
+        "title": "Zo werken wij",
+        "body": "Of u nu koopt, verkoopt of zoekt: wij starten bij uw doel en werken toe naar een duidelijke volgende stap.",
+        "steps": {
+          "brief": {
+            "title": "Behoefte scherpstellen",
+            "body": "We bespreken machine, planning, bestemming en randvoorwaarden zodat de route duidelijk is."
+          },
+          "match": {
+            "title": "Voorraad of sourcing",
+            "body": "We matchen met actuele voorraad of sourcen gericht via ons internationale netwerk."
+          },
+          "agree": {
+            "title": "Voorwaarden afstemmen",
+            "body": "Prijs, timing en praktische voorwaarden worden helder vastgelegd voordat er doorgepakt wordt."
+          },
+          "paperwork": {
+            "title": "Documentatie regelen",
+            "body": "Certificaten, keuringen en exportstukken worden afgestemd op machine en bestemming."
+          },
+          "deliver": {
+            "title": "Transport & overdracht",
+            "body": "Op verzoek coördineren wij logistiek tot aan levering, met één aanspreekpunt."
+          }
+        }
+      },
+      "faq": {
+        "eyebrow": "Veelgestelde vragen",
+        "title": "Antwoorden over onze diensten",
+        "items": {
+          "whatIncluded": {
+            "question": "Welke diensten biedt PJ Cranes?",
+            "answer": "Wij ondersteunen bij kopen uit voorraad, verkopen van uw kraan, gericht sourcen, transport & verzending, en documentatie & export."
+          },
+          "pricing": {
+            "question": "Zijn prijzen inclusief transport?",
+            "answer": "Nee. Machineprijzen zijn op aanvraag. Transport en levering worden apart begroot op basis van route en planning."
+          },
+          "stockOrSource": {
+            "question": "Wat als de kraan niet in de voorraad staat?",
+            "answer": "Dan sourcen wij via ons netwerk. Geef merk, model, capaciteit en planning door — wij komen terug met opties."
+          },
+          "international": {
+            "question": "Werken jullie internationaal?",
+            "answer": "Ja. Vanuit Nijkerk handelen wij internationaal en begeleiden wij overdracht over landsgrenzen, inclusief documentatie waar nodig."
+          },
+          "transportDocs": {
+            "question": "Kan ik alleen transport of documentatie afnemen?",
+            "answer": "Ja. Die trajecten kunnen onderdeel zijn van een machinekoop, of apart worden aangevraagd via contact."
+          },
+          "contact": {
+            "question": "Hoe start ik een traject?",
+            "answer": "Kies de passende dienst hierboven, of neem direct contact op met sales. Wij helpen u naar de juiste volgende stap."
+          }
+        }
+      },
+      "finalCta": {
+        "title": "Welke dienst heeft u nodig?",
+        "body": "Neem contact op met PJ Cranes om uw traject, planning en mogelijkheden te bespreken.",
+        "contact": "Neem contact op",
+        "callSales": "Bel sales"
+      }
+    },
+    "transportPage": {
+      "meta": {
+        "title": "Transport & verzending",
+        "description": "Weg- en zeetransport voor mobiele kranen op aanvraag — van haven tot deur, apart van de machineprijs."
+      },
+      "hero": {
+        "badge": "Logistiek",
+        "title": "Transport & verzending",
+        "body": "Op verzoek regelen wij de logistiek zodat uw machine aankomt waar u die nodig heeft — weg of zee, afgestemd op gewicht en bestemming."
+      },
+      "featuresSection": {
+        "eyebrow": "Wat wij regelen",
+        "title": "Logistiek zonder ruis",
+        "body": "Transport is geen bijzaak. Wij stemmen route, timing en partijen af zodat de overdracht praktisch haalbaar blijft."
+      },
+      "features": {
+        "scope": {
+          "title": "Weg & zee",
+          "body": "Wij coördineren transportroutes afgestemd op machinegewicht, afmetingen en bestemming — van haven tot deur wanneer nodig."
+        },
+        "pricing": {
+          "title": "Apart berekend",
+          "body": "Levering is niet inbegrepen in de machineprijs. Transportkosten worden apart begroot op basis van route en planning."
+        },
+        "coordination": {
+          "title": "Eén aanspreekpunt",
+          "body": "Uw vaste contact in Nijkerk stemt timing af met verkoper, transporteur en ontvanger zodat de overdracht soepel verloopt."
+        }
+      },
+      "cta": "Vraag transport aan",
+      "finalCta": {
+        "title": "Transport nodig voor uw machine?",
+        "body": "Neem contact op — wij begroten de route en stemmen de planning af.",
+        "contact": "Neem contact op",
+        "callSales": "Bel sales"
+      }
+    },
+    "documentationPage": {
+      "meta": {
+        "title": "Documentatie & export",
+        "description": "Certificaten, keuringen en douane-coördinatie voor internationale overdracht van mobiele kranen."
+      },
+      "hero": {
+        "badge": "Documentatie",
+        "title": "Documentatie & export",
+        "body": "Het documentenpakket en de exportcoördinatie die internationale overdracht mogelijk maken — afgestemd op machine en bestemming."
+      },
+      "featuresSection": {
+        "eyebrow": "Wat wij regelen",
+        "title": "Papieren die kloppen",
+        "body": "Internationale overdracht vraagt om het juiste pakket. Wij helpen de stukken te ordenen en af te stemmen op bestemming en Incoterm."
+      },
+      "features": {
+        "package": {
+          "title": "Documentenpakket",
+          "body": "Denk aan kraanpaspoort, herkomstbewijs, serviceboek, handleidingen en overige stukken die bij overdracht horen — exacte inhoud per machine."
+        },
+        "inspections": {
+          "title": "Keuringen",
+          "body": "Op verzoek organiseren wij inspecties door derden en helpen wij bij het verzamelen van relevante keuringsinformatie."
+        },
+        "customs": {
+          "title": "Douane & export",
+          "body": "Wij coördineren de documentatiestappen rond export en douane zodat de papieren aansluiten op bestemming en Incoterm."
+        }
+      },
+      "cta": "Vraag documentatie aan",
+      "finalCta": {
+        "title": "Hulp nodig bij documentatie of export?",
+        "body": "Neem contact op — wij bespreken welk pakket bij uw machine en bestemming past.",
+        "contact": "Neem contact op",
+        "callSales": "Bel sales"
+      }
+    }
+  },
+  "Home": {
+    "eyebrow": "International mobile crane trading",
+    "title": "Gebruikte mobiele kranen.\nWereldwijd geleverd.",
+    "subtitle": "Internationale handel in gebruikte mobiele kranen van {min} tot {max} ton, inclusief bemiddeling, documentatie en transport.",
+    "ctaInventory": "Bekijk beschikbare kranen",
+    "ctaSell": "Verkoop uw kraan",
+    "findLink": "Niet gevonden wat u zoekt? Dien een zoekopdracht in",
+    "trust": {
+      "capacityValue": "{min}–{max} ton",
+      "capacityLabel": "Mobiele en rupskranen",
+      "officesValue": "{count} internationale kantoren",
+      "officesLabel": "Wereldwijd bereikbaar",
+      "experienceValue": "{years}+ jaar ervaring",
+      "experienceLabel": "Specialistische marktkennis"
+    },
+    "scrollCue": "Scroll",
+    "search": {
+      "eyebrow": "Voorraad",
+      "title": "Zoek beschikbare kranen",
+      "subtitle": "Filter de actuele voorraad op de specificaties die voor u relevant zijn.",
+      "queryLabel": "Merk of model",
+      "placeholder": "Merk, model of referentie…",
+      "manufacturer": "Merk",
+      "allManufacturers": "Alle merken",
+      "capacityMin": "Capaciteit min.",
+      "capacityMax": "Capaciteit max.",
+      "capacityAny": "Alle",
+      "yearMin": "Bouwjaar van",
+      "yearMax": "Bouwjaar tot",
+      "yearAny": "Alle",
+      "submit": "Zoeken",
+      "filters": "Filters",
+      "filtersTitle": "Zoekfilters",
+      "filtersSubtitle": "Verfijn op merk, capaciteit en bouwjaar.",
+      "clear": "Filters wissen",
+      "results": "{count, plural, =0 {Geen kranen gevonden} one {# kraan beschikbaar} other {# kranen beschikbaar}}",
+      "secondaryPrompt": "Niet gevonden wat u zoekt?",
+      "secondaryCta": "Laat PJ Cranes zoeken"
+    },
+    "featured": {
+      "eyebrow": "Actuele voorraad",
+      "title": "Uitgelichte machines",
+      "subtitle": "Een selectie uit onze direct beschikbare mobiele kranen.",
+      "highlightEyebrow": "Uitgelicht",
+      "newArrival": "Nieuw binnen",
+      "directAvailable": "Direct beschikbaar",
+      "availability": "Status",
+      "noImage": "Geen foto",
+      "resultCount": "{count, plural, =0 {Geen kranen in voorraad} one {# kraan in voorraad} other {# kranen in voorraad}}",
+      "viewAll": "Bekijk alle kranen",
+      "empty": "Momenteel geen uitgelichte machines.",
+      "carousel": {
+        "previous": "Vorige machines",
+        "next": "Volgende machines",
+        "progress": "Voortgang uitgelichte machines"
+      }
+    },
+    "findCta": {
+      "eyebrow": "Specifieke kraan gezocht",
+      "title": "Niet gevonden wat u zoekt?",
+      "body": "Deel het gewenste merk, model en tonnage. Wij zoeken binnen ons internationale netwerk naar een passende machine.",
+      "cta": "Dien een zoekopdracht in",
+      "contact": "Neem direct contact op"
+    },
+    "positioning": {
+      "eyebrow": "PJ Cranes",
+      "title": "Handelspartner voor serieuze kraanprojecten",
+      "body": "Vanuit ons hoofdkantoor in {city} en ons internationale kantorennetwerk begeleiden wij de aankoop, verkoop en levering van mobiele kranen over grenzen heen.",
+      "cta": "Meer over PJ Cranes",
+      "experienceLabel": "Marktkennis",
+      "experienceValue": "{years}+ jaar",
+      "capacityLabel": "Capaciteitsbereik",
+      "capacityValue": "{min}–{max, number} ton",
+      "officesLabel": "Internationaal netwerk",
+      "officesValue": "{count} kantoren"
+    },
+    "services": {
+      "eyebrow": "Diensten",
+      "title": "Van aankoop tot overdracht",
+      "subtitle": "Alles wat nodig is voor een efficiënte internationale kraantransactie.",
+      "viewAll": "Bekijk alle diensten",
+      "tablistLabel": "Diensten",
+      "panels": {
+        "buy": {
+          "title": "Beschikbare kranen",
+          "summary": "Bekijk direct beschikbare mobiele en rupskranen met duidelijke specificaties en actuele informatie.",
+          "cta": "Bekijk voorraad"
+        },
+        "sell": {
+          "title": "Verkoop uw kraan",
+          "summary": "Wij beoordelen uw machine, marktpositie en de geschikte verkooproute.",
+          "cta": "Verkoop uw kraan"
+        },
+        "find": {
+          "title": "Kraan gezocht",
+          "summary": "Staat de juiste machine niet in de voorraad? Wij zoeken binnen ons internationale netwerk.",
+          "cta": "Dien zoekopdracht in"
+        },
+        "transport": {
+          "title": "Transport & verzending",
+          "summary": "Begeleiding bij het vervoer van de afhaallocatie naar de eindbestemming.",
+          "cta": "Bekijk transportservice"
+        },
+        "documentation": {
+          "title": "Documentatie & export",
+          "summary": "Ondersteuning bij exportdocumenten, overdracht en internationale afhandeling.",
+          "cta": "Bekijk exportbegeleiding"
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Werkwijze",
+      "title": "Van aanvraag tot overdracht",
+      "body": "Een helder traject met één vast aanspreekpunt.",
+      "cta": "Bespreek uw aanvraag",
+      "steps": {
+        "request": {
+          "title": "Aanvraag",
+          "body": "Deel de gewenste machine of de kraan die u wilt verkopen."
+        },
+        "assessment": {
+          "title": "Beoordeling",
+          "body": "Wij controleren de beschikbare informatie en bespreken de mogelijkheden."
+        },
+        "agreement": {
+          "title": "Overeenkomst & documentatie",
+          "body": "Afspraken, documenten en exportvereisten worden voorbereid."
+        },
+        "transport": {
+          "title": "Transport & overdracht",
+          "body": "De machine wordt voorbereid voor levering aan de eindbestemming."
+        }
+      }
+    },
+    "sellCta": {
+      "eyebrow": "Verkoop",
+      "title": "Klaar om uw kraan te verkopen?",
+      "body": "Deel de specificaties en foto’s van uw kraan. Wij beoordelen de marktpositie en bespreken de beste verkooproute.",
+      "cta": "Vraag een verkoopbeoordeling aan"
+    },
+    "international": {
+      "eyebrow": "Internationaal netwerk",
+      "title": "Wereldwijd netwerk. Eén vast aanspreekpunt.",
+      "body": "Met {count} kantoren en een internationaal netwerk ondersteunt PJ Cranes klanten bij aankoop, verkoop, documentatie en transport over grenzen heen.",
+      "ctaOffices": "Bekijk onze kantoren",
+      "ctaContact": "Neem contact op",
+      "mapLabel": "Wereldkaart met PJ Cranes-kantoren",
+      "hqBadge": "Hoofdkantoor",
+      "regionLabel": "Regio",
+      "typeLabel": "Type kantoor",
+      "phoneLabel": "Telefoon",
+      "emailLabel": "E-mail",
+      "listHeading": "Kantoren van PJ Cranes",
+      "regions": {
+        "americas": "Amerika",
+        "europe": "Europa",
+        "middleEast": "Midden-Oosten"
+      },
+      "types": {
+        "headquarters": "Hoofdkantoor",
+        "international": "Internationaal kantoor"
+      },
+      "offices": {
+        "usa": {
+          "city": "",
+          "country": "USA"
+        },
+        "netherlands": {
+          "city": "Nijkerk",
+          "country": "Nederland"
+        },
+        "germany": {
+          "city": "",
+          "country": "Duitsland"
+        },
+        "turkiye": {
+          "city": "",
+          "country": "Türkiye"
+        },
+        "dubai": {
+          "city": "Dubai",
+          "country": "UAE"
+        }
+      }
+    },
+    "brands": {
+      "eyebrow": "Merken",
+      "subtitle": "Bekijk de actuele voorraad van toonaangevende merken.",
+      "availableCount": "{count, plural, one {# beschikbaar} other {# beschikbaar}}",
+      "linkLabel": "{name} · {count, plural, one {# beschikbaar} other {# beschikbaar}}"
+    },
+    "newsletter": {
+      "eyebrow": "VOORRAADALERT",
+      "title": "Ontvang nieuwe kranen direct in uw inbox",
+      "subtitle": "Laat uw e-mailadres achter en krijg bericht wanneer er nieuwe machines in de voorraad komen.",
+      "email": "E-mailadres",
+      "emailPlaceholder": "naam@bedrijf.com",
+      "emailInvalid": "Voer een geldig e-mailadres in.",
+      "consent": "Ik wil voorraadalerts van PJ Cranes ontvangen en heb de <privacy>privacyverklaring</privacy> gelezen.",
+      "consentRequired": "Toestemming is verplicht om de voorraadalert te activeren.",
+      "submit": "Activeer alert",
+      "submitting": "Bezig…",
+      "successTitle": "Voorraadalert geactiveerd",
+      "successBody": "Bedankt. U ontvangt een melding wanneer er nieuwe machines in de voorraad komen.",
+      "error": "Activeren is niet gelukt. Probeer het later opnieuw.",
+      "errorConfig": "E-mailverzending is nog niet geconfigureerd. Probeer het later opnieuw of mail info@pj-cranes.com."
+    }
+  },
+  "Inventory": {
+    "meta": {
+      "title": "Beschikbare kranen",
+      "description": "Bekijk de actuele voorraad mobiele en rupskranen van PJ Cranes. Filter op merk, capaciteit, bouwjaar en meer — prijs op aanvraag."
+    },
+    "eyebrow": "Marketplace",
+    "title": "Beschikbare kranen",
+    "subtitle": "Filter de voorraad op merk, type, capaciteit en meer. Specificaties zoals gepubliceerd; prijs altijd op aanvraag.",
+    "results": "{count, plural, =0 {Geen kranen} one {# kraan} other {# kranen}}",
+    "empty": {
+      "title": "Geen kranen gevonden",
+      "description": "Pas of reset de filters om meer machines te zien."
+    },
+    "filters": {
+      "eyebrow": "Filters",
+      "title": "Verfijn zoekopdracht",
+      "subtitle": "Combineer filters om sneller de juiste machine te vinden.",
+      "open": "Filters",
+      "query": "Zoeken",
+      "queryPlaceholder": "Merk, model of referentie…",
+      "manufacturer": "Fabrikant",
+      "model": "Model",
+      "allModels": "Alle modellen",
+      "type": "Type",
+      "yearMin": "Bouwjaar van",
+      "yearMax": "Bouwjaar tot",
+      "capacityMin": "Capaciteit min.",
+      "capacityMax": "Capaciteit max.",
+      "mileageMax": "Max. kilometers",
+      "hoursMax": "Max. uren",
+      "availability": "Beschikbaarheid",
+      "includeSold": "Toon verkochte machines",
+      "reset": "Reset filters",
+      "any": "Alle",
+      "mileageUpTo": "Tot {value} km",
+      "hoursUpTo": "Tot {value} u"
+    },
+    "sort": {
+      "label": "Sorteren",
+      "newest": "Nieuwste eerst",
+      "year_desc": "Bouwjaar (nieuw→oud)",
+      "year_asc": "Bouwjaar (oud→nieuw)",
+      "capacity_desc": "Capaciteit (hoog→laag)",
+      "capacity_asc": "Capaciteit (laag→hoog)",
+      "manufacturer_asc": "Fabrikant A–Z"
+    },
+    "view": {
+      "label": "Weergave",
+      "grid": "Raster",
+      "list": "Lijst"
+    },
+    "chips": {
+      "yearFrom": "Vanaf {year}",
+      "yearTo": "Tot {year}",
+      "capacityFrom": "Vanaf {value} t",
+      "capacityTo": "Tot {value} t",
+      "mileageMax": "Max. {value} km",
+      "hoursMax": "Max. {value} u",
+      "remove": "Verwijder filter"
+    }
+  },
+  "CraneDetail": {
+    "notFoundTitle": "Kraan niet gevonden",
+    "specsTitle": "Specificaties",
+    "specsSubtitle": "Alleen velden die op de listing zijn gepubliceerd.",
+    "technicalCaption": "Technische specificaties",
+    "featuresTitle": "Uitrusting & kenmerken",
+    "hoursSuperstructure": "Uren bovenwagen",
+    "hoursCarrier": "Uren onderwagen",
+    "gallery": {
+      "empty": "Geen afbeeldingen beschikbaar",
+      "open": "Open afbeelding {index} van {total}",
+      "previous": "Vorige afbeelding",
+      "next": "Volgende afbeelding",
+      "thumb": "Toon afbeelding {index}"
+    },
+    "share": {
+      "label": "Delen",
+      "copied": "Link gekopieerd"
+    },
+    "related": {
+      "eyebrow": "Vergelijkbaar",
+      "title": "Gerelateerde kranen",
+      "subtitle": "Andere machines met vergelijkbaar merk, type of capaciteit."
+    },
+    "sticky": {
+      "call": "Bellen",
+      "enquire": "Aanvraag"
+    },
+    "enquiry": {
+      "eyebrow": "Aanvraag",
+      "title": "Prijs & beschikbaarheid",
+      "subtitle": "Vraag naar {crane}. Wij reageren met actuele status en voorwaarden.",
+      "priceOnRequest": "Prijs op aanvraag",
+      "call": "Bel ons",
+      "email": "E-mail",
+      "name": "Naam",
+      "emailField": "E-mailadres",
+      "phone": "Telefoon",
+      "company": "Bedrijf",
+      "message": "Bericht",
+      "messagePlaceholder": "Vertel kort waar u naar op zoek bent…",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze aanvraag en heb de privacyverklaring gelezen.",
+      "submit": "Verstuur aanvraag",
+      "submitting": "Bezig…",
+      "successTitle": "Aanvraag verzonden",
+      "successBody": "Bedankt. Ons team neemt contact met u op.",
+      "disclaimer": "Geen WhatsApp-CTA tot een nummer is bevestigd. Bel of mail voor snelle opvolging.",
+      "defaultSubject": "Aanvraag {crane} ({reference})",
+      "defaultMessage": "Ik ben geïnteresseerd in {crane} (ref. {reference}). Graag meer informatie over beschikbaarheid en prijs.",
+      "errors": {
+        "name": "Voer uw naam in.",
+        "email": "Voer een geldig e-mailadres in.",
+        "phone": "Voer een geldig telefoonnummer in.",
+        "contactRequired": "Vul een e-mailadres of telefoonnummer in.",
+        "message": "Bericht is te kort.",
+        "consent": "Toestemming is verplicht.",
+        "generic": "Versturen is niet gelukt. Probeer het later opnieuw.",
+        "config": "E-mailverzending is nog niet geconfigureerd. Mail info@pj-cranes.com of bel ons."
+      }
+    }
+  },
+  "Contact": {
+    "meta": {
+      "title": "Contact | PJ Cranes",
+      "description": "Neem contact op met PJ Cranes voor beschikbare mobiele kranen, verkoopaanvragen, zoekopdrachten en internationale kraanhandel."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Neem contact op met PJ Cranes",
+      "body": "Neem rechtstreeks contact op voor beschikbare kranen, verkoopaanvragen, zoekopdrachten en internationale levering.",
+      "ctaMessage": "Stuur een bericht",
+      "ctaCall": "Bel ons",
+      "headOfficeLabel": "Locatie",
+      "imageAlt": "Mobiele kraan van PJ Cranes"
+    },
+    "quickRoutes": {
+      "eyebrow": "Waarmee kunnen we helpen?",
+      "buy": {
+        "title": "Ik wil een kraan kopen",
+        "body": "Bekijk de actuele voorraad en vraag informatie aan over een machine.",
+        "cta": "Bekijk beschikbare kranen"
+      },
+      "sell": {
+        "title": "Ik wil mijn kraan verkopen",
+        "body": "Deel de specificaties en foto’s van uw machine.",
+        "cta": "Start verkoopaanvraag"
+      },
+      "source": {
+        "title": "Ik zoek een specifieke kraan",
+        "body": "Laat PJ Cranes binnen het internationale netwerk zoeken.",
+        "cta": "Dien zoekopdracht in"
+      }
+    },
+    "main": {
+      "eyebrow": "Direct contact",
+      "title": "Hoe kunnen wij u helpen?",
+      "body": "Kies het onderwerp van uw aanvraag en laat uw gegevens achter. Wij nemen contact met u op om de vervolgstappen te bespreken."
+    },
+    "details": {
+      "general": "Algemeen",
+      "sales": "Sales",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp",
+      "whatsappAction": "Chat via WhatsApp",
+      "headOffice": "Hoofdkantoor",
+      "directions": "Route plannen"
+    },
+    "salesContacts": {
+      "eyebrow": "Contactpersonen",
+      "title": "Rechtstreeks contact met sales",
+      "body": "Neem contact op via de saleslijn of stuur een e-mail. Ons team helpt u verder met koop, verkoop en sourcing.",
+      "call": "Bel",
+      "email": "E-mail",
+      "sharedNote": "Persoonlijke telefoonnummers en e-mailadressen worden niet gepubliceerd. Gebruik de saleslijn of info@pj-cranes.com."
+    },
+    "headOffice": {
+      "eyebrow": "Hoofdkantoor",
+      "title": "PJ Cranes in Nijkerk",
+      "directions": "Route plannen",
+      "callOffice": "Bel hoofdkantoor",
+      "viewOffices": "Bekijk alle kantoren",
+      "mapTitle": "Kaart van PJ Cranes hoofdkantoor in Nijkerk",
+      "mapLoad": "Kaart laden",
+      "mapMarker": "PJ Cranes",
+      "internationalTitle": "Ook internationaal bereikbaar",
+      "internationalBody": "Bekijk de contactgegevens van onze {count} kantoren en neem contact op met de locatie die bij uw regio past.",
+      "internationalCta": "Bekijk onze kantoren"
+    },
+    "company": {
+      "title": "Bedrijfsgegevens",
+      "legalName": "Statutaire naam",
+      "address": "Vestigingsadres",
+      "invoiceTitle": "Facturatiegegevens",
+      "invoiceBody": "Voor facturatievragen mailt u naar het algemene adres. Bankgegevens worden niet openbaar op deze pagina gepubliceerd."
+    },
+    "finalCta": {
+      "title": "Een kraan kopen, verkopen of laten zoeken?",
+      "body": "Neem direct contact op of kies de route die bij uw aanvraag past.",
+      "ctaInventory": "Bekijk beschikbare kranen",
+      "ctaContact": "Neem contact op",
+      "ctaSell": "Verkoop uw kraan"
+    },
+    "form": {
+      "name": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "company": "Bedrijf",
+      "optional": "optioneel",
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Selecteer een onderwerp",
+      "craneReference": "Referentie of kraan",
+      "referenceLabel": "Referentie",
+      "message": "Bericht",
+      "contactHint": "Vul minimaal een e-mailadres of telefoonnummer in.",
+      "sellHint": "Voor een volledige verkoopaanvraag met specificaties en foto’s gebruikt u het <link>verkoopformulier</link>.",
+      "sourceHint": "Voor een gerichte zoekopdracht gebruikt u het <link>sourcingformulier</link>.",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze aanvraag en heb de <privacy>privacyverklaring</privacy> gelezen.",
+      "submit": "Bericht versturen",
+      "submitting": "Bericht wordt verstuurd…",
+      "successTitle": "Uw bericht is verzonden",
+      "successBody": "PJ Cranes heeft uw aanvraag ontvangen en neemt contact met u op om de vervolgstappen te bespreken.",
+      "errorSummary": "Controleer de gemarkeerde velden en probeer het opnieuw.",
+      "subjects": {
+        "inventory": "Vraag over een beschikbare kraan",
+        "sell": "Kraan verkopen",
+        "source": "Specifieke kraan gezocht",
+        "transport": "Transport en documentatie",
+        "general": "Algemeen contact"
+      },
+      "errors": {
+        "name": "Vul uw naam in.",
+        "email": "Vul een geldig e-mailadres in.",
+        "phone": "Vul een geldig telefoonnummer in.",
+        "contactRequired": "Vul een e-mailadres of telefoonnummer in.",
+        "subject": "Selecteer een onderwerp.",
+        "message": "Het bericht is te kort.",
+        "consent": "Toestemming is verplicht.",
+        "generic": "Versturen is niet gelukt. Probeer het later opnieuw.",
+        "config": "E-mailverzending is nog niet geconfigureerd. Mail info@pj-cranes.com of bel ons."
+      }
+    }
+  },
+  "Sell": {
+    "meta": {
+      "title": "Verkoop uw kraan",
+      "description": "Verkoop uw mobiele of rupskraan via PJ Cranes op basis van no cure, no pay. Van taxatie tot overdracht — wij regelen het volledige proces."
+    },
+    "hero": {
+      "badge": "No cure, no pay",
+      "title": "Verkoop uw kraan",
+      "body": "PJ Cranes regelt het volledige verkoopproces. Van taxatie tot overdracht — wij staan voor u klaar."
+    },
+    "trust": {
+      "noCure": {
+        "title": "No Cure, No Pay",
+        "body": "Geen verkoop = geen kosten. U betaalt alleen bij een succesvolle transactie."
+      },
+      "network": {
+        "title": "Wereldwijd netwerk",
+        "body": "Toegang tot kopers in meer dan 50 landen via ons bewezen internationale netwerk."
+      },
+      "paperwork": {
+        "title": "Compleet papierwerk",
+        "body": "Wij verzorgen alle documentatie: van contract tot betaling en verscheping."
+      },
+      "speed": {
+        "title": "Snelle afhandeling",
+        "body": "Gemiddeld verkopen wij kranen binnen 30–90 dagen dankzij onze actieve marktaanpak."
+      }
+    },
+    "process": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Ons verkoopproces",
+      "body": "PJ Cranes is gespecialiseerd in het kopen en verkopen van gebruikte kranen. Wij werken met een no cure, no pay aanpak. Met ons brede wereldwijde netwerk en jarenlange ervaring verzorgen wij het volledige verkoopproces inclusief alle documentatie.",
+      "steps": {
+        "valuation": {
+          "title": "Taxatie & verkoopprijs bepalen",
+          "body": "Samen bepalen we de gewenste verkoopprijs voor uw kraan. Door onze jarenlange ervaring kunnen wij u hierin een passend advies bieden."
+        },
+        "exclusivity": {
+          "title": "Exclusiviteitscontract",
+          "body": "Wij zorgen voor duidelijkheid voor alle partijen rondom het verkoopproces door middel van een exclusiviteitscontract."
+        },
+        "market": {
+          "title": "Actieve marktbenadering",
+          "body": "Via ons wereldwijde netwerk gaan wij proactief aan de slag met de verkoop van uw kraan aan de juiste koper."
+        },
+        "documentation": {
+          "title": "Documentatie & betaling",
+          "body": "Wij zorgen voor het volledige papierwerk: van contract tot betaling. U hoeft zich nergens zorgen over te maken."
+        },
+        "shipping": {
+          "title": "Verzending & overdracht",
+          "body": "Wanneer de deal gesloten is, verzorgen wij de verzending van uw kraan, inclusief alle documentatie voor de nieuwe eigenaar."
+        }
+      }
+    },
+    "formSection": {
+      "title": "Uw kraan verkopen?",
+      "body": "Vul het formulier in en wij nemen binnen 24 uur contact met u op. Of bel ons direct op <phone>(+31) 033 20 48 020</phone>."
+    },
+    "sidebar": {
+      "afterTitle": "Na uw aanvraag",
+      "afterSteps": {
+        "review": "Wij bekijken de verstrekte informatie.",
+        "contact": "Een specialist neemt contact met u op.",
+        "next": "Wij bespreken de marktpositie en vervolgstappen."
+      },
+      "prepTitle": "Handig om klaar te hebben",
+      "prepItems": {
+        "brandModel": "Merk en model",
+        "year": "Bouwjaar",
+        "hoursMileage": "Draaiuren of kilometerstand",
+        "serial": "Typeplaatje of serienummer",
+        "photos": "Recente foto’s",
+        "docs": "Onderhoudsdocumentatie"
+      },
+      "contactTitle": "Liever direct overleggen?",
+      "contactBody": "Neem contact op met sales voor een korte eerste beoordeling.",
+      "salesLabel": "Sales",
+      "phoneLabel": "Telefoon",
+      "emailLabel": "E-mail"
+    },
+    "prep": {
+      "eyebrow": "Voorbereiding",
+      "title": "Welke informatie helpt bij de beoordeling?",
+      "body": "U hoeft niet alles direct beschikbaar te hebben. Wij kunnen ontbrekende informatie later bespreken.",
+      "items": {
+        "photos": "Algemene foto’s van de kraan",
+        "plate": "Foto van het typeplaatje",
+        "yearSerial": "Bouwjaar en serienummer",
+        "hoursMileage": "Draaiuren en kilometerstand",
+        "capacity": "Capaciteit en configuratie",
+        "docs": "Onderhouds- of inspectiedocumenten"
+      }
+    },
+    "faq": {
+      "eyebrow": "Veelgestelde vragen",
+      "title": "Antwoorden over het verkopen van uw kraan",
+      "items": {
+        "whichCranes": {
+          "question": "Welke kranen kan ik aanbieden?",
+          "answer": "PJ Cranes richt zich op mobiele en rupskranen binnen het gangbare capaciteitsbereik van ons handelsnetwerk. Twijfelt u of uw machine past? Neem contact op — wij geven dan een eerste inschatting."
+        },
+        "allSpecs": {
+          "question": "Moet ik direct alle specificaties aanleveren?",
+          "answer": "Nee. Vul in wat u beschikbaar heeft. Ontbrekende specificaties kunnen we later samen aanvullen tijdens het gesprek."
+        },
+        "photos": {
+          "question": "Welke foto’s zijn belangrijk?",
+          "answer": "Overzichtsfoto’s, cabine, typeplaatje, tellerstanden en onderwagen helpen het meest. Onderhoudsdocumentatie is nuttig wanneer beschikbaar."
+        },
+        "valuation": {
+          "question": "Hoe wordt de waarde van mijn kraan bepaald?",
+          "answer": "Wij bekijken merk, model, bouwjaar, staat, uren of kilometers en de actuele marktvraag. Daarna bespreken wij de marktpositie en een passende verkooproute."
+        },
+        "docsTransport": {
+          "question": "Helpt PJ Cranes met documentatie en transport?",
+          "answer": "Documentatie en transport kunnen onderdeel zijn van de vervolgstappen na overeenstemming. Wat precies nodig is, stemmen wij per machine af."
+        },
+        "responseTime": {
+          "question": "Hoe snel wordt er contact opgenomen?",
+          "answer": "Na ontvangst van uw aanvraag bekijken wij de gegevens en nemen wij contact met u op om de mogelijkheden te bespreken."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Nog vragen over de verkoop van uw kraan?",
+      "body": "Neem direct contact op met PJ Cranes om uw machine en de mogelijke vervolgstappen te bespreken.",
+      "contact": "Neem contact op",
+      "callSales": "Bel sales"
+    },
+    "form": {
+      "steps": {
+        "contact": "Uw gegevens",
+        "machine": "Machine",
+        "files": "Bestanden",
+        "review": "Controleren"
+      },
+      "stepAnnounce": "Stap {current} van {total}: {label}",
+      "sections": {
+        "contact": "Uw gegevens",
+        "machine": "Machinegegevens",
+        "attachments": "Foto’s & documenten",
+        "review": "Controleer uw aanvraag"
+      },
+      "name": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "company": "Bedrijf",
+      "companyOptional": "optioneel",
+      "preferredContact": "Voorkeurscontact",
+      "preferredContactOptional": "optioneel",
+      "preferredOptions": {
+        "phone": "Telefoon",
+        "whatsapp": "WhatsApp",
+        "email": "E-mail"
+      },
+      "contactHint": "Vul minimaal een e-mailadres of telefoonnummer in.",
+      "manufacturer": "Fabrikant",
+      "manufacturerOther": "Anders",
+      "manufacturerOtherLabel": "Fabrikant (anders)",
+      "model": "Model",
+      "year": "Bouwjaar",
+      "yearOptional": "optioneel",
+      "capacityTons": "Capaciteit in ton",
+      "capacityOptional": "optioneel",
+      "serialNumber": "Serienummer",
+      "serialOptional": "optioneel",
+      "operatingHours": "Bedrijfsuren",
+      "hoursOptional": "optioneel",
+      "mileageKm": "Kilometerstand",
+      "mileageOptional": "optioneel",
+      "location": "Locatie",
+      "askingPrice": "Verwachte vraagprijs",
+      "askingPriceOptional": "optioneel",
+      "askingCurrency": "Valuta",
+      "askingCurrencyOptional": "optioneel",
+      "conditionNotes": "Staat en bijzonderheden",
+      "conditionOptional": "optioneel",
+      "machineHint": "Geen probleem als u niet alle specificaties direct beschikbaar heeft.",
+      "message": "Aanvullende informatie",
+      "messageOptional": "optioneel",
+      "messagePlaceholder": "Overige informatie…",
+      "attachmentsTitle": "Voeg foto’s en documenten toe",
+      "attachmentsBody": "Goede foto’s en documentatie helpen ons om de machine beter te beoordelen.",
+      "attachmentsGuidance": {
+        "overview": "Overzichtsfoto’s",
+        "cabin": "Cabine",
+        "plate": "Typeplaatje",
+        "meters": "Tellerstanden",
+        "carrier": "Onderwagen",
+        "docs": "Onderhoudsdocumentatie"
+      },
+      "attachmentsDrop": "Sleep bestanden hierheen of kies bestanden",
+      "attachmentsBrowse": "Bestanden kiezen",
+      "attachmentsLimits": "Maximaal {maxFiles} bestanden, {maxMb} MB per bestand. Formaten: {formats}.",
+      "attachmentsSelectedNote": "Geselecteerd — worden met uw aanvraag gedeeld bij het opvolgcontact.",
+      "attachmentsRemove": "Verwijderen",
+      "attachmentsEmpty": "Nog geen bestanden geselecteerd",
+      "notProvided": "Niet ingevuld",
+      "edit": "Wijzigen",
+      "reviewContact": "Contactgegevens",
+      "reviewMachine": "Machinegegevens",
+      "reviewFiles": "Foto’s en documenten",
+      "reviewMessage": "Aanvullende informatie",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze verkoopaanvraag en heb de <privacy>privacyverklaring</privacy> gelezen.",
+      "nextMachine": "Verder naar machinegegevens",
+      "nextFiles": "Verder naar foto’s en documenten",
+      "nextReview": "Controleer aanvraag",
+      "back": "Terug",
+      "submit": "Verkoopaanvraag versturen",
+      "submitting": "Aanvraag wordt verzonden…",
+      "successTitle": "Uw verkoopaanvraag is ontvangen",
+      "successBody": "Wij hebben de gegevens van uw kraan ontvangen en nemen contact met u op om de mogelijkheden te bespreken.",
+      "successReference": "Referentie",
+      "successHome": "Naar homepage",
+      "successInventory": "Bekijk beschikbare kranen",
+      "errorSummary": "Controleer de gemarkeerde velden voordat u verdergaat.",
+      "errors": {
+        "name": "Vul uw naam in.",
+        "email": "Vul een geldig e-mailadres in.",
+        "phone": "Vul een geldig telefoonnummer in.",
+        "contactRequired": "Vul een e-mailadres of telefoonnummer in.",
+        "manufacturer": "Vul de fabrikant in.",
+        "model": "Vul het model in.",
+        "year": "Vul een geldig bouwjaar in.",
+        "location": "Vul de locatie van de machine in.",
+        "consent": "Toestemming is verplicht.",
+        "fileTooMany": "U kunt maximaal {maxFiles} bestanden selecteren.",
+        "fileTooLarge": "“{name}” is te groot. Maximum is {maxMb} MB per bestand.",
+        "fileInvalidType": "“{name}” heeft een niet-ondersteund bestandsformaat.",
+        "generic": "Versturen is niet gelukt. Probeer het later opnieuw.",
+        "config": "E-mailverzending is nog niet geconfigureerd. Mail info@pj-cranes.com of bel ons."
+      },
+      "attachments": "Bestanden selecteren",
+      "attachmentsHint": "Foto’s en documenten helpen bij de beoordeling. U kunt ze ook later aanvullen.",
+      "askingPricePlaceholder": "bijv. 250000"
+    }
+  },
+  "Find": {
+    "meta": {
+      "title": "Zoek een kraan",
+      "description": "Vertel PJ Cranes welke machine u zoekt. Wij sourcen mobiele en rupskranen over merken en capaciteiten via ons internationale netwerk."
+    },
+    "hero": {
+      "badge": "Internationale sourcing",
+      "title": "Zoek een kraan",
+      "body": "Niet in de voorraad? Deel uw eisen — wij zoeken in ons netwerk naar de juiste mobiele of rupskraan."
+    },
+    "trust": {
+      "network": {
+        "title": "Internationaal netwerk",
+        "body": "Toegang tot machines en aanbieders in tientallen landen via ons bewezen handelsnetwerk."
+      },
+      "match": {
+        "title": "Gericht zoeken",
+        "body": "Wij matchen merk, model, capaciteit en planning met wat er écht beschikbaar is."
+      },
+      "range": {
+        "title": "20–1000 ton",
+        "body": "Van compacte city-kranen tot zware all-terrain en rupskranen voor zware projecten."
+      },
+      "handover": {
+        "title": "Tot overdracht",
+        "body": "Documentatie, export en transport kunnen we meenemen wanneer de deal rond is."
+      }
+    },
+    "process": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Ons sourcingproces",
+      "body": "U beschrijft de machine die u nodig heeft. Wij zoeken actief in ons netwerk, selecteren passende opties en begeleiden u tot een heldere volgende stap.",
+      "steps": {
+        "brief": {
+          "title": "Eisen doorgeven",
+          "body": "Merk, model, capaciteit, bouwjaar, bestemming en planning — hoe scherper de brief, hoe sneller we kunnen zoeken."
+        },
+        "search": {
+          "title": "Actieve marktzoektocht",
+          "body": "Wij checken beschikbare voorraad én sourcen via ons internationale netwerk naar passende machines."
+        },
+        "shortlist": {
+          "title": "Korte lijst met opties",
+          "body": "U ontvangt een selectie met relevante specs, zodat u machines kunt vergelijken zonder ruis."
+        },
+        "verify": {
+          "title": "Beoordeling & verificatie",
+          "body": "Samen kijken we naar staat, documentatie en praktische haalbaarheid voordat u verder gaat."
+        },
+        "close": {
+          "title": "Deal, docs & levering",
+          "body": "Bij overeenstemming regelen wij de vervolgstappen: papieren, betaling en transport waar nodig."
+        }
+      }
+    },
+    "formSection": {
+      "title": "Dien uw zoekopdracht in",
+      "body": "Vul het formulier in — hoe meer detail, hoe beter. Of bel ons direct op <phone>(+31) 033 20 48 020</phone>."
+    },
+    "inventoryCta": {
+      "eyebrow": "Voorraad",
+      "title": "Eerst de actuele voorraad bekijken?",
+      "body": "Misschien staat de machine die u zoekt al online. Filter op merk, type en capaciteit in onze catalogus.",
+      "cta": "Bekijk beschikbare kranen"
+    },
+    "faq": {
+      "eyebrow": "Veelgestelde vragen",
+      "title": "Antwoorden over het zoeken van een kraan",
+      "items": {
+        "stockVsSource": {
+          "question": "Moet ik eerst de voorraad checken?",
+          "answer": "Dat kan handig zijn. Staat de gewenste machine er niet tussen, dan sourcen wij gericht via ons netwerk op basis van uw eisen."
+        },
+        "whatToShare": {
+          "question": "Welke informatie moet ik doorgeven?",
+          "answer": "Bij voorkeur merk of model, capaciteit, type, gewenst bouwjaar, bestemmingsland en planning. Ontbrekende details kunnen we later aanvullen."
+        },
+        "howLong": {
+          "question": "Hoe lang duurt een zoekopdracht?",
+          "answer": "Dat hangt af van specificatie en marktaanbod. Na uw aanvraag nemen wij contact op met een eerste inschatting en eventuele opties."
+        },
+        "brands": {
+          "question": "Welke merken sourcen jullie?",
+          "answer": "Wij werken onder meer met Liebherr, Grove, Terex-Demag en Tadano Faun, en kijken ook naar andere merken wanneer die beter bij uw eisen passen."
+        },
+        "inspection": {
+          "question": "Kunnen jullie de staat van een machine beoordelen?",
+          "answer": "Ja. Wij helpen bij het beoordelen van specificaties, documentatie en praktische aandachtspunten voordat u een beslissing neemt."
+        },
+        "docsTransport": {
+          "question": "Helpt PJ Cranes met documentatie en transport?",
+          "answer": "Documentatie, export en transport kunnen onderdeel zijn van de vervolgstappen na overeenstemming. Wat precies nodig is, stemmen wij per machine af."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Nog vragen over uw zoekopdracht?",
+      "body": "Neem direct contact op met PJ Cranes om eisen, planning en mogelijke machines te bespreken.",
+      "contact": "Neem contact op",
+      "callSales": "Bel sales"
+    },
+    "form": {
+      "sections": {
+        "contact": "Uw gegevens",
+        "requirements": "Eisen"
+      },
+      "name": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoon",
+      "company": "Bedrijf",
+      "manufacturer": "Gewenste fabrikant",
+      "model": "Gewenst model",
+      "craneType": "Type kraan",
+      "yearMin": "Bouwjaar van",
+      "yearMax": "Bouwjaar tot",
+      "capacityMinTons": "Capaciteit min. (t)",
+      "capacityMaxTons": "Capaciteit max. (t)",
+      "budget": "Budget",
+      "budgetPlaceholder": "Indicatief / op aanvraag",
+      "destinationCountry": "Bestemmingsland",
+      "timeframe": "Planning",
+      "timeframePlaceholder": "bijv. binnen 3 maanden",
+      "message": "Eisen",
+      "messagePlaceholder": "Beschrijf de inzet, belangrijke specs en must-haves…",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor dit sourcingverzoek en heb de privacyverklaring gelezen.",
+      "submit": "Sourcingverzoek versturen",
+      "submitting": "Versturen…",
+      "successTitle": "Verzoek verzonden",
+      "successBody": "Bedankt. Wij beoordelen uw eisen en komen terug met opties.",
+      "types": {
+        "any": "Elk type",
+        "mobile": "Mobiel",
+        "crawler": "Rups",
+        "all_terrain": "All terrain",
+        "city": "City",
+        "rough_terrain": "Rough terrain",
+        "other": "Overig"
+      },
+      "errors": {
+        "name": "Vul uw naam in.",
+        "email": "Vul een geldig e-mailadres in.",
+        "message": "Beschrijf uw eisen (minimaal een kort bericht).",
+        "consent": "Toestemming is verplicht.",
+        "generic": "Versturen is niet gelukt. Probeer het later opnieuw.",
+        "config": "E-mailverzending is nog niet geconfigureerd. Mail info@pj-cranes.com of bel ons."
+      }
+    }
+  },
+  "About": {
+    "meta": {
+      "title": "Over PJ Cranes | Internationale handel in mobiele kranen",
+      "description": "Lees meer over PJ Cranes, specialist in internationale aankoop en verkoop van gebruikte mobiele kranen vanuit vijf wereldwijde kantoren."
+    },
+    "hero": {
+      "eyebrow": "Over PJ Cranes",
+      "title": "Meer dan 20 jaar internationale kraanhandel",
+      "subtitle": "PJ Cranes verbindt kopers en verkopers van gebruikte mobiele kranen via vijf kantoren en een wereldwijd netwerk.",
+      "support": "Van aankoop en verkoop tot documentatie en overdracht.",
+      "ctaInventory": "Bekijk beschikbare kranen",
+      "ctaContact": "Neem contact op",
+      "imageAlt": "Mobiele kraan van PJ Cranes klaar voor internationale handel"
+    },
+    "stats": {
+      "experienceValue": "{years}+",
+      "experienceLabel": "Jaar ervaring",
+      "officesValue": "{count}",
+      "officesLabel": "Internationale kantoren",
+      "capacityValue": "{min}–{max} t",
+      "capacityLabel": "Capaciteitsbereik",
+      "brandsValue": "{count}",
+      "brandsLabel": "Kernmerken"
+    },
+    "story": {
+      "eyebrow": "Onze organisatie",
+      "title": "Specialistische marktkennis, wereldwijd ingezet",
+      "body": [
+        "PJ Cranes is al meer dan 20 jaar actief in de aankoop en verkoop van gebruikte mobiele kranen. Vanuit het hoofdkantoor in Nijkerk begeleiden wij internationale kopers en verkopers bij machines van merken zoals Liebherr, Grove, Terex-Demag en Tadano Faun.",
+        "Met vijf kantoren en een internationaal netwerk koppelen wij beschikbare machines aan relevante marktvraag — typisch in het bereik van circa 20 tot 1000 ton. Specificaties staan per listing; prijzen altijd op aanvraag.",
+        "U houdt één vast aanspreekpunt: van eerste zoekvraag of verkoopaanvraag tot documentatie, exportcoördinatie en transport wanneer dat nodig is."
+      ],
+      "ctaInventory": "Bekijk onze voorraad",
+      "ctaSell": "Verkoop uw kraan",
+      "imageAlt": "Mobiele kraan gereed voor transport"
+    },
+    "network": {
+      "eyebrow": "Wereldwijde actie",
+      "title": "Ons wereldwijde netwerk",
+      "description": "Van Europa tot het Midden-Oosten en de Verenigde Staten — via onze kantoren en internationale markt zijn wij wereldwijd actief.",
+      "legendOffice": "Kantoor",
+      "legendMarket": "Actieve markt",
+      "hqBadge": "Hoofdkantoor",
+      "selectHint": "Selecteer een kantoorlocatie op de kaart",
+      "mapLabel": "Wereldkaart met PJ Cranes-kantoren en actieve markten",
+      "dismiss": "Sluiten",
+      "contactCta": "Neem contact op",
+      "regionLabel": "Regio",
+      "typeLabel": "Type kantoor",
+      "phoneLabel": "Telefoon",
+      "emailLabel": "E-mail",
+      "listHeading": "Kantoren van PJ Cranes",
+      "regions": {
+        "americas": "Amerika",
+        "europe": "Europa",
+        "middle-east": "Midden-Oosten"
+      },
+      "types": {
+        "headquarters": "Hoofdkantoor",
+        "international": "Internationaal kantoor"
+      },
+      "offices": {
+        "usa": { "city": "", "country": "USA" },
+        "netherlands": { "city": "Nijkerk", "country": "Nederland" },
+        "germany": { "city": "", "country": "Duitsland" },
+        "turkiye": { "city": "", "country": "Türkiye" },
+        "dubai": { "city": "Dubai", "country": "UAE" }
+      }
+    },
+    "officesSection": {
+      "title": "Onze internationale kantoren",
+      "contactCta": "Neem contact op"
+    },
+    "expertise": {
+      "eyebrow": "Onze expertise",
+      "title": "Ervaring tijdens iedere stap van de transactie",
+      "items": {
+        "market": {
+          "title": "Marktkennis",
+          "body": "Inzicht in merken, modellen, specificaties en internationale marktvraag."
+        },
+        "network": {
+          "title": "Internationaal netwerk",
+          "body": "Verbinding tussen beschikbare machines en relevante potentiële kopers via vijf kantoren."
+        },
+        "communication": {
+          "title": "Duidelijke communicatie",
+          "body": "Eén aanspreekpunt voor afspraken, specificaties en vervolgstappen."
+        },
+        "handover": {
+          "title": "Documentatie en overdracht",
+          "body": "Ondersteuning bij documentatie, exportcoördinatie en transport wanneer dat nodig is."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Een kraan kopen, verkopen of laten zoeken?",
+      "body": "Bespreek uw aanvraag rechtstreeks met PJ Cranes.",
+      "ctaInventory": "Bekijk beschikbare kranen",
+      "ctaContact": "Neem contact op",
+      "ctaSell": "Verkoop uw kraan"
+    }
+  },
+  "Faq": {
+    "meta": {
+      "title": "Veelgestelde vragen",
+      "description": "Antwoorden over levering, documenten, herkomst, betaling en inspectie bij PJ Cranes."
+    },
+    "eyebrow": "FAQ",
+    "title": "Veelgestelde vragen",
+    "subtitle": "Korte antwoorden over hoe wij kranen kopen, verkopen en leveren. Staat uw vraag er niet bij? Neem contact op.",
+    "cta": "Neem contact op",
+    "items": {
+      "countries": {
+        "question": "In welke landen heeft PJ Cranes zaken gedaan?",
+        "answer": "P.J. Cranes heeft zaken gedaan met personen en bedrijven over de hele wereld. Neem gerust contact op als u vragen heeft over kopen of verkopen vanuit een specifiek continent of land."
+      },
+      "experience": {
+        "question": "Hoe lang is P.J. Cranes al actief?",
+        "answer": "P.J. Cranes is al meer dan 20 jaar een bekende naam in de kraanindustrie. Met een familie die decennia in de markt actief is, beschikt P.J. Cranes over brede kennis en een sterk netwerk voor de beste service en het meest passende aanbod."
+      },
+      "delivery": {
+        "question": "Regelt P.J. Cranes de levering?",
+        "answer": "Op verzoek van de klant leveren wij kranen waar u wilt (van haven tot deur). Levering is niet inbegrepen in de machineprijs en wordt apart berekend."
+      },
+      "origin": {
+        "question": "Waar komen de kranen vandaan die P.J. Cranes verkoopt?",
+        "answer": "P.J. Cranes B.V. betrekt de beste kranen wereldwijd. Wij werken al jaren met een betrouwbaar netwerk van leveranciers. Het merendeel van onze kranen komt uit Duitsland, Frankrijk, Nederland en België."
+      },
+      "condition": {
+        "question": "Wat is de staat van de kranen?",
+        "answer": "Alle details staan op de technische datasheets. Wij verkopen kranen van verschillende leveranciers, herkomsten en bouwjaren. Onze kranen zijn in goede werkende staat en worden zorgvuldig beoordeeld vóór verkoop."
+      },
+      "payment": {
+        "question": "Welke betaalmethoden gebruikt P.J. Cranes?",
+        "answer": "Wij accepteren betalingen via TT-bankoverschrijving of via een letter of credit (L/C)."
+      },
+      "inspectionVisit": {
+        "question": "Hoe en waar kan ik de kranen bekijken?",
+        "answer": "Kranen kunnen worden geïnspecteerd op ons terrein in Nederland of bij onze leveranciers. Om kosten laag te houden verschepen wij niet naar Nederland als dat niet nodig is."
+      },
+      "documents": {
+        "question": "Welke documenten ontvang ik bij aankoop?",
+        "answer": "Meestal omvatten deze het kraanpaspoort, certificaat van oorsprong, serviceboek, onderdelencatalogus, gebruikershandleiding en overige benodigde documenten. De exacte inhoud van het pakket delen wij bij aankoop."
+      },
+      "thirdPartyInspection": {
+        "question": "Levert P.J. Cranes inspectierapporten van derden?",
+        "answer": "Wij organiseren op verzoek inspecties door derden."
+      },
+      "deliveryTime": {
+        "question": "Hoe lang duurt levering na aankoop?",
+        "answer": "Meestal zijn de aangeboden kranen direct beschikbaar. Levertijden hangen af van de actuele locatie. Neem contact op bij vragen over de levertijd van een specifieke kraan."
+      },
+      "ownership": {
+        "question": "Is P.J. Cranes eigenaar van de kranen die zij verkopen?",
+        "answer": "80% van onze voorraad is in eigendom. Voor de overige 20% werken wij op consignatiebasis met leveranciers."
+      }
+    }
+  },
+  "Privacy": {
+    "meta": {
+      "title": "Privacy",
+      "description": "Privacyverklaring van PJ Cranes B.V. over de verwerking van persoonsgegevens via de website en formulieren."
+    },
+    "eyebrow": "Juridisch",
+    "title": "Privacyverklaring",
+    "subtitle": "Hoe wij persoonsgegevens verwerken wanneer u onze site gebruikt of een aanvraag stuurt.",
+    "reviewNote": "Concepttekst voor de redesign — juridisch laten toetsen vóór productielancering."
+  },
+  "Terms": {
+    "meta": {
+      "title": "Algemene voorwaarden",
+      "description": "Algemene handelsvoorwaarden van PJ Cranes B.V. (versie mei 2025)."
+    },
+    "eyebrow": "Juridisch",
+    "title": "Algemene handelsvoorwaarden PJ Cranes B.V.",
+    "subtitle": "Van toepassing op offertes, overeenkomsten en leveringen van PJ Cranes — uitsluitend B2B.",
+    "articleLabel": "Artikel {number}",
+    "dutchPrevails": "De Nederlandse tekst prevaleert boven vertalingen.",
+    "reviewNote": "Juridisch laten toetsen vóór productielancering."
+  },
+  "News": {
+    "meta": {
+      "title": "Nieuws",
+      "description": "Nieuws en updates van PJ Cranes over voorraad en bedrijf."
+    },
+    "eyebrow": "Nieuws",
+    "title": "Nieuwsroom",
+    "subtitle": "Marktupdates, nieuwe aankomsten en bedrijfsnieuws verschijnen hier.",
+    "empty": {
+      "title": "Nog geen artikelen",
+      "description": "Er zijn momenteel geen gepubliceerde nieuwsberichten. Bekijk de voorraad of neem contact op voor actuele machines.",
+      "ctaInventory": "Bekijk voorraad",
+      "ctaContact": "Contact"
+    },
+    "notFound": {
+      "title": "Artikel niet gevonden",
+      "description": "Dit nieuwsbericht bestaat niet of is niet gepubliceerd.",
+      "back": "Terug naar nieuws"
+    },
+    "published": "Gepubliceerd {date}"
+  }
+}
