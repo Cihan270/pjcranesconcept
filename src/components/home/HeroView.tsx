@@ -79,7 +79,7 @@ export function HeroView({
         aria-hidden
       />
 
-      <div className="relative mx-auto flex h-full w-full max-w-[1440px] flex-col justify-center px-4 pt-24 pb-8 md:px-8 md:pt-28 md:pb-10 lg:px-12 lg:pt-28 lg:pb-12">
+      <div className="relative mx-auto flex h-full w-full max-w-[1440px] flex-col justify-center px-4 pt-24 pb-16 md:px-8 md:pt-28 md:pb-20 lg:px-12 lg:pt-28 lg:pb-28">
         <div className="max-w-[34rem]">
           <motion.p
             {...reveal(0.06)}

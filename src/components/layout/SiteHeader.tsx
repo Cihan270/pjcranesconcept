@@ -33,7 +33,7 @@ export function SiteHeader() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-40 w-full transition-[background-color,box-shadow,border-color,backdrop-filter,height] duration-300 ease-out motion-reduce:transition-none",
+        "sticky top-0 z-40 w-full transition-[background-color,box-shadow,border-color,backdrop-filter,height] duration-300 ease-out motion-reduce:transition-none print:hidden",
         overHero
           ? "border-b border-white/[0.06] bg-charcoal/45 shadow-[0_8px_28px_-18px_rgba(0,0,0,0.45)] backdrop-blur-md"
           : "border-b border-white/10 bg-charcoal shadow-[0_1px_0_0_rgba(255,255,255,0.05),0_12px_36px_-18px_rgba(0,0,0,0.65)] backdrop-blur-lg",

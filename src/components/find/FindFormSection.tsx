@@ -1,10 +1,17 @@
 import { getTranslations } from "next-intl/server";
-import { FindCraneForm } from "@/components/forms/FindCraneForm";
+import {
+  FindCraneForm,
+  type FindSimilarCrane,
+} from "@/components/forms/FindCraneForm";
 import { FindProcess } from "@/components/find/FindProcess";
 import { Reveal } from "@/components/shared/Reveal";
 import { company } from "@/data/company";
 
-export async function FindFormSection() {
+type FindFormSectionProps = {
+  similarTo?: FindSimilarCrane | null;
+};
+
+export async function FindFormSection({ similarTo = null }: FindFormSectionProps) {
   const t = await getTranslations("Find.formSection");
 
   return (
@@ -40,7 +47,7 @@ export async function FindFormSection() {
                 })}
               </p>
             </div>
-            <FindCraneForm />
+            <FindCraneForm similarTo={similarTo} />
           </div>
         </Reveal>
       </div>

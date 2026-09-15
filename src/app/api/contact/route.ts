@@ -22,6 +22,8 @@ export async function POST(request: Request) {
         message: data.message,
         craneReference: data.craneReference || undefined,
         craneSlug: data.craneSlug || undefined,
+        requestType: data.requestType,
+        country: data.country || undefined,
       },
     }),
   });

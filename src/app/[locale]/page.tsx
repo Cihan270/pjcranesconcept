@@ -1,21 +1,24 @@
 import { setRequestLocale } from "next-intl/server";
 import { PageShell } from "@/components/layout/PageShell";
+import { AboutSplit } from "@/components/home/AboutSplit";
 import { BrandStrip } from "@/components/home/BrandStrip";
+import { CapacityClasses } from "@/components/home/CapacityClasses";
 import { FeaturedInventory } from "@/components/home/FeaturedInventory";
-import { FindCtaBand } from "@/components/home/FindCtaBand";
 import { Hero } from "@/components/home/Hero";
 import { InternationalBand } from "@/components/home/InternationalBand";
-import { InventorySearchEntry } from "@/components/home/InventorySearchEntry";
 import { NewsletterBand } from "@/components/home/NewsletterBand";
-import { Positioning } from "@/components/home/Positioning";
 import { ProcessSection } from "@/components/home/ProcessSection";
+import { QuickSearch } from "@/components/home/QuickSearch";
+import { RecentlySold } from "@/components/home/RecentlySold";
 import { SellCtaBand } from "@/components/home/SellCtaBand";
 import { ServicesEditorial } from "@/components/home/ServicesEditorial";
-import {
-  getCranes,
-  getFeaturedCranes,
-  getManufacturers,
-} from "@/lib/inventory/repository";
+import { SourcingBlock } from "@/components/home/SourcingBlock";
+import { getCranes, getFeaturedCranes } from "@/lib/inventory/repository";
+import type { Crane } from "@/types/crane";
+
+function primaryImage(crane: Crane | undefined) {
+  return crane?.images.find((image) => image.primary) ?? crane?.images[0] ?? null;
+}
 
 export default async function HomePage({
   params,
@@ -23,10 +26,10 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const [featured, manufacturers, available] = await Promise.all([
+  const [featured, available, sold] = await Promise.all([
     getFeaturedCranes(8),
-    getManufacturers(),
     getCranes({ includeSold: false }),
+    getCranes({ includeSold: true, availability: "sold", sort: "newest" }),
   ]);
 
   const searchInventory = available.items.map((crane) => ({
@@ -36,19 +39,8 @@ export default async function HomePage({
     slug: crane.slug,
     description: crane.description,
     features: crane.features,
-    year: crane.year,
     capacityKg: crane.capacityKg,
   }));
-
-  const years = [
-    ...new Set(available.items.map((crane) => crane.year)),
-  ].sort((a, b) => b - a);
-
-  const capacityTons = [
-    ...new Set(
-      available.items.map((crane) => Math.round(crane.capacityKg / 1000)),
-    ),
-  ].sort((a, b) => a - b);
 
   const brandCounts = new Map<string, number>();
   for (const crane of available.items) {
@@ -61,45 +53,35 @@ export default async function HomePage({
     .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
-  const heroImage =
-    featured[0]?.images.find((image) => image.primary) ??
-    featured[0]?.images[0] ??
-    null;
+  const newestDateAdded =
+    available.items.reduce(
+      (latest, crane) =>
+        !latest || crane.dateAdded > latest ? crane.dateAdded : latest,
+      "",
+    ) || undefined;
 
   return (
     <PageShell bleed>
-      <Hero image={heroImage} />
-      <InventorySearchEntry
-        manufacturers={manufacturers}
-        years={years}
-        capacityTons={capacityTons}
-        inventory={searchInventory}
+      <Hero image={primaryImage(featured[0])} stockCount={available.total} />
+      <QuickSearch inventory={searchInventory} />
+      <FeaturedInventory cranes={featured} newestDateAdded={newestDateAdded} />
+      <CapacityClasses
+        capacitiesKg={available.items.map((crane) => crane.capacityKg)}
       />
-      <FeaturedInventory
-        cranes={featured}
-        newestDateAdded={
-          available.items.reduce(
-            (latest, crane) =>
-              !latest || crane.dateAdded > latest ? crane.dateAdded : latest,
-            "",
-          ) || undefined
-        }
-      />
-      <FindCtaBand
-        image={
-          featured[1]?.images.find((item) => item.primary) ??
-          featured[1]?.images[0] ??
-          featured[0]?.images.find((item) => item.primary) ??
-          featured[0]?.images[0] ??
-          null
-        }
-      />
-      <Positioning />
       <ServicesEditorial />
+      <AboutSplit
+        image={primaryImage(featured[1]) ?? primaryImage(featured[0])}
+        stockCount={available.total}
+      />
       <ProcessSection />
       <SellCtaBand />
+      <RecentlySold
+        cranes={sold.items.filter((crane) => crane.images.length > 0).slice(0, 4)}
+        soldTotal={sold.total}
+      />
       <InternationalBand />
       <BrandStrip brands={brands} />
+      <SourcingBlock />
       <NewsletterBand />
     </PageShell>
   );

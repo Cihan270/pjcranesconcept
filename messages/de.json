@@ -431,7 +431,8 @@
       "eyebrow": "Verkauf",
       "title": "Bereit, Ihren Kran zu verkaufen?",
       "body": "Teilen Sie Spezifikationen und Fotos Ihres Krans. Wir bewerten die Marktposition und besprechen die beste Verkaufsroute.",
-      "cta": "Verkaufsbewertung anfragen"
+      "cta": "Verkaufsbewertung anfragen",
+      "call": "Rufen Sie uns an"
     },
     "international": {
       "eyebrow": "Internationales Netzwerk",
@@ -499,6 +500,82 @@
       "successBody": "Vielen Dank. Sie werden benachrichtigt, wenn neue Maschinen dem Bestand hinzugefÃ¼gt werden.",
       "error": "Aktivierung fehlgeschlagen. Bitte spÃ¤ter erneut versuchen.",
       "errorConfig": "E-Mail-Versand ist noch nicht konfiguriert. SpÃ¤ter erneut versuchen oder info@pj-cranes.com schreiben."
+    },
+    "ctaInventoryCount": "Bestand ansehen ({count})",
+    "quickSearch": {
+      "title": "Finden Sie Ihren Kran",
+      "advanced": "Erweiterte Suche",
+      "queryLabel": "Marke, Modell oder Referenz",
+      "placeholder": "z. B. LTM 1100",
+      "manufacturer": "Marke",
+      "allManufacturers": "Alle Marken",
+      "capacity": "Tragfähigkeit",
+      "anyCapacity": "Jede Tragfähigkeit",
+      "submit": "{count, plural, =0 {Keine Krane gefunden} one {# Kran anzeigen} other {# Krane anzeigen}}",
+      "noResults": "Nichts Passendes im Bestand?",
+      "noResultsCta": "Lassen Sie PJ Cranes für Sie suchen"
+    },
+    "capacity": {
+      "eyebrow": "Nach Tragfähigkeit suchen",
+      "title": "Welche Tragfähigkeit benötigen Sie?",
+      "subtitle": "Wählen Sie eine Tragfähigkeitsklasse und sehen Sie direkt die verfügbaren Krane.",
+      "inStock": "{count, plural, =0 {Derzeit nicht auf Lager} one {# auf Lager} other {# auf Lager}}",
+      "linkLabel": "{label} · {count, plural, =0 {derzeit nicht auf Lager} one {# auf Lager} other {# auf Lager}}",
+      "classes": {
+        "upTo60": {
+          "range": "≤ 60",
+          "label": "Bis 60 t",
+          "description": "City- und kompakte All-Terrain-Krane"
+        },
+        "60to100": {
+          "range": "60–100",
+          "label": "60–100 t",
+          "description": "Vielseitige Arbeitspferde"
+        },
+        "100to200": {
+          "range": "100–200",
+          "label": "100–200 t",
+          "description": "Schwere All-Terrain-Krane"
+        },
+        "over200": {
+          "range": "200+",
+          "label": "Über 200 t",
+          "description": "Große und schwere Hübe"
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "Über PJ Cranes",
+      "title": "Etablierter Händler für gebrauchte Krane",
+      "body": "Von {city} aus kaufen und verkaufen wir seit über {years} Jahren weltweit gebrauchte Mobilkrane von Herstellern wie {brands}.",
+      "checklist": {
+        "specs": "Detaillierte Spezifikationen und Fotos zu jedem Kran",
+        "logistics": "Transport auf Straße und See, inklusive Dokumentation",
+        "contact": "Ein fester Ansprechpartner von der Anfrage bis zur Übergabe"
+      },
+      "ctaAbout": "Mehr über PJ Cranes",
+      "stats": {
+        "experience": "Jahre Erfahrung",
+        "capacity": "Tonnen Tragfähigkeitsbereich",
+        "offices": "Internationale Büros",
+        "stock": "Krane auf Lager"
+      }
+    },
+    "sourcing": {
+      "eyebrow": "Kran gesucht",
+      "title": "Suchen Sie einen bestimmten Kran?",
+      "body": "Nennen Sie uns Typ und Tragfähigkeit. Wir suchen in unserem internationalen Netzwerk und melden uns mit passenden Maschinen.",
+      "detailedLink": "Ausführliches Anfrageformular",
+      "capacity": "Tragfähigkeit",
+      "anyCapacity": "Jede Tragfähigkeit",
+      "submit": "Meinen Kran finden",
+      "message": "Schnellanfrage über die Startseite. Typ: {type}. Tragfähigkeit: {capacity}."
+    },
+    "recentlySold": {
+      "eyebrow": "Referenzen",
+      "title": "Kürzlich verkauft",
+      "subtitle": "Eine Auswahl an Kranen, die über PJ Cranes einen neuen Besitzer gefunden haben.",
+      "viewArchive": "Alle {count} verkauften Krane ansehen"
     }
   },
   "Inventory": {
@@ -592,7 +669,7 @@
     },
     "enquiry": {
       "eyebrow": "Enquiry",
-      "title": "Price & availability",
+      "title": "Anfrage zu diesem Kran",
       "subtitle": "Ask about {crane}. We reply with current status and terms.",
       "priceOnRequest": "Price on request",
       "call": "Call us",
@@ -620,7 +697,48 @@
         "consent": "Consent is required.",
         "generic": "Could not send. Please try again later.",
         "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+      },
+      "requestLabel": "Wobei können wir helfen?",
+      "country": "Zielland",
+      "countryPlaceholder": "z. B. Deutschland",
+      "requests": {
+        "price": {
+          "label": "Preis",
+          "subject": "Preisanfrage {crane} ({reference})",
+          "message": "Bitte senden Sie mir den Preis und die aktuelle Verfügbarkeit des {crane} (Ref. {reference})."
+        },
+        "inspection": {
+          "label": "Besichtigung",
+          "subject": "Besichtigung {crane} ({reference})",
+          "message": "Ich möchte gerne einen Besichtigungstermin für den {crane} (Ref. {reference}) vereinbaren."
+        },
+        "transport": {
+          "label": "Transport",
+          "subject": "Transportangebot {crane} ({reference})",
+          "message": "Bitte senden Sie mir ein Angebot für den Transport des {crane} (Ref. {reference}) zu meinem Standort."
+        },
+        "media": {
+          "label": "Fotos / Video",
+          "subject": "Weitere Fotos/Video {crane} ({reference})",
+          "message": "Könnten Sie mir weitere Fotos oder ein Video des {crane} (Ref. {reference}) senden?"
+        }
       }
+    },
+    "actions": {
+      "media": "Weitere Fotos / Video",
+      "transport": "Transportangebot",
+      "datasheet": "Datenblatt (PDF)"
+    },
+    "sold": {
+      "badge": "Verkauft",
+      "title": "Dieser Kran ist verkauft",
+      "body": "Der {crane} hat einen neuen Besitzer gefunden. Suchen Sie eine vergleichbare Maschine? Wir suchen in unserem internationalen Netzwerk.",
+      "findSimilar": "Vergleichbaren Kran finden",
+      "findSimilarShort": "Ähnlicher Kran",
+      "browseStock": "Verfügbare Krane ansehen"
+    },
+    "datasheet": {
+      "title": "Datenblatt"
     }
   },
   "Contact": {
@@ -1128,7 +1246,9 @@
         "consent": "Consent is required.",
         "generic": "Could not send. Please try again later.",
         "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
-      }
+      },
+      "similarNotice": "Ihre Anfrage ist auf Basis des verkauften {crane} vorausgefüllt. Passen Sie sie gerne an.",
+      "similarMessage": "Ich suche einen Kran vergleichbar mit dem {crane} ({year}, {capacity} t, Ref. {reference})."
     }
   },
   "About": {

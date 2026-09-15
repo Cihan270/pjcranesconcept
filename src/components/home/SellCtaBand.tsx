@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { company } from "@/data/company";
 import { Reveal } from "@/components/shared/Reveal";
 
 export async function SellCtaBand() {
@@ -44,7 +45,10 @@ export async function SellCtaBand() {
           </p>
         </Reveal>
 
-        <Reveal delay={0.06} className="md:justify-self-end">
+        <Reveal
+          delay={0.06}
+          className="flex flex-col gap-3 sm:flex-row md:flex-col md:items-end md:justify-self-end lg:flex-row lg:items-center"
+        >
           <Link
             href="/sell-your-crane"
             className="focus-ring group inline-flex min-h-12 w-fit max-w-full items-center justify-center gap-2 rounded-[var(--radius)] bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
@@ -55,6 +59,13 @@ export async function SellCtaBand() {
               aria-hidden
             />
           </Link>
+          <a
+            href={`tel:${company.phone.tel}`}
+            className="focus-ring inline-flex min-h-12 w-fit items-center justify-center gap-2 rounded-[var(--radius)] border border-surface/30 px-6 text-sm font-medium text-surface transition-colors hover:border-surface/70 hover:bg-surface/10"
+          >
+            <Phone className="size-4 text-brand" aria-hidden />
+            {t("call")}
+          </a>
         </Reveal>
       </div>
     </section>

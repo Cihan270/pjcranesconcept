@@ -431,7 +431,8 @@
       "eyebrow": "Verkoop",
       "title": "Klaar om uw kraan te verkopen?",
       "body": "Deel de specificaties en foto’s van uw kraan. Wij beoordelen de marktpositie en bespreken de beste verkooproute.",
-      "cta": "Vraag een verkoopbeoordeling aan"
+      "cta": "Vraag een verkoopbeoordeling aan",
+      "call": "Bel ons"
     },
     "international": {
       "eyebrow": "Internationaal netwerk",
@@ -499,6 +500,82 @@
       "successBody": "Bedankt. U ontvangt een melding wanneer er nieuwe machines in de voorraad komen.",
       "error": "Activeren is niet gelukt. Probeer het later opnieuw.",
       "errorConfig": "E-mailverzending is nog niet geconfigureerd. Probeer het later opnieuw of mail info@pj-cranes.com."
+    },
+    "ctaInventoryCount": "Bekijk voorraad ({count})",
+    "quickSearch": {
+      "title": "Vind uw kraan",
+      "advanced": "Uitgebreid zoeken",
+      "queryLabel": "Merk, model of referentie",
+      "placeholder": "Bijv. LTM 1100",
+      "manufacturer": "Merk",
+      "allManufacturers": "Alle merken",
+      "capacity": "Capaciteit",
+      "anyCapacity": "Elke capaciteit",
+      "submit": "{count, plural, =0 {Geen kranen gevonden} one {Toon # kraan} other {Toon # kranen}}",
+      "noResults": "Geen machine in voorraad die hierbij past?",
+      "noResultsCta": "Laat PJ Cranes voor u zoeken"
+    },
+    "capacity": {
+      "eyebrow": "Zoeken op hijsvermogen",
+      "title": "Welke capaciteit zoekt u?",
+      "subtitle": "Kies een capaciteitsklasse en bekijk direct de beschikbare kranen.",
+      "inStock": "{count, plural, =0 {Nu geen voorraad} one {# op voorraad} other {# op voorraad}}",
+      "linkLabel": "{label} · {count, plural, =0 {nu geen voorraad} one {# op voorraad} other {# op voorraad}}",
+      "classes": {
+        "upTo60": {
+          "range": "≤ 60",
+          "label": "Tot 60 t",
+          "description": "City- en compacte all-terrain kranen"
+        },
+        "60to100": {
+          "range": "60–100",
+          "label": "60–100 t",
+          "description": "Veelzijdige werkpaarden"
+        },
+        "100to200": {
+          "range": "100–200",
+          "label": "100–200 t",
+          "description": "Zware all-terrain kranen"
+        },
+        "over200": {
+          "range": "200+",
+          "label": "Meer dan 200 t",
+          "description": "Groot en zwaar hijswerk"
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "Over PJ Cranes",
+      "title": "Gevestigde handelaar in gebruikte kranen",
+      "body": "Vanuit {city} kopen en verkopen wij al {years}+ jaar gebruikte mobiele kranen wereldwijd, van merken als {brands}.",
+      "checklist": {
+        "specs": "Gedetailleerde specificaties en foto’s van elke kraan",
+        "logistics": "Transport over de weg en zee, inclusief documentatie",
+        "contact": "Eén vast aanspreekpunt van aanvraag tot overdracht"
+      },
+      "ctaAbout": "Meer over PJ Cranes",
+      "stats": {
+        "experience": "Jaar ervaring",
+        "capacity": "Ton capaciteitsbereik",
+        "offices": "Internationale kantoren",
+        "stock": "Kranen op voorraad"
+      }
+    },
+    "sourcing": {
+      "eyebrow": "Kraan gezocht",
+      "title": "Op zoek naar een specifieke kraan?",
+      "body": "Geef het type en de capaciteit door. Wij zoeken binnen ons internationale netwerk en komen bij u terug met passende machines.",
+      "detailedLink": "Uitgebreid zoekformulier",
+      "capacity": "Capaciteit",
+      "anyCapacity": "Elke capaciteit",
+      "submit": "Zoek mijn kraan",
+      "message": "Snelle zoekopdracht via de homepage. Type: {type}. Capaciteit: {capacity}."
+    },
+    "recentlySold": {
+      "eyebrow": "Track record",
+      "title": "Recent verkocht",
+      "subtitle": "Een selectie van kranen die via PJ Cranes een nieuwe eigenaar vonden.",
+      "viewArchive": "Bekijk alle {count} verkochte kranen"
     }
   },
   "Inventory": {
@@ -592,7 +669,7 @@
     },
     "enquiry": {
       "eyebrow": "Aanvraag",
-      "title": "Prijs & beschikbaarheid",
+      "title": "Aanvraag voor deze kraan",
       "subtitle": "Vraag naar {crane}. Wij reageren met actuele status en voorwaarden.",
       "priceOnRequest": "Prijs op aanvraag",
       "call": "Bel ons",
@@ -620,7 +697,48 @@
         "consent": "Toestemming is verplicht.",
         "generic": "Versturen is niet gelukt. Probeer het later opnieuw.",
         "config": "E-mailverzending is nog niet geconfigureerd. Mail info@pj-cranes.com of bel ons."
+      },
+      "requestLabel": "Waar kunnen wij u mee helpen?",
+      "country": "Land van bestemming",
+      "countryPlaceholder": "Bijv. Duitsland",
+      "requests": {
+        "price": {
+          "label": "Prijs",
+          "subject": "Prijsaanvraag {crane} ({reference})",
+          "message": "Graag ontvang ik de prijs en actuele beschikbaarheid van de {crane} (ref. {reference})."
+        },
+        "inspection": {
+          "label": "Bezichtiging",
+          "subject": "Bezichtiging {crane} ({reference})",
+          "message": "Ik wil graag een afspraak maken om de {crane} (ref. {reference}) te bezichtigen."
+        },
+        "transport": {
+          "label": "Transport",
+          "subject": "Transportofferte {crane} ({reference})",
+          "message": "Graag ontvang ik een offerte voor transport van de {crane} (ref. {reference}) naar mijn locatie."
+        },
+        "media": {
+          "label": "Foto’s / video",
+          "subject": "Extra foto’s/video {crane} ({reference})",
+          "message": "Kunt u extra foto’s of een video van de {crane} (ref. {reference}) sturen?"
+        }
       }
+    },
+    "actions": {
+      "media": "Extra foto’s / video",
+      "transport": "Transportofferte",
+      "datasheet": "Datasheet (PDF)"
+    },
+    "sold": {
+      "badge": "Verkocht",
+      "title": "Deze kraan is verkocht",
+      "body": "De {crane} heeft een nieuwe eigenaar gevonden. Zoekt u een vergelijkbare machine? Wij zoeken binnen ons internationale netwerk.",
+      "findSimilar": "Vind een vergelijkbare kraan",
+      "findSimilarShort": "Vergelijkbare kraan",
+      "browseStock": "Bekijk beschikbare kranen"
+    },
+    "datasheet": {
+      "title": "Datasheet"
     }
   },
   "Contact": {
@@ -1127,7 +1245,9 @@
         "consent": "Toestemming is verplicht.",
         "generic": "Versturen is niet gelukt. Probeer het later opnieuw.",
         "config": "E-mailverzending is nog niet geconfigureerd. Mail info@pj-cranes.com of bel ons."
-      }
+      },
+      "similarNotice": "Uw aanvraag is vooraf ingevuld op basis van de verkochte {crane}. Pas gerust aan wat u nodig heeft.",
+      "similarMessage": "Ik zoek een kraan vergelijkbaar met de {crane} ({year}, {capacity} t, ref. {reference})."
     }
   },
   "About": {

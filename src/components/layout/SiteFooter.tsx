@@ -58,7 +58,7 @@ export async function SiteFooter() {
   ] as const;
 
   return (
-    <footer className="mt-auto border-t border-white/10 bg-charcoal text-surface">
+    <footer className="mt-auto border-t border-white/10 bg-charcoal text-surface print:hidden">
       <div className="mx-auto grid max-w-[1440px] gap-8 px-4 py-10 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 md:px-8 lg:grid-cols-4 lg:gap-x-10 lg:px-12 lg:py-12">
         {/* 1. Company */}
         <div className="space-y-4 sm:col-span-2 lg:col-span-1">

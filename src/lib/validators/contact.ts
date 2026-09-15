@@ -30,6 +30,16 @@ export function resolveContactSubjectKey(
   return match ?? null;
 }
 
+/** What a buyer asks for on a crane detail page. */
+export const CRANE_REQUEST_TYPES = [
+  "price",
+  "inspection",
+  "transport",
+  "media",
+] as const;
+
+export type CraneRequestType = (typeof CRANE_REQUEST_TYPES)[number];
+
 const optionalEmail = z.preprocess(
   emptyToUndefined,
   z.email().max(254).optional(),
@@ -54,6 +64,9 @@ export const contactFormSchema = z
     message: z.string().trim().min(10).max(5000),
     craneReference: z.string().trim().max(40).optional().or(z.literal("")),
     craneSlug: z.string().trim().max(120).optional().or(z.literal("")),
+    requestType: z.enum(CRANE_REQUEST_TYPES).optional(),
+    /** Destination / buyer country for crane enquiries. */
+    country: z.string().trim().max(80).optional().or(z.literal("")),
     consent: consentSchema,
   })
   .superRefine((data, ctx) => {
@@ -92,6 +105,8 @@ export const contactLeadSchema = contactFormSchema.transform((data) => ({
     message: data.message,
     craneReference: data.craneReference || undefined,
     craneSlug: data.craneSlug || undefined,
+    requestType: data.requestType,
+    country: data.country || undefined,
   },
   formStartedAt: data.formStartedAt,
   website: data.website,

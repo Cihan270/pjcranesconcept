@@ -431,7 +431,8 @@
       "eyebrow": "Venta",
       "title": "Â¿Listo para vender su grÃºa?",
       "body": "Comparta las especificaciones y fotos de su grÃºa. Evaluamos la posiciÃ³n de mercado y comentamos la mejor ruta de venta.",
-      "cta": "Solicitar una valoraciÃ³n de venta"
+      "cta": "Solicitar una valoraciÃ³n de venta",
+      "call": "Llámenos"
     },
     "international": {
       "eyebrow": "Red internacional",
@@ -499,6 +500,82 @@
       "successBody": "Gracias. Le avisaremos cuando se aÃ±adan nuevas mÃ¡quinas al stock.",
       "error": "No se pudo activar. IntÃ©ntelo mÃ¡s tarde.",
       "errorConfig": "El envÃ­o de correo aÃºn no estÃ¡ configurado. IntÃ©ntelo mÃ¡s tarde o escriba a info@pj-cranes.com."
+    },
+    "ctaInventoryCount": "Ver stock ({count})",
+    "quickSearch": {
+      "title": "Encuentre su grúa",
+      "advanced": "Búsqueda avanzada",
+      "queryLabel": "Marca, modelo o referencia",
+      "placeholder": "p. ej. LTM 1100",
+      "manufacturer": "Marca",
+      "allManufacturers": "Todas las marcas",
+      "capacity": "Capacidad",
+      "anyCapacity": "Cualquier capacidad",
+      "submit": "{count, plural, =0 {No se encontraron grúas} one {Ver # grúa} other {Ver # grúas}}",
+      "noResults": "¿Nada en stock que encaje?",
+      "noResultsCta": "Deje que PJ Cranes la busque por usted"
+    },
+    "capacity": {
+      "eyebrow": "Buscar por capacidad de elevación",
+      "title": "¿Qué capacidad necesita?",
+      "subtitle": "Elija una clase de capacidad y vea directamente las grúas disponibles.",
+      "inStock": "{count, plural, =0 {Sin stock ahora} one {# en stock} other {# en stock}}",
+      "linkLabel": "{label} · {count, plural, =0 {sin stock ahora} one {# en stock} other {# en stock}}",
+      "classes": {
+        "upTo60": {
+          "range": "≤ 60",
+          "label": "Hasta 60 t",
+          "description": "Grúas urbanas y todoterreno compactas"
+        },
+        "60to100": {
+          "range": "60–100",
+          "label": "60–100 t",
+          "description": "Máquinas versátiles"
+        },
+        "100to200": {
+          "range": "100–200",
+          "label": "100–200 t",
+          "description": "Grúas todoterreno pesadas"
+        },
+        "over200": {
+          "range": "200+",
+          "label": "Más de 200 t",
+          "description": "Elevación grande y pesada"
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "Sobre PJ Cranes",
+      "title": "Distribuidor consolidado de grúas usadas",
+      "body": "Desde {city} compramos y vendemos grúas móviles usadas en todo el mundo desde hace más de {years} años, de fabricantes como {brands}.",
+      "checklist": {
+        "specs": "Especificaciones detalladas y fotos de cada grúa",
+        "logistics": "Transporte por carretera y mar, con documentación incluida",
+        "contact": "Un único interlocutor desde la solicitud hasta la entrega"
+      },
+      "ctaAbout": "Más sobre PJ Cranes",
+      "stats": {
+        "experience": "Años de experiencia",
+        "capacity": "Toneladas de rango de capacidad",
+        "offices": "Oficinas internacionales",
+        "stock": "Grúas en stock"
+      }
+    },
+    "sourcing": {
+      "eyebrow": "Búsqueda de grúa",
+      "title": "¿Busca una grúa específica?",
+      "body": "Indíquenos el tipo y la capacidad que necesita. Buscamos en nuestra red internacional y le proponemos máquinas adecuadas.",
+      "detailedLink": "Formulario de solicitud detallado",
+      "capacity": "Capacidad",
+      "anyCapacity": "Cualquier capacidad",
+      "submit": "Buscar mi grúa",
+      "message": "Solicitud rápida desde la página de inicio. Tipo: {type}. Capacidad: {capacity}."
+    },
+    "recentlySold": {
+      "eyebrow": "Trayectoria",
+      "title": "Vendidas recientemente",
+      "subtitle": "Una selección de grúas que encontraron un nuevo propietario a través de PJ Cranes.",
+      "viewArchive": "Ver las {count} grúas vendidas"
     }
   },
   "Inventory": {
@@ -592,7 +669,7 @@
     },
     "enquiry": {
       "eyebrow": "Enquiry",
-      "title": "Price & availability",
+      "title": "Consulta sobre esta grúa",
       "subtitle": "Ask about {crane}. We reply with current status and terms.",
       "priceOnRequest": "Price on request",
       "call": "Call us",
@@ -620,7 +697,48 @@
         "consent": "Consent is required.",
         "generic": "Could not send. Please try again later.",
         "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+      },
+      "requestLabel": "¿En qué podemos ayudarle?",
+      "country": "País de destino",
+      "countryPlaceholder": "p. ej. España",
+      "requests": {
+        "price": {
+          "label": "Precio",
+          "subject": "Solicitud de precio {crane} ({reference})",
+          "message": "Por favor, envíenme el precio y la disponibilidad actual de la {crane} (ref. {reference})."
+        },
+        "inspection": {
+          "label": "Inspección",
+          "subject": "Inspección {crane} ({reference})",
+          "message": "Me gustaría concertar una inspección de la {crane} (ref. {reference})."
+        },
+        "transport": {
+          "label": "Transporte",
+          "subject": "Presupuesto de transporte {crane} ({reference})",
+          "message": "Por favor, envíenme un presupuesto para transportar la {crane} (ref. {reference}) hasta mi ubicación."
+        },
+        "media": {
+          "label": "Fotos / vídeo",
+          "subject": "Más fotos/vídeo {crane} ({reference})",
+          "message": "¿Podrían enviarme más fotos o un vídeo de la {crane} (ref. {reference})?"
+        }
       }
+    },
+    "actions": {
+      "media": "Más fotos / vídeo",
+      "transport": "Presupuesto de transporte",
+      "datasheet": "Ficha técnica (PDF)"
+    },
+    "sold": {
+      "badge": "Vendida",
+      "title": "Esta grúa se ha vendido",
+      "body": "La {crane} ha encontrado un nuevo propietario. ¿Busca una máquina similar? La buscamos en nuestra red internacional.",
+      "findSimilar": "Encontrar una grúa similar",
+      "findSimilarShort": "Grúa similar",
+      "browseStock": "Ver grúas disponibles"
+    },
+    "datasheet": {
+      "title": "Ficha técnica"
     }
   },
   "Contact": {
@@ -1128,7 +1246,9 @@
         "consent": "Consent is required.",
         "generic": "Could not send. Please try again later.",
         "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
-      }
+      },
+      "similarNotice": "Su solicitud se ha rellenado a partir de la {crane} vendida. Ajuste lo que necesite.",
+      "similarMessage": "Busco una grúa similar a la {crane} ({year}, {capacity} t, ref. {reference})."
     }
   },
   "About": {

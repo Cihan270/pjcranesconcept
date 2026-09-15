@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
+import { Camera, CalendarCheck, Euro, Truck } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { FormSuccess } from "@/components/forms/FormSuccess";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -9,9 +10,23 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { company } from "@/data/company";
 import { mapLeadError, submitLead } from "@/lib/forms/submit-lead";
-import { contactFormSchema } from "@/lib/validators/contact";
+import {
+  CRANE_REQUEST_TYPES,
+  contactFormSchema,
+  type CraneRequestType,
+} from "@/lib/validators/contact";
 import type { FormLocale } from "@/lib/validators/common";
 import { cn } from "cn";
+
+/** Window event that preselects a request type, e.g. from buttons below the gallery. */
+export const ENQUIRY_REQUEST_EVENT = "pj:enquiry-request";
+
+const requestIcons = {
+  price: Euro,
+  inspection: CalendarCheck,
+  transport: Truck,
+  media: Camera,
+} satisfies Record<CraneRequestType, typeof Euro>;
 
 type CraneEnquiryPanelProps = {
   craneReference: string;
@@ -30,6 +45,8 @@ export function CraneEnquiryPanel({
   const locale = useLocale() as FormLocale;
   const [formStartedAt] = useState(() => Date.now());
 
+  const [requestType, setRequestType] = useState<CraneRequestType>("price");
+  const [country, setCountry] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -41,6 +58,19 @@ export function CraneEnquiryPanel({
   const [serverError, setServerError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [succeeded, setSucceeded] = useState(false);
+
+  useEffect(() => {
+    function onRequest(event: Event) {
+      const type = (event as CustomEvent<unknown>).detail;
+      if (CRANE_REQUEST_TYPES.includes(type as CraneRequestType)) {
+        setRequestType(type as CraneRequestType);
+      }
+    }
+    window.addEventListener(ENQUIRY_REQUEST_EVENT, onRequest);
+    return () => window.removeEventListener(ENQUIRY_REQUEST_EVENT, onRequest);
+  }, []);
+
+  const requestValues = { crane: craneName, reference: craneReference };
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -54,12 +84,13 @@ export function CraneEnquiryPanel({
       email,
       phone,
       company: companyName,
-      subject: t("defaultSubject", { crane: craneName, reference: craneReference }),
+      subject: t(`requests.${requestType}.subject`, requestValues),
       message:
-        message.trim() ||
-        t("defaultMessage", { crane: craneName, reference: craneReference }),
+        message.trim() || t(`requests.${requestType}.message`, requestValues),
       craneReference,
       craneSlug,
+      requestType,
+      country,
       consent: { privacy: consent ? true : false, marketing: false },
       website,
       formStartedAt,
@@ -167,6 +198,41 @@ export function CraneEnquiryPanel({
           />
         </div>
 
+        <fieldset className="space-y-2">
+          <legend className="text-sm font-medium">{t("requestLabel")}</legend>
+          <div className="grid grid-cols-2 gap-2">
+            {CRANE_REQUEST_TYPES.map((type) => {
+              const Icon = requestIcons[type];
+              const checked = requestType === type;
+              return (
+                <label
+                  key={type}
+                  className={cn(
+                    "relative flex min-h-11 cursor-pointer items-center gap-2 rounded-[var(--radius)] border px-3 py-2 text-sm leading-tight transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-ring",
+                    checked
+                      ? "border-charcoal bg-charcoal font-medium text-surface"
+                      : "border-line bg-background hover:border-steel/40",
+                  )}
+                >
+                  <input
+                    type="radio"
+                    name="enquiry-request"
+                    value={type}
+                    checked={checked}
+                    onChange={() => setRequestType(type)}
+                    className="sr-only"
+                  />
+                  <Icon
+                    className={cn("size-4 shrink-0", checked ? "text-brand" : "text-steel")}
+                    aria-hidden
+                  />
+                  {t(`requests.${type}.label`)}
+                </label>
+              );
+            })}
+          </div>
+        </fieldset>
+
         <div className="space-y-1.5">
           <Label htmlFor="enquiry-name">{t("name")}</Label>
           <Input
@@ -234,13 +300,25 @@ export function CraneEnquiryPanel({
         </div>
 
         <div className="space-y-1.5">
+          <Label htmlFor="enquiry-country">{t("country")}</Label>
+          <Input
+            id="enquiry-country"
+            value={country}
+            onChange={(event) => setCountry(event.target.value)}
+            autoComplete="country-name"
+            placeholder={t("countryPlaceholder")}
+            className="h-11 rounded-[var(--radius)]"
+          />
+        </div>
+
+        <div className="space-y-1.5">
           <Label htmlFor="enquiry-message">{t("message")}</Label>
           <Textarea
             id="enquiry-message"
             value={message}
             onChange={(event) => setMessage(event.target.value)}
             rows={4}
-            placeholder={t("messagePlaceholder")}
+            placeholder={t(`requests.${requestType}.message`, requestValues)}
             className="rounded-[var(--radius)]"
             aria-invalid={Boolean(errors.message)}
           />

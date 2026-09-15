@@ -98,7 +98,7 @@ export function CraneGallery({
         </div>
 
         {images.length > 1 ? (
-          <>
+          <div className="print:hidden">
             <button
               type="button"
               onClick={() => emblaApi?.scrollPrev()}
@@ -118,12 +118,12 @@ export function CraneGallery({
             <p className="absolute right-3 bottom-3 bg-charcoal/85 px-2 py-1 font-heading text-xs tracking-wide text-brand tabular-nums uppercase">
               {selected + 1} / {images.length}
             </p>
-          </>
+          </div>
         ) : null}
       </div>
 
       {images.length > 1 ? (
-        <div className="flex snap-x snap-mandatory gap-2 overflow-x-auto pb-1">
+        <div className="flex snap-x snap-mandatory gap-2 overflow-x-auto pb-1 print:hidden">
           {images.map((image, index) => (
             <button
               key={`thumb-${image.src}-${index}`}

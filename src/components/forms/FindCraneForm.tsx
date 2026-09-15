@@ -41,11 +41,23 @@ const craneTypes = [
   "other",
 ] as const;
 
-type FindCraneFormProps = {
-  className?: string;
+/** Sold crane a visitor wants a similar machine for (`?like=` on the find page). */
+export type FindSimilarCrane = {
+  name: string;
+  reference: string;
+  manufacturer: string;
+  model: string;
+  type: (typeof craneTypes)[number];
+  year: number;
+  capacityTons: number;
 };
 
-export function FindCraneForm({ className }: FindCraneFormProps) {
+type FindCraneFormProps = {
+  className?: string;
+  similarTo?: FindSimilarCrane | null;
+};
+
+export function FindCraneForm({ className, similarTo = null }: FindCraneFormProps) {
   const t = useTranslations("Find.form");
   const locale = useLocale() as FormLocale;
   const [formStartedAt] = useState(() => Date.now());
@@ -66,17 +78,24 @@ export function FindCraneForm({ className }: FindCraneFormProps) {
       email: "",
       phone: "",
       company: "",
-      manufacturer: "",
-      model: "",
-      craneType: "any",
+      manufacturer: similarTo?.manufacturer ?? "",
+      model: similarTo?.model ?? "",
+      craneType: similarTo?.type ?? "any",
       yearMin: undefined,
       yearMax: undefined,
-      capacityMinTons: undefined,
+      capacityMinTons: similarTo?.capacityTons,
       capacityMaxTons: undefined,
       budget: "",
       destinationCountry: "",
       timeframe: "",
-      message: "",
+      message: similarTo
+        ? t("similarMessage", {
+            crane: similarTo.name,
+            year: similarTo.year,
+            capacity: similarTo.capacityTons,
+            reference: similarTo.reference,
+          })
+        : "",
       website: "",
       formStartedAt,
       consent: { privacy: false as unknown as true, marketing: false },
@@ -114,6 +133,12 @@ export function FindCraneForm({ className }: FindCraneFormProps) {
       className={cn("relative space-y-4", className)}
       noValidate
     >
+      {similarTo ? (
+        <p className="border-l-2 border-brand bg-brand/10 px-4 py-3 text-sm leading-relaxed">
+          {t("similarNotice", { crane: similarTo.name })}
+        </p>
+      ) : null}
+
       <Controller
         name="website"
         control={control}

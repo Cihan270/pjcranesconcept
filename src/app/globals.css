@@ -115,6 +115,21 @@
   h4 {
     @apply font-heading tracking-tight;
   }
+  /* Crane datasheet: print / "Save as PDF" from the detail page. */
+  @media print {
+    @page {
+      size: A4;
+      margin: 12mm;
+    }
+    html {
+      scroll-behavior: auto;
+    }
+    body {
+      background: #fff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,

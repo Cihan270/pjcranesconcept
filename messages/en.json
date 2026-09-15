@@ -431,7 +431,8 @@
       "eyebrow": "Sell",
       "title": "Ready to sell your crane?",
       "body": "Share your crane’s specifications and photos. We assess market position and discuss the best sales route.",
-      "cta": "Request a sales assessment"
+      "cta": "Request a sales assessment",
+      "call": "Call us"
     },
     "international": {
       "eyebrow": "International network",
@@ -499,6 +500,82 @@
       "successBody": "Thank you. You will be notified when new machines are added to stock.",
       "error": "Activation failed. Please try again later.",
       "errorConfig": "Email delivery is not configured yet. Try again later or email info@pj-cranes.com."
+    },
+    "ctaInventoryCount": "View stock ({count})",
+    "quickSearch": {
+      "title": "Find your crane",
+      "advanced": "Advanced search",
+      "queryLabel": "Brand, model or reference",
+      "placeholder": "e.g. LTM 1100",
+      "manufacturer": "Brand",
+      "allManufacturers": "All brands",
+      "capacity": "Capacity",
+      "anyCapacity": "Any capacity",
+      "submit": "{count, plural, =0 {No cranes found} one {Show # crane} other {Show # cranes}}",
+      "noResults": "Nothing in stock that matches?",
+      "noResultsCta": "Let PJ Cranes search for you"
+    },
+    "capacity": {
+      "eyebrow": "Browse by lifting capacity",
+      "title": "What capacity do you need?",
+      "subtitle": "Pick a capacity class and go straight to the available cranes.",
+      "inStock": "{count, plural, =0 {None in stock} one {# in stock} other {# in stock}}",
+      "linkLabel": "{label} · {count, plural, =0 {none in stock} one {# in stock} other {# in stock}}",
+      "classes": {
+        "upTo60": {
+          "range": "≤ 60",
+          "label": "Up to 60 t",
+          "description": "City and compact all-terrain cranes"
+        },
+        "60to100": {
+          "range": "60–100",
+          "label": "60–100 t",
+          "description": "Versatile workhorses"
+        },
+        "100to200": {
+          "range": "100–200",
+          "label": "100–200 t",
+          "description": "Heavy all-terrain cranes"
+        },
+        "over200": {
+          "range": "200+",
+          "label": "Over 200 t",
+          "description": "Large and heavy lift"
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "About PJ Cranes",
+      "title": "Established dealer in used cranes",
+      "body": "From {city}, we have been buying and selling used mobile cranes worldwide for {years}+ years, from manufacturers such as {brands}.",
+      "checklist": {
+        "specs": "Detailed specifications and photos of every crane",
+        "logistics": "Transport by road and sea, including documentation",
+        "contact": "One point of contact from request to handover"
+      },
+      "ctaAbout": "More about PJ Cranes",
+      "stats": {
+        "experience": "Years of experience",
+        "capacity": "Tons capacity range",
+        "offices": "International offices",
+        "stock": "Cranes in stock"
+      }
+    },
+    "sourcing": {
+      "eyebrow": "Source your crane",
+      "title": "Looking for a specific crane?",
+      "body": "Tell us the type and capacity you need. We search our international network and come back to you with suitable machines.",
+      "detailedLink": "Detailed request form",
+      "capacity": "Capacity",
+      "anyCapacity": "Any capacity",
+      "submit": "Find my crane",
+      "message": "Quick request from the homepage. Type: {type}. Capacity: {capacity}."
+    },
+    "recentlySold": {
+      "eyebrow": "Track record",
+      "title": "Recently sold",
+      "subtitle": "A selection of cranes that found a new owner through PJ Cranes.",
+      "viewArchive": "View all {count} sold cranes"
     }
   },
   "Inventory": {
@@ -592,7 +669,7 @@
     },
     "enquiry": {
       "eyebrow": "Enquiry",
-      "title": "Price & availability",
+      "title": "Enquire about this crane",
       "subtitle": "Ask about {crane}. We reply with current status and terms.",
       "priceOnRequest": "Price on request",
       "call": "Call us",
@@ -620,7 +697,48 @@
         "consent": "Consent is required.",
         "generic": "Could not send. Please try again later.",
         "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+      },
+      "requestLabel": "How can we help?",
+      "country": "Destination country",
+      "countryPlaceholder": "e.g. Germany",
+      "requests": {
+        "price": {
+          "label": "Price",
+          "subject": "Price request {crane} ({reference})",
+          "message": "Please send me the price and current availability of the {crane} (ref. {reference})."
+        },
+        "inspection": {
+          "label": "Inspection",
+          "subject": "Inspection {crane} ({reference})",
+          "message": "I would like to schedule an inspection of the {crane} (ref. {reference})."
+        },
+        "transport": {
+          "label": "Transport",
+          "subject": "Transport quote {crane} ({reference})",
+          "message": "Please send me a quote for transporting the {crane} (ref. {reference}) to my location."
+        },
+        "media": {
+          "label": "Photos / video",
+          "subject": "Extra photos/video {crane} ({reference})",
+          "message": "Could you send extra photos or a video of the {crane} (ref. {reference})?"
+        }
       }
+    },
+    "actions": {
+      "media": "Extra photos / video",
+      "transport": "Transport quote",
+      "datasheet": "Datasheet (PDF)"
+    },
+    "sold": {
+      "badge": "Sold",
+      "title": "This crane has been sold",
+      "body": "The {crane} has found a new owner. Looking for a similar machine? We search our international network for you.",
+      "findSimilar": "Find a similar crane",
+      "findSimilarShort": "Similar crane",
+      "browseStock": "View available cranes"
+    },
+    "datasheet": {
+      "title": "Datasheet"
     }
   },
   "Contact": {
@@ -1127,7 +1245,9 @@
         "consent": "Consent is required.",
         "generic": "Could not send. Please try again later.",
         "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
-      }
+      },
+      "similarNotice": "Your request is prefilled based on the sold {crane}. Adjust anything you need.",
+      "similarMessage": "I am looking for a crane similar to the {crane} ({year}, {capacity} t, ref. {reference})."
     }
   },
   "About": {

@@ -7,11 +7,14 @@ import { cn } from "cn";
 
 type StickyMobileCtaProps = {
   enquiryHref?: string;
+  /** Overrides the default "Enquire" label (e.g. sold listings). */
+  enquireLabel?: string;
   className?: string;
 };
 
 export function StickyMobileCta({
   enquiryHref = "#enquiry",
+  enquireLabel,
   className,
 }: StickyMobileCtaProps) {
   const t = useTranslations("CraneDetail.sticky");
@@ -19,7 +22,7 @@ export function StickyMobileCta({
   return (
     <div
       className={cn(
-        "fixed inset-x-0 bottom-0 z-40 border-t border-line bg-surface/95 px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-sm lg:hidden",
+        "fixed inset-x-0 bottom-0 z-40 border-t border-line bg-surface/95 px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-sm lg:hidden print:hidden",
         className,
       )}
     >
@@ -36,7 +39,7 @@ export function StickyMobileCta({
           className="focus-ring inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-[var(--radius)] bg-primary text-sm font-medium text-primary-foreground"
         >
           <Mail className="size-4" aria-hidden />
-          {t("enquire")}
+          {enquireLabel ?? t("enquire")}
         </a>
       </div>
     </div>

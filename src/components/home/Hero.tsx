@@ -5,6 +5,8 @@ import type { CraneImage } from "@/types/crane";
 
 type HeroProps = {
   image?: CraneImage | null;
+  /** Available cranes, shown on the inventory CTA. */
+  stockCount: number;
 };
 
 function formatFactNumber(value: number, locale: string) {
@@ -13,7 +15,7 @@ function formatFactNumber(value: number, locale: string) {
   );
 }
 
-export async function Hero({ image }: HeroProps) {
+export async function Hero({ image, stockCount }: HeroProps) {
   const t = await getTranslations("Home");
   const locale = await getLocale();
 
@@ -26,7 +28,7 @@ export async function Hero({ image }: HeroProps) {
         eyebrow={t("eyebrow")}
         title={t("title")}
         subtitle={t("subtitle", { min: minTons, max: maxTons })}
-        ctaInventory={t("ctaInventory")}
+        ctaInventory={t("ctaInventoryCount", { count: stockCount })}
         ctaSell={t("ctaSell")}
         findLink={t("findLink")}
         trust={[
