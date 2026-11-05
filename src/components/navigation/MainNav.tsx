@@ -40,13 +40,18 @@ export function MainNav({
             onClick={onNavigate}
             className={cn(
               "group relative font-heading tracking-[0.02em] transition-colors duration-200 outline-none",
-              "focus-visible:ring-2 focus-visible:ring-brand/70 focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal",
+              "focus-visible:ring-2 focus-visible:ring-brand/70 focus-visible:ring-offset-2",
               isMobile
-                ? "min-h-12 rounded-[var(--radius)] px-4 py-3.5 text-lg font-semibold tracking-wide"
-                : "rounded-[var(--radius)] px-3 py-2 text-sm font-semibold xl:px-3.5",
-              active
-                ? "text-white"
-                : "text-white/78 hover:bg-white/[0.06] hover:text-white focus-visible:bg-white/[0.06] focus-visible:text-white",
+                ? "min-h-12 rounded-[var(--radius)] px-4 py-3.5 text-lg font-semibold tracking-wide focus-visible:ring-offset-charcoal"
+                : "rounded-[var(--radius)] px-3 py-2 text-sm font-semibold focus-visible:ring-offset-white xl:px-3.5",
+              // Mobile drawer stays dark; the desktop bar sits in the white header.
+              isMobile
+                ? active
+                  ? "text-white"
+                  : "text-white/78 hover:bg-white/[0.06] hover:text-white focus-visible:bg-white/[0.06] focus-visible:text-white"
+                : active
+                  ? "text-charcoal"
+                  : "text-steel hover:bg-charcoal/[0.05] hover:text-charcoal focus-visible:bg-charcoal/[0.05] focus-visible:text-charcoal",
             )}
             aria-current={active ? "page" : undefined}
           >

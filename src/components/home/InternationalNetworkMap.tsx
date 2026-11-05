@@ -143,7 +143,7 @@ export function InternationalNetworkMap({
 
   return (
     <div className={cn("space-y-5", className)}>
-      <div className="overflow-hidden rounded-[var(--radius)] border border-charcoal/15 bg-charcoal">
+      <div className="overflow-hidden rounded-[var(--radius)] border border-white/10 bg-[#141416]">
         <svg
           viewBox={layer.viewBox}
           role="img"

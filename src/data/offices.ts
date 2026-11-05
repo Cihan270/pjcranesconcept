@@ -6,7 +6,7 @@ import {
 
 /**
  * Reusable office network configuration.
- * Presence for five offices is verified via NETWORK_OFFICE_IDS / live site.
+ * Presence for four offices is verified via NETWORK_OFFICE_IDS / live site.
  * Full street/phone/email details are only confirmed for Nijkerk HQ —
  * do not invent contact data for other locations.
  */
@@ -66,20 +66,6 @@ export const offices = [
     email: company.email,
   },
   {
-    id: "germany",
-    region: "europe",
-    type: "international",
-    hq: false,
-    // TODO: verify city, street address, phone, and email for Germany office
-    city: null,
-    country: "Germany",
-    countryCode: "DE",
-    street: null,
-    postalCode: null,
-    phone: null,
-    email: null,
-  },
-  {
     id: "turkiye",
     region: "middle-east",
     type: "international",
@@ -110,7 +96,7 @@ export const offices = [
   },
 ] as const satisfies readonly Office[];
 
-/** Verified office count — use for “vijf kantoren” / “five offices” copy. */
+/** Verified office count — use for “vier kantoren” / “four offices” copy. */
 export const officeCount = NETWORK_OFFICE_IDS.length;
 
 /** Live overview of the international office network (About page). */

@@ -18,8 +18,6 @@ export function SiteHeader() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-  const isHome = pathname === "/";
-  const overHero = isHome && !scrolled;
 
   useEffect(() => {
     const onScroll = () => {
@@ -34,9 +32,8 @@ export function SiteHeader() {
     <header
       className={cn(
         "sticky top-0 z-40 w-full transition-[background-color,box-shadow,border-color,backdrop-filter,height] duration-300 ease-out motion-reduce:transition-none print:hidden",
-        overHero
-          ? "border-b border-white/[0.06] bg-charcoal/45 shadow-[0_8px_28px_-18px_rgba(0,0,0,0.45)] backdrop-blur-md"
-          : "border-b border-white/10 bg-charcoal shadow-[0_1px_0_0_rgba(255,255,255,0.05),0_12px_36px_-18px_rgba(0,0,0,0.65)] backdrop-blur-lg",
+        "border-b border-line bg-white",
+        scrolled && "shadow-[0_12px_32px_-20px_rgba(20,20,22,0.35)]",
       )}
       style={
         {
@@ -46,7 +43,6 @@ export function SiteHeader() {
     >
       <div className="relative mx-auto flex h-[var(--site-header-height)] max-w-[1440px] items-center gap-3 px-4 transition-[height] duration-300 ease-out motion-reduce:transition-none md:gap-4 md:px-8 lg:gap-6 lg:px-12">
         <BrandLogo
-          header
           priority
           className={cn(
             "relative z-10 shrink-0 transition-[width,height] duration-300 motion-reduce:transition-none",
@@ -64,7 +60,7 @@ export function SiteHeader() {
             open={searchOpen}
             onOpenChange={setSearchOpen}
           />
-          <LocaleSwitcher className="hidden sm:inline-flex" />
+          <LocaleSwitcher tone="light" className="hidden sm:inline-flex" />
 
           <Link
             href="/cranes"

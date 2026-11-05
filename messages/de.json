@@ -4,22 +4,22 @@
     "description": "PJ Cranes B.V. kauft, verkauft und vermittelt Mobilkrane von 20 bis 1000 Tonnen. Sitz in Nijkerk, Niederlande."
   },
   "Nav": {
-    "cranes": "VerfÃ¼gbare Krane",
+    "cranes": "Verfügbare Krane",
     "sell": "Kran verkaufen",
     "find": "Kran finden",
     "services": "Leistungen",
-    "about": "Ãœber uns",
+    "about": "Über uns",
     "contact": "Kontakt",
     "enquiry": "Anfrage",
     "viewInventory": "Bestand ansehen",
     "search": "Suche",
     "searchTitle": "Kran suchen",
     "searchDescription": "Durchsuchen Sie den Bestand nach Marke, Modell oder Referenz.",
-    "searchPlaceholder": "Marke, Modell oder Referenzâ€¦",
+    "searchPlaceholder": "Marke, Modell oder Referenz…",
     "searchSubmit": "Suchen",
     "searchBrowseAll": "Alle Krane",
-    "menu": "MenÃ¼",
-    "close": "SchlieÃŸen",
+    "menu": "Menü",
+    "close": "Schließen",
     "home": "Start",
     "skipToContent": "Zum Inhalt springen",
     "mainNav": "Hauptnavigation",
@@ -31,27 +31,27 @@
     "nl": "Nederlands",
     "en": "English",
     "de": "Deutsch",
-    "es": "EspaÃ±ol",
-    "fr": "FranÃ§ais"
+    "es": "Español",
+    "fr": "Français"
   },
   "Footer": {
-    "tagline": "Internationaler Handel mit Mobilkranen â€” kaufen, verkaufen, vermitteln und transportieren.",
+    "tagline": "Internationaler Handel mit Mobilkranen — kaufen, verkaufen, vermitteln und transportieren.",
     "company": "Unternehmen",
     "services": "Leistungen",
     "legal": "Rechtliches",
     "contact": "Kontakt",
     "privacy": "Datenschutz",
-    "terms": "Allgemeine GeschÃ¤ftsbedingungen",
+    "terms": "Allgemeine Geschäftsbedingungen",
     "cookies": "Cookie-Richtlinie",
     "faq": "FAQ",
     "news": "News",
-    "offices": "Unsere BÃ¼ros",
-    "headOffice": "Hauptsitz Â· Nijkerk",
+    "offices": "Unsere Büros",
+    "headOffice": "Hauptsitz · Nijkerk",
     "phoneGeneral": "Zentrale",
-    "phoneSales": "Sales",
+    "phoneSales": "Vertrieb",
     "emailLabel": "E-Mail",
     "whatsapp": "WhatsApp",
-    "viewAllOffices": "Alle BÃ¼ros anzeigen",
+    "viewAllOffices": "Alle Büros anzeigen",
     "kvk": "Handelskammer",
     "vat": "USt-IdNr.",
     "rights": "Alle Rechte vorbehalten.",
@@ -67,7 +67,7 @@
     "location": "Standort",
     "tons": "{value} t",
     "status": {
-      "available": "VerfÃ¼gbar",
+      "available": "Verfügbar",
       "reserved": "Reserviert",
       "sold": "Verkauft",
       "on_request": "Auf Anfrage"
@@ -101,195 +101,195 @@
   "Services": {
     "buy": {
       "title": "Gebrauchte Krane",
-      "summary": "Hochwertige gebrauchte Mobil- und Raupenkrane von Liebherr, Grove, Terex-Demag und Tadano Faun â€” Preis auf Anfrage."
+      "summary": "Hochwertige gebrauchte Mobil- und Raupenkrane von Liebherr, Grove, Terex-Demag und Tadano Faun — Preis auf Anfrage."
     },
     "sell": {
       "title": "Kran verkaufen",
-      "summary": "No cure, no pay: Bewertung, ExklusivitÃ¤t, aktive Marktansprache, Unterlagen und Ãœbergabe."
+      "summary": "No cure, no pay: Bewertung, Exklusivität, aktive Marktansprache, Unterlagen und Übergabe."
     },
     "find": {
       "title": "Kran finden",
-      "summary": "Suchen Sie eine bestimmte Maschine? Nennen Sie Hersteller, Modell und Tragkraft â€” wir suchen in unserem internationalen Netzwerk."
+      "summary": "Suchen Sie eine bestimmte Maschine? Nennen Sie Hersteller, Modell und Tragkraft — wir suchen in unserem internationalen Netzwerk."
     },
     "transport": {
       "title": "Transport & Versand",
-      "summary": "StraÃŸen- und Seetransport auf Anfrage, vom Hafen bis zur TÃ¼r. Lieferung wird getrennt vom Maschinenpreis berechnet."
+      "summary": "Straßen- und Seetransport auf Anfrage, vom Hafen bis zur Tür. Lieferung wird getrennt vom Maschinenpreis berechnet."
     },
     "documentation": {
       "title": "Dokumentation & Export",
-      "summary": "Zertifikate, PrÃ¼fungen, Zollkoordination und das Dokumentenpaket fÃ¼r die internationale Ãœbergabe."
+      "summary": "Zertifikate, Prüfungen, Zollkoordination und das Dokumentenpaket für die internationale Übergabe."
     },
     "hub": {
       "meta": {
-        "title": "Services",
-        "description": "Buy, sell, source, transport and documentation — PJ Cranes services around international crane trading."
+        "title": "Leistungen",
+        "description": "Kaufen, verkaufen, suchen, transportieren und dokumentieren — die Leistungen von PJ Cranes rund um den internationalen Kranhandel."
       },
-      "explore": "Explore",
-      "ctaContact": "Contact us",
+      "explore": "Entdecken",
+      "ctaContact": "Kontakt aufnehmen",
       "hero": {
-        "badge": "Five focused services",
-        "title": "From acquisition to handover",
-        "body": "PJ Cranes supports international crane trading from first enquiry through documentation and delivery — concrete processes, not generic claims."
+        "badge": "Fünf gezielte Leistungen",
+        "title": "Vom Ankauf bis zur Übergabe",
+        "body": "PJ Cranes begleitet den internationalen Kranhandel von der ersten Anfrage über die Dokumentation bis zur Lieferung — mit konkreten Abläufen statt allgemeiner Versprechen."
       },
       "trust": {
         "endToEnd": {
-          "title": "End-to-end support",
-          "body": "From stock or sourcing through paperwork and transport — one fixed point of contact."
+          "title": "Begleitung von A bis Z",
+          "body": "Vom Bestand oder der Suche über die Papiere bis zum Transport — ein fester Ansprechpartner."
         },
         "specialist": {
-          "title": "Specialist knowledge",
-          "body": "20+ years of experience with mobile and crawler cranes from roughly 20 to 1000 tonnes."
+          "title": "Fachwissen",
+          "body": "Über 20 Jahre Erfahrung mit Mobil- und Raupenkranen von etwa 20 bis 1000 Tonnen."
         },
         "network": {
-          "title": "International network",
-          "body": "Buyers, sellers and machines through a proven trading network across dozens of countries."
+          "title": "Internationales Netzwerk",
+          "body": "Käufer, Verkäufer und Maschinen über ein bewährtes Handelsnetzwerk in Dutzenden Ländern."
         },
         "base": {
-          "title": "Based in Nijkerk",
-          "body": "Your fixed contact in the Netherlands, with reach through international offices."
+          "title": "Sitz in Nijkerk",
+          "body": "Ihr fester Ansprechpartner in den Niederlanden, mit Reichweite über internationale Büros."
         }
       },
       "list": {
-        "eyebrow": "Our services",
-        "title": "Choose the path that fits",
-        "body": "Five focused services. Each with its own process — from stock to export paperwork."
+        "eyebrow": "Unsere Leistungen",
+        "title": "Wählen Sie den passenden Weg",
+        "body": "Fünf gezielte Leistungen. Jede mit eigenem Ablauf — vom Bestand bis zu den Exportpapieren."
       },
       "process": {
-        "eyebrow": "How we work",
-        "title": "A clear working method",
-        "body": "Whether you buy, sell or source: we start from your goal and work toward a clear next step.",
+        "eyebrow": "So arbeiten wir",
+        "title": "Eine klare Arbeitsweise",
+        "body": "Ob Sie kaufen, verkaufen oder suchen: Wir gehen von Ihrem Ziel aus und arbeiten auf einen klaren nächsten Schritt hin.",
         "steps": {
           "brief": {
-            "title": "Clarify the brief",
-            "body": "We discuss machine, timing, destination and constraints so the route is clear."
+            "title": "Anforderungen klären",
+            "body": "Wir besprechen Maschine, Zeitplan, Bestimmungsort und Rahmenbedingungen, damit der Weg klar ist."
           },
           "match": {
-            "title": "Stock or sourcing",
-            "body": "We match current inventory or source targeted options through our international network."
+            "title": "Bestand oder Suche",
+            "body": "Wir gleichen den aktuellen Bestand ab oder suchen gezielt Optionen über unser internationales Netzwerk."
           },
           "agree": {
-            "title": "Align terms",
-            "body": "Price, timing and practical conditions are set clearly before moving forward."
+            "title": "Konditionen abstimmen",
+            "body": "Preis, Zeitplan und praktische Bedingungen werden klar festgelegt, bevor es weitergeht."
           },
           "paperwork": {
-            "title": "Handle documentation",
-            "body": "Certificates, inspections and export papers are aligned to the machine and destination."
+            "title": "Dokumentation erledigen",
+            "body": "Zertifikate, Inspektionen und Exportpapiere werden auf Maschine und Bestimmungsort abgestimmt."
           },
           "deliver": {
-            "title": "Transport & handover",
-            "body": "On request we coordinate logistics through to delivery, with one point of contact."
+            "title": "Transport & Übergabe",
+            "body": "Auf Wunsch koordinieren wir die Logistik bis zur Lieferung, mit einem Ansprechpartner."
           }
         }
       },
       "faq": {
         "eyebrow": "FAQ",
-        "title": "Answers about our services",
+        "title": "Antworten zu unseren Leistungen",
         "items": {
           "whatIncluded": {
-            "question": "Which services does PJ Cranes offer?",
-            "answer": "We support buying from stock, selling your crane, targeted sourcing, transport & shipping, and documentation & export."
+            "question": "Welche Leistungen bietet PJ Cranes an?",
+            "answer": "Wir unterstützen beim Kauf aus dem Bestand, beim Verkauf Ihres Krans, bei der gezielten Suche, bei Transport & Versand sowie bei Dokumentation & Export."
           },
           "pricing": {
-            "question": "Are prices inclusive of transport?",
-            "answer": "No. Machine prices are on request. Transport and delivery are quoted separately based on route and timing."
+            "question": "Sind die Preise inklusive Transport?",
+            "answer": "Nein. Maschinenpreise gibt es auf Anfrage. Transport und Lieferung werden je nach Route und Zeitplan separat angeboten."
           },
           "stockOrSource": {
-            "question": "What if the crane is not in stock?",
-            "answer": "We source through our network. Share brand, model, capacity and timing — we come back with options."
+            "question": "Was, wenn der Kran nicht auf Lager ist?",
+            "answer": "Dann suchen wir über unser Netzwerk. Nennen Sie Marke, Modell, Kapazität und Zeitplan — wir melden uns mit Optionen."
           },
           "international": {
-            "question": "Do you work internationally?",
-            "answer": "Yes. From Nijkerk we trade internationally and support cross-border handover, including documentation where needed."
+            "question": "Arbeiten Sie international?",
+            "answer": "Ja. Von Nijkerk aus handeln wir international und unterstützen grenzüberschreitende Übergaben, bei Bedarf inklusive Dokumentation."
           },
           "transportDocs": {
-            "question": "Can I use transport or documentation on their own?",
-            "answer": "Yes. Those tracks can be part of a machine purchase, or requested separately via contact."
+            "question": "Kann ich Transport oder Dokumentation auch einzeln beauftragen?",
+            "answer": "Ja. Diese Leistungen können Teil eines Maschinenkaufs sein oder separat über den Kontakt angefragt werden."
           },
           "contact": {
-            "question": "How do I start?",
-            "answer": "Choose the relevant service above, or contact sales directly. We will guide you to the right next step."
+            "question": "Wie fange ich an?",
+            "answer": "Wählen Sie oben die passende Leistung oder kontaktieren Sie direkt den Vertrieb. Wir führen Sie zum richtigen nächsten Schritt."
           }
         }
       },
       "finalCta": {
-        "title": "Which service do you need?",
-        "body": "Contact PJ Cranes to discuss your path, timing and options.",
-        "contact": "Contact us",
-        "callSales": "Call sales"
+        "title": "Welche Leistung brauchen Sie?",
+        "body": "Kontaktieren Sie PJ Cranes, um Ihren Weg, den Zeitplan und die Optionen zu besprechen.",
+        "contact": "Kontakt aufnehmen",
+        "callSales": "Vertrieb anrufen"
       }
     },
     "transportPage": {
       "meta": {
-        "title": "Transport & shipping",
-        "description": "Road and ocean logistics for mobile cranes on request — port to doorstep, separate from the machine price."
+        "title": "Transport & Versand",
+        "description": "Straßen- und Seelogistik für Mobilkrane auf Anfrage — vom Hafen bis vor die Tür, getrennt vom Maschinenpreis."
       },
       "hero": {
-        "badge": "Logistics",
-        "title": "Transport & shipping",
-        "body": "On request we arrange logistics so your machine arrives where you need it — road or ocean, matched to weight and destination."
+        "badge": "Logistik",
+        "title": "Transport & Versand",
+        "body": "Auf Wunsch organisieren wir die Logistik, damit Ihre Maschine dort ankommt, wo Sie sie brauchen — per Straße oder Schiff, passend zu Gewicht und Bestimmungsort."
       },
       "featuresSection": {
-        "eyebrow": "What we arrange",
-        "title": "Logistics without noise",
-        "body": "Transport is not an afterthought. We align route, timing and parties so handover stays practical."
+        "eyebrow": "Was wir organisieren",
+        "title": "Logistik ohne Umwege",
+        "body": "Transport ist kein Nachgedanke. Wir stimmen Route, Zeitplan und Beteiligte ab, damit die Übergabe praktikabel bleibt."
       },
       "features": {
         "scope": {
-          "title": "Road & ocean",
-          "body": "We coordinate transport routes matched to machine weight, dimensions and destination — including port-to-doorstep when required."
+          "title": "Straße & See",
+          "body": "Wir koordinieren Transportrouten passend zu Maschinengewicht, Abmessungen und Bestimmungsort — bei Bedarf auch vom Hafen bis vor die Tür."
         },
         "pricing": {
-          "title": "Quoted separately",
-          "body": "Delivery is not included in the machine price. Transport is calculated separately based on route and timing."
+          "title": "Separates Angebot",
+          "body": "Die Lieferung ist nicht im Maschinenpreis enthalten. Der Transport wird je nach Route und Zeitplan separat berechnet."
         },
         "coordination": {
-          "title": "One point of contact",
-          "body": "Your fixed contact in Nijkerk aligns timing with seller, haulier and receiver so handover stays coordinated."
+          "title": "Ein Ansprechpartner",
+          "body": "Ihr fester Ansprechpartner in Nijkerk stimmt den Zeitplan mit Verkäufer, Spediteur und Empfänger ab, damit die Übergabe koordiniert bleibt."
         }
       },
-      "cta": "Request transport",
+      "cta": "Transport anfragen",
       "finalCta": {
-        "title": "Need transport for your machine?",
-        "body": "Get in touch — we will quote the route and align the schedule.",
-        "contact": "Contact us",
-        "callSales": "Call sales"
+        "title": "Brauchen Sie Transport für Ihre Maschine?",
+        "body": "Nehmen Sie Kontakt auf — wir kalkulieren die Route und stimmen den Zeitplan ab.",
+        "contact": "Kontakt aufnehmen",
+        "callSales": "Vertrieb anrufen"
       }
     },
     "documentationPage": {
       "meta": {
-        "title": "Documentation & export",
-        "description": "Certificates, inspections and customs coordination for international handover of mobile cranes."
+        "title": "Dokumentation & Export",
+        "description": "Zertifikate, Inspektionen und Zollabwicklung für die internationale Übergabe von Mobilkranen."
       },
       "hero": {
-        "badge": "Documentation",
-        "title": "Documentation & export",
-        "body": "The document package and export coordination that make international handover workable — matched to machine and destination."
+        "badge": "Dokumentation",
+        "title": "Dokumentation & Export",
+        "body": "Das Dokumentenpaket und die Exportkoordination, die eine internationale Übergabe möglich machen — abgestimmt auf Maschine und Bestimmungsort."
       },
       "featuresSection": {
-        "eyebrow": "What we arrange",
-        "title": "Paperwork that fits",
-        "body": "Cross-border handover needs the right package. We help organise the papers and align them to destination and Incoterm."
+        "eyebrow": "Was wir organisieren",
+        "title": "Papiere, die passen",
+        "body": "Eine grenzüberschreitende Übergabe braucht das richtige Paket. Wir helfen, die Papiere zu organisieren und auf Bestimmungsort und Incoterm abzustimmen."
       },
       "features": {
         "package": {
-          "title": "Document package",
-          "body": "Typically passport, certificate of origin, service book, manuals and related papers for handover — exact contents confirmed per machine."
+          "title": "Dokumentenpaket",
+          "body": "In der Regel Kranpass, Ursprungszeugnis, Servicebuch, Handbücher und weitere Unterlagen für die Übergabe — der genaue Inhalt wird pro Maschine bestätigt."
         },
         "inspections": {
-          "title": "Inspections",
-          "body": "On request we organise third-party inspections and help gather the relevant inspection information."
+          "title": "Inspektionen",
+          "body": "Auf Wunsch organisieren wir Inspektionen durch Dritte und helfen, die relevanten Prüfinformationen zusammenzustellen."
         },
         "customs": {
-          "title": "Customs & export",
-          "body": "We coordinate documentation steps around export and customs so paperwork matches destination and Incoterm."
+          "title": "Zoll & Export",
+          "body": "Wir koordinieren die Dokumentationsschritte rund um Export und Zoll, damit die Papiere zu Bestimmungsort und Incoterm passen."
         }
       },
-      "cta": "Ask about documentation",
+      "cta": "Zur Dokumentation anfragen",
       "finalCta": {
-        "title": "Need help with documentation or export?",
-        "body": "Contact us — we will discuss which package fits your machine and destination.",
-        "contact": "Contact us",
-        "callSales": "Call sales"
+        "title": "Brauchen Sie Hilfe bei Dokumentation oder Export?",
+        "body": "Kontaktieren Sie uns — wir besprechen, welches Paket zu Ihrer Maschine und Ihrem Bestimmungsort passt.",
+        "contact": "Kontakt aufnehmen",
+        "callSales": "Vertrieb anrufen"
       }
     }
   },
@@ -297,13 +297,14 @@
     "eyebrow": "Internationaler Mobilkranhandel",
     "title": "Gebrauchte Mobilkrane.\nWeltweit geliefert.",
     "subtitle": "Internationaler Handel mit gebrauchten Mobilkranen von {min} bis {max} Tonnen, inklusive Vermittlung, Dokumentation und Transport.",
-    "ctaInventory": "VerfÃ¼gbare Krane ansehen",
+    "heroImageAlt": "Gelber Mobilkran mit ausgefahrenem Ausleger auf nassem Betriebsgelände in der Dämmerung",
+    "ctaInventory": "Verfügbare Krane ansehen",
     "ctaSell": "Kran verkaufen",
     "findLink": "Nicht gefunden, was Sie suchen? Suchauftrag einreichen",
     "trust": {
-      "capacityValue": "{min}â€“{max} Tonnen",
+      "capacityValue": "{min}–{max} Tonnen",
       "capacityLabel": "Mobil- und Raupenkrane",
-      "officesValue": "{count} internationale BÃ¼ros",
+      "officesValue": "{count} internationale Büros",
       "officesLabel": "Weltweit erreichbar",
       "experienceValue": "{years}+ Jahre Erfahrung",
       "experienceLabel": "Spezialisierte Marktkenntnis"
@@ -311,14 +312,14 @@
     "scrollCue": "Scrollen",
     "search": {
       "eyebrow": "Bestand",
-      "title": "VerfÃ¼gbare Krane suchen",
-      "subtitle": "Filtern Sie den aktuellen Bestand nach den fÃ¼r Sie relevanten Spezifikationen.",
+      "title": "Verfügbare Krane suchen",
+      "subtitle": "Filtern Sie den aktuellen Bestand nach den für Sie relevanten Spezifikationen.",
       "queryLabel": "Marke oder Modell",
-      "placeholder": "Marke, Modell oder Referenzâ€¦",
+      "placeholder": "Marke, Modell oder Referenz…",
       "manufacturer": "Marke",
       "allManufacturers": "Alle Marken",
-      "capacityMin": "KapazitÃ¤t min.",
-      "capacityMax": "KapazitÃ¤t max.",
+      "capacityMin": "Kapazität min.",
+      "capacityMax": "Kapazität max.",
       "capacityAny": "Alle",
       "yearMin": "Baujahr von",
       "yearMax": "Baujahr bis",
@@ -326,59 +327,59 @@
       "submit": "Suchen",
       "filters": "Filter",
       "filtersTitle": "Suchfilter",
-      "filtersSubtitle": "Verfeinern nach Marke, KapazitÃ¤t und Baujahr.",
-      "clear": "Filter zurÃ¼cksetzen",
-      "results": "{count, plural, =0 {Keine Krane gefunden} one {# Kran verfÃ¼gbar} other {# Krane verfÃ¼gbar}}",
+      "filtersSubtitle": "Verfeinern nach Marke, Kapazität und Baujahr.",
+      "clear": "Filter zurücksetzen",
+      "results": "{count, plural, =0 {Keine Krane gefunden} one {# Kran verfügbar} other {# Krane verfügbar}}",
       "secondaryPrompt": "Nicht gefunden, was Sie suchen?",
       "secondaryCta": "PJ Cranes suchen lassen"
     },
     "featured": {
       "eyebrow": "Aktueller Bestand",
-      "title": "AusgewÃ¤hlte Maschinen",
-      "subtitle": "Eine Auswahl unserer sofort verfÃ¼gbaren Mobilkrane.",
-      "highlightEyebrow": "AusgewÃ¤hlt",
+      "title": "Ausgewählte Maschinen",
+      "subtitle": "Eine Auswahl unserer sofort verfügbaren Mobilkrane.",
+      "highlightEyebrow": "Ausgewählt",
       "newArrival": "Neu eingetroffen",
-      "directAvailable": "Sofort verfÃ¼gbar",
+      "directAvailable": "Sofort verfügbar",
       "availability": "Status",
       "noImage": "Kein Foto",
       "resultCount": "{count, plural, =0 {Keine Krane auf Lager} one {# Kran auf Lager} other {# Krane auf Lager}}",
       "viewAll": "Alle Krane ansehen",
-      "empty": "Derzeit keine ausgewÃ¤hlten Maschinen.",
+      "empty": "Derzeit keine ausgewählten Maschinen.",
       "carousel": {
         "previous": "Vorherige Maschinen",
-        "next": "NÃ¤chste Maschinen",
-        "progress": "Fortschritt ausgewÃ¤hlte Maschinen"
+        "next": "Nächste Maschinen",
+        "progress": "Fortschritt ausgewählte Maschinen"
       }
     },
     "findCta": {
       "eyebrow": "Spezifischen Kran gesucht",
       "title": "Nicht gefunden, was Sie suchen?",
-      "body": "Teilen Sie Marke, Modell und TragfÃ¤higkeit mit. Wir suchen in unserem internationalen Netzwerk nach einer passenden Maschine.",
+      "body": "Teilen Sie Marke, Modell und Tragfähigkeit mit. Wir suchen in unserem internationalen Netzwerk nach einer passenden Maschine.",
       "cta": "Suchauftrag einreichen",
       "contact": "Direkt Kontakt aufnehmen"
     },
     "positioning": {
       "eyebrow": "PJ Cranes",
-      "title": "Handelspartner fÃ¼r ernsthafte Kranprojekte",
-      "body": "Von unserem Hauptsitz in {city} und unserem internationalen BÃ¼ronetzwerk begleiten wir Kauf, Verkauf und Lieferung von Mobilkranen Ã¼ber Grenzen hinweg.",
-      "cta": "Mehr Ã¼ber PJ Cranes",
+      "title": "Handelspartner für ernsthafte Kranprojekte",
+      "body": "Von unserem Hauptsitz in {city} und unserem internationalen Büronetzwerk begleiten wir Kauf, Verkauf und Lieferung von Mobilkranen über Grenzen hinweg.",
+      "cta": "Mehr über PJ Cranes",
       "experienceLabel": "Marktkenntnis",
       "experienceValue": "{years}+ Jahre",
       "capacityLabel": "Tragkraftbereich",
-      "capacityValue": "{min}â€“{max, number} Tonnen",
+      "capacityValue": "{min}–{max, number} Tonnen",
       "officesLabel": "Internationales Netzwerk",
-      "officesValue": "{count} BÃ¼ros"
+      "officesValue": "{count} Büros"
     },
     "services": {
       "eyebrow": "Leistungen",
-      "title": "Vom Kauf bis zur Ãœbergabe",
-      "subtitle": "Alles, was fÃ¼r eine effiziente internationale Krantransaktion nÃ¶tig ist.",
+      "title": "Vom Kauf bis zur Übergabe",
+      "subtitle": "Alles, was für eine effiziente internationale Krantransaktion nötig ist.",
       "viewAll": "Alle Leistungen ansehen",
       "tablistLabel": "Leistungen",
       "panels": {
         "buy": {
-          "title": "VerfÃ¼gbare Krane",
-          "summary": "Sofort verfÃ¼gbare Mobile und Raupenkrane mit klaren Spezifikationen und aktuellen Angaben.",
+          "title": "Verfügbare Krane",
+          "summary": "Sofort verfügbare Mobile und Raupenkrane mit klaren Spezifikationen und aktuellen Angaben.",
           "cta": "Bestand ansehen"
         },
         "sell": {
@@ -398,32 +399,32 @@
         },
         "documentation": {
           "title": "Dokumentation & Export",
-          "summary": "UnterstÃ¼tzung bei Exportdokumenten, Ãœbergabe und internationaler Abwicklung.",
+          "summary": "Unterstützung bei Exportdokumenten, Übergabe und internationaler Abwicklung.",
           "cta": "Exportbegleitung ansehen"
         }
       }
     },
     "process": {
       "eyebrow": "Ablauf",
-      "title": "Von der Anfrage bis zur Ãœbergabe",
+      "title": "Von der Anfrage bis zur Übergabe",
       "body": "Ein klarer Prozess mit einem festen Ansprechpartner.",
       "cta": "Anfrage besprechen",
       "steps": {
         "request": {
           "title": "Anfrage",
-          "body": "Teilen Sie die gewÃ¼nschte Maschine oder den Kran, den Sie verkaufen mÃ¶chten."
+          "body": "Teilen Sie die gewünschte Maschine oder den Kran, den Sie verkaufen möchten."
         },
         "assessment": {
           "title": "Bewertung",
-          "body": "Wir prÃ¼fen die verfÃ¼gbaren Informationen und besprechen die MÃ¶glichkeiten."
+          "body": "Wir prüfen die verfügbaren Informationen und besprechen die Möglichkeiten."
         },
         "agreement": {
           "title": "Vereinbarung & Dokumentation",
           "body": "Absprachen, Dokumente und Exportanforderungen werden vorbereitet."
         },
         "transport": {
-          "title": "Transport & Ãœbergabe",
-          "body": "Die Maschine wird fÃ¼r die Lieferung an den Bestimmungsort vorbereitet."
+          "title": "Transport & Übergabe",
+          "body": "Die Maschine wird für die Lieferung an den Bestimmungsort vorbereitet."
         }
       }
     },
@@ -437,16 +438,16 @@
     "international": {
       "eyebrow": "Internationales Netzwerk",
       "title": "Weltweites Netzwerk. Ein fester Ansprechpartner.",
-      "body": "Mit {count} BÃ¼ros und einem internationalen Netzwerk unterstÃ¼tzt PJ Cranes Kunden bei Kauf, Verkauf, Dokumentation und Transport Ã¼ber Grenzen hinweg.",
-      "ctaOffices": "Unsere BÃ¼ros ansehen",
+      "body": "Mit {count} Büros und einem internationalen Netzwerk unterstützt PJ Cranes Kunden bei Kauf, Verkauf, Dokumentation und Transport über Grenzen hinweg.",
+      "ctaOffices": "Unsere Büros ansehen",
       "ctaContact": "Kontakt aufnehmen",
-      "mapLabel": "Weltkarte mit PJ Cranes-BÃ¼ros",
+      "mapLabel": "Weltkarte mit PJ Cranes-Büros",
       "hqBadge": "Hauptsitz",
       "regionLabel": "Region",
-      "typeLabel": "BÃ¼rotyp",
+      "typeLabel": "Bürotyp",
       "phoneLabel": "Telefon",
       "emailLabel": "E-Mail",
-      "listHeading": "BÃ¼ros von PJ Cranes",
+      "listHeading": "Büros von PJ Cranes",
       "regions": {
         "americas": "Amerika",
         "europe": "Europa",
@@ -454,7 +455,7 @@
       },
       "types": {
         "headquarters": "Hauptsitz",
-        "international": "Internationales BÃ¼ro"
+        "international": "Internationales Büro"
       },
       "offices": {
         "usa": {
@@ -465,13 +466,9 @@
           "city": "Nijkerk",
           "country": "Niederlande"
         },
-        "germany": {
-          "city": "",
-          "country": "Deutschland"
-        },
         "turkiye": {
           "city": "",
-          "country": "TÃ¼rkiye"
+          "country": "Türkiye"
         },
         "dubai": {
           "city": "Dubai",
@@ -481,25 +478,25 @@
     },
     "brands": {
       "eyebrow": "Marken",
-      "subtitle": "Aktuellen Bestand fÃ¼hrender Marken ansehen.",
-      "availableCount": "{count, plural, one {# verfÃ¼gbar} other {# verfÃ¼gbar}}",
-      "linkLabel": "{name} Â· {count, plural, one {# verfÃ¼gbar} other {# verfÃ¼gbar}}"
+      "subtitle": "Aktuellen Bestand führender Marken ansehen.",
+      "availableCount": "{count, plural, one {# verfügbar} other {# verfügbar}}",
+      "linkLabel": "{name} · {count, plural, one {# verfügbar} other {# verfügbar}}"
     },
     "newsletter": {
       "eyebrow": "BESTANDSALARM",
       "title": "Neue Krane direkt in Ihren Posteingang",
-      "subtitle": "Hinterlassen Sie Ihre E-Mail und werden benachrichtigt, wenn neue Maschinen dem Bestand hinzugefÃ¼gt werden.",
+      "subtitle": "Hinterlassen Sie Ihre E-Mail und werden benachrichtigt, wenn neue Maschinen dem Bestand hinzugefügt werden.",
       "email": "E-Mail-Adresse",
       "emailPlaceholder": "name@firma.com",
-      "emailInvalid": "Bitte eine gÃ¼ltige E-Mail-Adresse eingeben.",
-      "consent": "Ich mÃ¶chte Bestandsmeldungen von PJ Cranes erhalten und habe den <privacy>Datenschutzhinweis</privacy> gelesen.",
+      "emailInvalid": "Bitte eine gültige E-Mail-Adresse eingeben.",
+      "consent": "Ich möchte Bestandsmeldungen von PJ Cranes erhalten und habe den <privacy>Datenschutzhinweis</privacy> gelesen.",
       "consentRequired": "Zustimmung ist erforderlich, um den Bestandsalarm zu aktivieren.",
       "submit": "Alarm aktivieren",
-      "submitting": "Wird gesendetâ€¦",
+      "submitting": "Wird gesendet…",
       "successTitle": "Bestandsalarm aktiviert",
-      "successBody": "Vielen Dank. Sie werden benachrichtigt, wenn neue Maschinen dem Bestand hinzugefÃ¼gt werden.",
-      "error": "Aktivierung fehlgeschlagen. Bitte spÃ¤ter erneut versuchen.",
-      "errorConfig": "E-Mail-Versand ist noch nicht konfiguriert. SpÃ¤ter erneut versuchen oder info@pj-cranes.com schreiben."
+      "successBody": "Vielen Dank. Sie werden benachrichtigt, wenn neue Maschinen dem Bestand hinzugefügt werden.",
+      "error": "Aktivierung fehlgeschlagen. Bitte später erneut versuchen.",
+      "errorConfig": "E-Mail-Versand ist noch nicht konfiguriert. Später erneut versuchen oder info@pj-cranes.com schreiben."
     },
     "ctaInventoryCount": "Bestand ansehen ({count})",
     "quickSearch": {
@@ -580,123 +577,123 @@
   },
   "Inventory": {
     "meta": {
-      "title": "VerfÃ¼gbare Krane",
-      "description": "Browse current mobile and crawler crane inventory at PJ Cranes. Filter by brand, capacity, year and more â€” pricing on request."
+      "title": "Verfügbare Krane",
+      "description": "Entdecken Sie den aktuellen Bestand an Mobil- und Raupenkranen bei PJ Cranes. Filtern Sie nach Marke, Kapazität, Baujahr und mehr — Preise auf Anfrage."
     },
-    "eyebrow": "Marketplace",
-    "title": "VerfÃ¼gbare Krane",
-    "subtitle": "Filter stock by manufacturer, type, capacity and more. Published specs only; pricing always on request.",
-    "results": "{count, plural, =0 {No cranes} one {# crane} other {# cranes}}",
+    "eyebrow": "Marktplatz",
+    "title": "Verfügbare Krane",
+    "subtitle": "Filtern Sie den Bestand nach Hersteller, Typ, Kapazität und mehr. Nur veröffentlichte Daten; Preise immer auf Anfrage.",
+    "results": "{count, plural, =0 {Keine Krane} one {# Kran} other {# Krane}}",
     "empty": {
-      "title": "No cranes found",
-      "description": "Adjust or reset the filters to see more machines."
+      "title": "Keine Krane gefunden",
+      "description": "Passen Sie die Filter an oder setzen Sie sie zurück, um mehr Maschinen zu sehen."
     },
     "filters": {
-      "eyebrow": "Filters",
-      "title": "Refine search",
-      "subtitle": "Combine filters to find the right machine faster.",
-      "open": "Filters",
-      "query": "Search",
-      "queryPlaceholder": "Brand, model or referenceâ€¦",
-      "manufacturer": "Manufacturer",
-      "model": "Model",
-      "allModels": "All models",
-      "type": "Type",
-      "yearMin": "Year from",
-      "yearMax": "Year to",
-      "capacityMin": "Min. capacity",
-      "capacityMax": "Max. capacity",
-      "mileageMax": "Max. mileage",
-      "hoursMax": "Max. hours",
-      "availability": "Availability",
-      "includeSold": "Show sold machines",
-      "reset": "Reset filters",
-      "any": "Any",
-      "mileageUpTo": "Up to {value} km",
-      "hoursUpTo": "Up to {value} h"
+      "eyebrow": "Filter",
+      "title": "Suche verfeinern",
+      "subtitle": "Kombinieren Sie Filter, um schneller die richtige Maschine zu finden.",
+      "open": "Filter",
+      "query": "Suche",
+      "queryPlaceholder": "Marke, Modell oder Referenz…",
+      "manufacturer": "Hersteller",
+      "model": "Modell",
+      "allModels": "Alle Modelle",
+      "type": "Typ",
+      "yearMin": "Baujahr von",
+      "yearMax": "Baujahr bis",
+      "capacityMin": "Min. Kapazität",
+      "capacityMax": "Max. Kapazität",
+      "mileageMax": "Max. Kilometerstand",
+      "hoursMax": "Max. Betriebsstunden",
+      "availability": "Verfügbarkeit",
+      "includeSold": "Verkaufte Maschinen anzeigen",
+      "reset": "Filter zurücksetzen",
+      "any": "Beliebig",
+      "mileageUpTo": "Bis {value} km",
+      "hoursUpTo": "Bis {value} h"
     },
     "sort": {
-      "label": "Sort",
-      "newest": "Newest first",
-      "year_desc": "Year (newâ†’old)",
-      "year_asc": "Year (oldâ†’new)",
-      "capacity_desc": "Capacity (highâ†’low)",
-      "capacity_asc": "Capacity (lowâ†’high)",
-      "manufacturer_asc": "Manufacturer Aâ€“Z"
+      "label": "Sortieren",
+      "newest": "Neueste zuerst",
+      "year_desc": "Baujahr (neu→alt)",
+      "year_asc": "Baujahr (alt→neu)",
+      "capacity_desc": "Kapazität (hoch→niedrig)",
+      "capacity_asc": "Kapazität (niedrig→hoch)",
+      "manufacturer_asc": "Hersteller A–Z"
     },
     "view": {
-      "label": "View",
-      "grid": "Grid",
-      "list": "List"
+      "label": "Ansicht",
+      "grid": "Raster",
+      "list": "Liste"
     },
     "chips": {
-      "yearFrom": "From {year}",
-      "yearTo": "To {year}",
-      "capacityFrom": "From {value} t",
-      "capacityTo": "To {value} t",
-      "mileageMax": "Max {value} km",
-      "hoursMax": "Max {value} h",
-      "remove": "Remove filter"
+      "yearFrom": "Ab {year}",
+      "yearTo": "Bis {year}",
+      "capacityFrom": "Ab {value} t",
+      "capacityTo": "Bis {value} t",
+      "mileageMax": "Max. {value} km",
+      "hoursMax": "Max. {value} h",
+      "remove": "Filter entfernen"
     }
   },
   "CraneDetail": {
-    "notFoundTitle": "Crane not found",
-    "specsTitle": "Specifications",
-    "specsSubtitle": "Only fields published on the listing.",
-    "technicalCaption": "Technical specifications",
-    "featuresTitle": "Equipment & features",
-    "hoursSuperstructure": "Superstructure hours",
-    "hoursCarrier": "Carrier hours",
+    "notFoundTitle": "Kran nicht gefunden",
+    "specsTitle": "Spezifikationen",
+    "specsSubtitle": "Nur Angaben, die im Inserat veröffentlicht sind.",
+    "technicalCaption": "Technische Daten",
+    "featuresTitle": "Ausstattung & Merkmale",
+    "hoursSuperstructure": "Betriebsstunden Oberwagen",
+    "hoursCarrier": "Betriebsstunden Unterwagen",
     "gallery": {
-      "empty": "No images available",
-      "open": "Open image {index} of {total}",
-      "previous": "Previous image",
-      "next": "Next image",
-      "thumb": "Show image {index}"
+      "empty": "Keine Bilder verfügbar",
+      "open": "Bild {index} von {total} öffnen",
+      "previous": "Vorheriges Bild",
+      "next": "Nächstes Bild",
+      "thumb": "Bild {index} anzeigen"
     },
     "share": {
-      "label": "Share",
-      "copied": "Link copied"
+      "label": "Teilen",
+      "copied": "Link kopiert"
     },
     "related": {
-      "eyebrow": "Similar",
-      "title": "Related cranes",
-      "subtitle": "Other machines with a similar brand, type or capacity."
+      "eyebrow": "Ähnlich",
+      "title": "Ähnliche Krane",
+      "subtitle": "Weitere Maschinen mit ähnlicher Marke, ähnlichem Typ oder ähnlicher Kapazität."
     },
     "sticky": {
-      "call": "Call",
-      "enquire": "Enquire"
+      "call": "Anrufen",
+      "enquire": "Anfragen"
     },
     "enquiry": {
-      "eyebrow": "Enquiry",
+      "eyebrow": "Anfrage",
       "title": "Anfrage zu diesem Kran",
-      "subtitle": "Ask about {crane}. We reply with current status and terms.",
-      "priceOnRequest": "Price on request",
-      "call": "Call us",
-      "email": "Email",
+      "subtitle": "Fragen Sie zu {crane} an. Wir antworten mit aktuellem Status und Konditionen.",
+      "priceOnRequest": "Preis auf Anfrage",
+      "call": "Rufen Sie uns an",
+      "email": "E-Mail",
       "name": "Name",
-      "emailField": "Email address",
-      "phone": "Phone",
-      "company": "Company",
-      "message": "Message",
-      "messagePlaceholder": "Briefly describe what you needâ€¦",
-      "consent": "I agree to the processing of my data for this enquiry and have read the privacy notice.",
-      "submit": "Send enquiry",
-      "submitting": "Sendingâ€¦",
-      "successTitle": "Enquiry sent",
-      "successBody": "Thank you. Our team will get back to you.",
-      "disclaimer": "No WhatsApp CTA until a number is confirmed. Call or email for fast follow-up.",
-      "defaultSubject": "Enquiry {crane} ({reference})",
-      "defaultMessage": "I am interested in {crane} (ref. {reference}). Please share availability and pricing.",
+      "emailField": "E-Mail-Adresse",
+      "phone": "Telefon",
+      "company": "Unternehmen",
+      "message": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie kurz, was Sie benötigen…",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu und habe die Datenschutzerklärung gelesen.",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet…",
+      "successTitle": "Anfrage gesendet",
+      "successBody": "Vielen Dank. Unser Team meldet sich bei Ihnen.",
+      "disclaimer": "Für eine schnelle Rückmeldung rufen Sie uns an oder schreiben Sie eine E-Mail.",
+      "defaultSubject": "Anfrage {crane} ({reference})",
+      "defaultMessage": "Ich interessiere mich für {crane} (Ref. {reference}). Bitte teilen Sie mir Verfügbarkeit und Preis mit.",
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "phone": "Enter a valid phone number.",
-        "contactRequired": "Enter an email address or phone number.",
-        "message": "Message is too short.",
-        "consent": "Consent is required.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Geben Sie Ihren Namen ein.",
+        "email": "Geben Sie eine gültige E-Mail-Adresse ein.",
+        "phone": "Geben Sie eine gültige Telefonnummer ein.",
+        "contactRequired": "Geben Sie eine E-Mail-Adresse oder Telefonnummer ein.",
+        "message": "Die Nachricht ist zu kurz.",
+        "consent": "Ihre Zustimmung ist erforderlich.",
+        "generic": "Senden fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+        "config": "Der E-Mail-Versand ist noch nicht eingerichtet. Schreiben Sie an info@pj-cranes.com oder rufen Sie uns an."
       },
       "requestLabel": "Wobei können wir helfen?",
       "country": "Zielland",
@@ -743,122 +740,122 @@
   },
   "Contact": {
     "meta": {
-      "title": "Contact | PJ Cranes",
-      "description": "Contact PJ Cranes for available mobile cranes, sell enquiries, sourcing requests and international crane trading."
+      "title": "Kontakt | PJ Cranes",
+      "description": "Kontaktieren Sie PJ Cranes zu verfügbaren Mobilkranen, Verkaufsanfragen, Suchaufträgen und internationalem Kranhandel."
     },
     "hero": {
-      "eyebrow": "Contact",
-      "title": "Get in touch with PJ Cranes",
-      "body": "Contact us directly for available cranes, sell enquiries, sourcing requests and international delivery.",
-      "ctaMessage": "Send a message",
-      "ctaCall": "Call us",
-      "headOfficeLabel": "Location",
-      "imageAlt": "PJ Cranes mobile crane"
+      "eyebrow": "Kontakt",
+      "title": "Nehmen Sie Kontakt mit PJ Cranes auf",
+      "body": "Kontaktieren Sie uns direkt zu verfügbaren Kranen, Verkaufsanfragen, Suchaufträgen und internationaler Lieferung.",
+      "ctaMessage": "Nachricht senden",
+      "ctaCall": "Rufen Sie uns an",
+      "headOfficeLabel": "Standort",
+      "imageAlt": "Mobilkran von PJ Cranes"
     },
     "quickRoutes": {
-      "eyebrow": "How can we help?",
+      "eyebrow": "Wie können wir helfen?",
       "buy": {
-        "title": "I want to buy a crane",
-        "body": "Browse current stock and request information about a machine.",
-        "cta": "View available cranes"
+        "title": "Ich möchte einen Kran kaufen",
+        "body": "Durchsuchen Sie den aktuellen Bestand und fordern Sie Informationen zu einer Maschine an.",
+        "cta": "Verfügbare Krane ansehen"
       },
       "sell": {
-        "title": "I want to sell my crane",
-        "body": "Share the specifications and photos of your machine.",
-        "cta": "Start sell enquiry"
+        "title": "Ich möchte meinen Kran verkaufen",
+        "body": "Senden Sie uns die Spezifikationen und Fotos Ihrer Maschine.",
+        "cta": "Verkaufsanfrage starten"
       },
       "source": {
-        "title": "I am looking for a specific crane",
-        "body": "Let PJ Cranes search within the international network.",
-        "cta": "Submit sourcing request"
+        "title": "Ich suche einen bestimmten Kran",
+        "body": "Lassen Sie PJ Cranes im internationalen Netzwerk suchen.",
+        "cta": "Suchauftrag senden"
       }
     },
     "main": {
-      "eyebrow": "Direct contact",
-      "title": "How can we help you?",
-      "body": "Choose the subject of your enquiry and leave your details. We will contact you to discuss the next steps."
+      "eyebrow": "Direkter Kontakt",
+      "title": "Wie können wir Ihnen helfen?",
+      "body": "Wählen Sie den Betreff Ihrer Anfrage und hinterlassen Sie Ihre Daten. Wir melden uns, um die nächsten Schritte zu besprechen."
     },
     "details": {
-      "general": "General",
-      "sales": "Sales",
-      "email": "Email",
+      "general": "Allgemein",
+      "sales": "Vertrieb",
+      "email": "E-Mail",
       "whatsapp": "WhatsApp",
-      "whatsappAction": "Chat on WhatsApp",
-      "headOffice": "Head office",
-      "directions": "Get directions"
+      "whatsappAction": "Per WhatsApp chatten",
+      "headOffice": "Hauptsitz",
+      "directions": "Route planen"
     },
     "salesContacts": {
-      "eyebrow": "Contacts",
-      "title": "Direct contact with sales",
-      "body": "Reach us via the sales line or email. Our team can help with buying, selling and sourcing.",
-      "call": "Call",
-      "email": "Email",
-      "sharedNote": "Personal phone numbers and email addresses are not published. Use the sales line or info@pj-cranes.com."
+      "eyebrow": "Ansprechpartner",
+      "title": "Direkter Kontakt zum Vertrieb",
+      "body": "Erreichen Sie uns über die Vertriebsnummer oder per E-Mail. Unser Team hilft beim Kaufen, Verkaufen und Suchen.",
+      "call": "Anrufen",
+      "email": "E-Mail",
+      "sharedNote": "Persönliche Telefonnummern und E-Mail-Adressen werden nicht veröffentlicht. Nutzen Sie die Vertriebsnummer oder info@pj-cranes.com."
     },
     "headOffice": {
-      "eyebrow": "Head office",
+      "eyebrow": "Hauptsitz",
       "title": "PJ Cranes in Nijkerk",
-      "directions": "Get directions",
-      "callOffice": "Call head office",
-      "viewOffices": "View all offices",
-      "mapTitle": "Map of PJ Cranes head office in Nijkerk",
-      "mapLoad": "Load map",
+      "directions": "Route planen",
+      "callOffice": "Hauptsitz anrufen",
+      "viewOffices": "Alle Büros ansehen",
+      "mapTitle": "Karte des Hauptsitzes von PJ Cranes in Nijkerk",
+      "mapLoad": "Karte laden",
       "mapMarker": "PJ Cranes",
-      "internationalTitle": "Also reachable internationally",
-      "internationalBody": "View the contact details of our {count} offices and reach the location that fits your region.",
-      "internationalCta": "View our offices"
+      "internationalTitle": "Auch international erreichbar",
+      "internationalBody": "Sehen Sie die Kontaktdaten unserer {count} Büros und erreichen Sie den Standort, der zu Ihrer Region passt.",
+      "internationalCta": "Unsere Büros ansehen"
     },
     "company": {
-      "title": "Company details",
-      "legalName": "Legal name",
-      "address": "Registered address",
-      "invoiceTitle": "Invoicing details",
-      "invoiceBody": "For invoicing questions, email the general address. Bank details are not published publicly on this page."
+      "title": "Unternehmensdaten",
+      "legalName": "Firmenname",
+      "address": "Eingetragene Adresse",
+      "invoiceTitle": "Rechnungsdaten",
+      "invoiceBody": "Bei Fragen zur Rechnung schreiben Sie an die allgemeine Adresse. Bankdaten werden auf dieser Seite nicht veröffentlicht."
     },
     "finalCta": {
-      "title": "Buy, sell or source a crane?",
-      "body": "Get in touch directly or choose the route that fits your enquiry.",
-      "ctaInventory": "View available cranes",
-      "ctaContact": "Get in touch",
-      "ctaSell": "Sell your crane"
+      "title": "Einen Kran kaufen, verkaufen oder suchen?",
+      "body": "Nehmen Sie direkt Kontakt auf oder wählen Sie den Weg, der zu Ihrer Anfrage passt.",
+      "ctaInventory": "Verfügbare Krane ansehen",
+      "ctaContact": "Kontakt aufnehmen",
+      "ctaSell": "Kran verkaufen"
     },
     "form": {
       "name": "Name",
-      "email": "Email address",
-      "phone": "Phone number",
-      "company": "Company",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "company": "Unternehmen",
       "optional": "optional",
-      "subject": "Subject",
-      "subjectPlaceholder": "Select a subject",
-      "craneReference": "Reference or crane",
-      "referenceLabel": "Reference",
-      "message": "Message",
-      "contactHint": "Provide at least an email address or phone number.",
-      "sellHint": "For a full sell enquiry with specifications and photos, use the <link>sell form</link>.",
-      "sourceHint": "For a targeted sourcing request, use the <link>sourcing form</link>.",
-      "consent": "I agree to the processing of my data for this enquiry and have read the <privacy>privacy notice</privacy>.",
-      "submit": "Send message",
-      "submitting": "Sending message…",
-      "successTitle": "Your message has been sent",
-      "successBody": "PJ Cranes has received your enquiry and will contact you to discuss the next steps.",
-      "errorSummary": "Please check the highlighted fields and try again.",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Betreff wählen",
+      "craneReference": "Referenz oder Kran",
+      "referenceLabel": "Referenz",
+      "message": "Nachricht",
+      "contactHint": "Geben Sie mindestens eine E-Mail-Adresse oder Telefonnummer an.",
+      "sellHint": "Für eine vollständige Verkaufsanfrage mit Spezifikationen und Fotos nutzen Sie das <link>Verkaufsformular</link>.",
+      "sourceHint": "Für einen gezielten Suchauftrag nutzen Sie das <link>Suchformular</link>.",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu und habe die <privacy>Datenschutzerklärung</privacy> gelesen.",
+      "submit": "Nachricht senden",
+      "submitting": "Nachricht wird gesendet…",
+      "successTitle": "Ihre Nachricht wurde gesendet",
+      "successBody": "PJ Cranes hat Ihre Anfrage erhalten und meldet sich, um die nächsten Schritte zu besprechen.",
+      "errorSummary": "Bitte prüfen Sie die markierten Felder und versuchen Sie es erneut.",
       "subjects": {
-        "inventory": "Question about an available crane",
-        "sell": "Sell a crane",
-        "source": "Looking for a specific crane",
-        "transport": "Transport and documentation",
-        "general": "General contact"
+        "inventory": "Frage zu einem verfügbaren Kran",
+        "sell": "Einen Kran verkaufen",
+        "source": "Suche nach einem bestimmten Kran",
+        "transport": "Transport und Dokumentation",
+        "general": "Allgemeine Anfrage"
       },
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "phone": "Enter a valid phone number.",
-        "contactRequired": "Enter an email address or phone number.",
-        "subject": "Select a subject.",
-        "message": "Message is too short.",
-        "consent": "Consent is required.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Geben Sie Ihren Namen ein.",
+        "email": "Geben Sie eine gültige E-Mail-Adresse ein.",
+        "phone": "Geben Sie eine gültige Telefonnummer ein.",
+        "contactRequired": "Geben Sie eine E-Mail-Adresse oder Telefonnummer ein.",
+        "subject": "Wählen Sie einen Betreff.",
+        "message": "Die Nachricht ist zu kurz.",
+        "consent": "Ihre Zustimmung ist erforderlich.",
+        "generic": "Senden fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+        "config": "Der E-Mail-Versand ist noch nicht eingerichtet. Schreiben Sie an info@pj-cranes.com oder rufen Sie uns an."
       }
     }
   },
@@ -923,178 +920,178 @@
       "body": "Füllen Sie das Formular aus — wir melden uns innerhalb von 24 Stunden. Oder rufen Sie uns direkt an unter <phone>(+31) 033 20 48 020</phone>."
     },
     "sidebar": {
-      "afterTitle": "After your enquiry",
+      "afterTitle": "Nach Ihrer Anfrage",
       "afterSteps": {
-        "review": "We review the information provided.",
-        "contact": "A specialist contacts you.",
-        "next": "We discuss market position and next steps."
+        "review": "Wir prüfen die übermittelten Informationen.",
+        "contact": "Ein Spezialist nimmt Kontakt mit Ihnen auf.",
+        "next": "Wir besprechen Marktposition und nächste Schritte."
       },
-      "prepTitle": "Useful to have ready",
+      "prepTitle": "Hilfreich, wenn bereitliegt",
       "prepItems": {
-        "brandModel": "Make and model",
-        "year": "Year of manufacture",
-        "hoursMileage": "Operating hours or mileage",
-        "serial": "Type plate or serial number",
-        "photos": "Recent photos",
-        "docs": "Maintenance documentation"
+        "brandModel": "Marke und Modell",
+        "year": "Baujahr",
+        "hoursMileage": "Betriebsstunden oder Kilometerstand",
+        "serial": "Typenschild oder Seriennummer",
+        "photos": "Aktuelle Fotos",
+        "docs": "Wartungsunterlagen"
       },
-      "contactTitle": "Prefer to talk directly?",
-      "contactBody": "Contact sales for a short initial assessment.",
-      "salesLabel": "Sales",
-      "phoneLabel": "Phone",
-      "emailLabel": "Email"
+      "contactTitle": "Lieber direkt sprechen?",
+      "contactBody": "Kontaktieren Sie den Vertrieb für eine kurze Ersteinschätzung.",
+      "salesLabel": "Vertrieb",
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-Mail"
     },
     "prep": {
-      "eyebrow": "Preparation",
-      "title": "What information helps the assessment?",
-      "body": "You do not need everything available immediately. We can discuss missing information later.",
+      "eyebrow": "Vorbereitung",
+      "title": "Welche Informationen helfen bei der Bewertung?",
+      "body": "Sie müssen nicht sofort alles bereithalten. Fehlende Informationen können wir später besprechen.",
       "items": {
-        "photos": "General photos of the crane",
-        "plate": "Photo of the type plate",
-        "yearSerial": "Year and serial number",
-        "hoursMileage": "Operating hours and mileage",
-        "capacity": "Capacity and configuration",
-        "docs": "Maintenance or inspection documents"
+        "photos": "Übersichtsfotos des Krans",
+        "plate": "Foto des Typenschilds",
+        "yearSerial": "Baujahr und Seriennummer",
+        "hoursMileage": "Betriebsstunden und Kilometerstand",
+        "capacity": "Kapazität und Konfiguration",
+        "docs": "Wartungs- oder Prüfunterlagen"
       }
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Answers about selling your crane",
+      "title": "Antworten zum Verkauf Ihres Krans",
       "items": {
         "whichCranes": {
-          "question": "Which cranes can I offer?",
-          "answer": "PJ Cranes focuses on mobile and crawler cranes within the capacity range of our trading network. Unsure whether your machine fits? Contact us for an initial indication."
+          "question": "Welche Krane kann ich anbieten?",
+          "answer": "PJ Cranes konzentriert sich auf Mobil- und Raupenkrane im Kapazitätsbereich unseres Handelsnetzwerks. Unsicher, ob Ihre Maschine passt? Kontaktieren Sie uns für eine erste Einschätzung."
         },
         "allSpecs": {
-          "question": "Do I need to provide all specifications immediately?",
-          "answer": "No. Enter what you have available. Missing specifications can be completed together later during the conversation."
+          "question": "Muss ich sofort alle Spezifikationen angeben?",
+          "answer": "Nein. Geben Sie an, was Sie zur Hand haben. Fehlende Angaben können wir später im Gespräch gemeinsam ergänzen."
         },
         "photos": {
-          "question": "Which photos are important?",
-          "answer": "Overview shots, cabin, type plate, meter readings and carrier help most. Maintenance documentation is useful when available."
+          "question": "Welche Fotos sind wichtig?",
+          "answer": "Am hilfreichsten sind Übersichtsaufnahmen, Kabine, Typenschild, Zählerstände und Unterwagen. Wartungsunterlagen sind nützlich, wenn vorhanden."
         },
         "valuation": {
-          "question": "How is the value of my crane determined?",
-          "answer": "We review brand, model, year, condition, hours or mileage and current market demand. Then we discuss market position and a suitable sales route."
+          "question": "Wie wird der Wert meines Krans bestimmt?",
+          "answer": "Wir betrachten Marke, Modell, Baujahr, Zustand, Betriebsstunden oder Kilometerstand und die aktuelle Marktnachfrage. Danach besprechen wir Marktposition und einen passenden Verkaufsweg."
         },
         "docsTransport": {
-          "question": "Does PJ Cranes help with documentation and transport?",
-          "answer": "Documentation and transport can form part of the next steps after agreement. What is required is coordinated per machine."
+          "question": "Hilft PJ Cranes bei Dokumentation und Transport?",
+          "answer": "Dokumentation und Transport können nach einer Einigung Teil der nächsten Schritte sein. Was nötig ist, wird pro Maschine abgestimmt."
         },
         "responseTime": {
-          "question": "How quickly will someone get in touch?",
-          "answer": "After receiving your enquiry we review the details and contact you to discuss the options."
+          "question": "Wie schnell meldet sich jemand?",
+          "answer": "Nach Eingang Ihrer Anfrage prüfen wir die Angaben und melden uns, um die Möglichkeiten zu besprechen."
         }
       }
     },
     "finalCta": {
-      "title": "Still have questions about selling your crane?",
-      "body": "Contact PJ Cranes directly to discuss your machine and possible next steps.",
-      "contact": "Contact us",
-      "callSales": "Call sales"
+      "title": "Noch Fragen zum Verkauf Ihres Krans?",
+      "body": "Kontaktieren Sie PJ Cranes direkt, um Ihre Maschine und mögliche nächste Schritte zu besprechen.",
+      "contact": "Kontakt aufnehmen",
+      "callSales": "Vertrieb anrufen"
     },
     "form": {
       "steps": {
-        "contact": "Your details",
-        "machine": "Machine",
-        "files": "Files",
-        "review": "Review"
+        "contact": "Ihre Daten",
+        "machine": "Maschine",
+        "files": "Dateien",
+        "review": "Prüfen"
       },
-      "stepAnnounce": "Step {current} of {total}: {label}",
+      "stepAnnounce": "Schritt {current} von {total}: {label}",
       "sections": {
-        "contact": "Your details",
-        "machine": "Machine details",
-        "attachments": "Photos & documents",
-        "review": "Review your enquiry"
+        "contact": "Ihre Daten",
+        "machine": "Maschinendaten",
+        "attachments": "Fotos & Dokumente",
+        "review": "Anfrage prüfen"
       },
       "name": "Name",
-      "email": "Email address",
-      "phone": "Phone number",
-      "company": "Company",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "company": "Unternehmen",
       "companyOptional": "optional",
-      "preferredContact": "Preferred contact",
+      "preferredContact": "Bevorzugter Kontaktweg",
       "preferredContactOptional": "optional",
       "preferredOptions": {
-        "phone": "Phone",
+        "phone": "Telefon",
         "whatsapp": "WhatsApp",
-        "email": "Email"
+        "email": "E-Mail"
       },
-      "contactHint": "Provide at least an email address or phone number.",
-      "manufacturer": "Manufacturer",
-      "manufacturerOther": "Other",
-      "manufacturerOtherLabel": "Manufacturer (other)",
-      "model": "Model",
-      "year": "Year of manufacture",
+      "contactHint": "Geben Sie mindestens eine E-Mail-Adresse oder Telefonnummer an.",
+      "manufacturer": "Hersteller",
+      "manufacturerOther": "Sonstige",
+      "manufacturerOtherLabel": "Hersteller (sonstige)",
+      "model": "Modell",
+      "year": "Baujahr",
       "yearOptional": "optional",
-      "capacityTons": "Capacity in tonnes",
+      "capacityTons": "Kapazität in Tonnen",
       "capacityOptional": "optional",
-      "serialNumber": "Serial number",
+      "serialNumber": "Seriennummer",
       "serialOptional": "optional",
-      "operatingHours": "Operating hours",
+      "operatingHours": "Betriebsstunden",
       "hoursOptional": "optional",
-      "mileageKm": "Mileage",
+      "mileageKm": "Kilometerstand",
       "mileageOptional": "optional",
-      "location": "Location",
-      "askingPrice": "Expected asking price",
+      "location": "Standort",
+      "askingPrice": "Erwarteter Verkaufspreis",
       "askingPriceOptional": "optional",
-      "askingCurrency": "Currency",
+      "askingCurrency": "Währung",
       "askingCurrencyOptional": "optional",
-      "conditionNotes": "Condition and remarks",
+      "conditionNotes": "Zustand und Anmerkungen",
       "conditionOptional": "optional",
-      "machineHint": "No problem if you do not have every specification available right away.",
-      "message": "Additional information",
+      "machineHint": "Kein Problem, wenn Sie nicht jede Spezifikation sofort zur Hand haben.",
+      "message": "Weitere Informationen",
       "messageOptional": "optional",
-      "messagePlaceholder": "Anything else we should knowâ€¦",
-      "attachmentsTitle": "Add photos and documents",
-      "attachmentsBody": "Good photos and documentation help us assess the machine more accurately.",
+      "messagePlaceholder": "Was sollten wir sonst noch wissen…",
+      "attachmentsTitle": "Fotos und Dokumente hinzufügen",
+      "attachmentsBody": "Gute Fotos und Unterlagen helfen uns, die Maschine genauer zu bewerten.",
       "attachmentsGuidance": {
-        "overview": "Overview photos",
-        "cabin": "Cabin",
-        "plate": "Type plate",
-        "meters": "Meter readings",
-        "carrier": "Carrier",
-        "docs": "Maintenance documentation"
+        "overview": "Übersichtsfotos",
+        "cabin": "Kabine",
+        "plate": "Typenschild",
+        "meters": "Zählerstände",
+        "carrier": "Unterwagen",
+        "docs": "Wartungsunterlagen"
       },
-      "attachmentsDrop": "Drop files here or choose files",
-      "attachmentsBrowse": "Choose files",
-      "attachmentsLimits": "Maximum {maxFiles} files, {maxMb} MB per file. Formats: {formats}.",
-      "attachmentsSelectedNote": "Selected â€” shared with your enquiry during follow-up contact.",
-      "attachmentsRemove": "Remove",
-      "attachmentsEmpty": "No files selected yet",
-      "notProvided": "Not provided",
-      "edit": "Edit",
-      "reviewContact": "Contact details",
-      "reviewMachine": "Machine details",
-      "reviewFiles": "Photos and documents",
-      "reviewMessage": "Additional information",
-      "consent": "I agree to the processing of my data for this sell enquiry and have read the <privacy>privacy notice</privacy>.",
-      "nextMachine": "Continue to machine details",
-      "nextFiles": "Continue to photos and documents",
-      "nextReview": "Review enquiry",
-      "back": "Back",
-      "submit": "Send sell enquiry",
-      "submitting": "Sending enquiryâ€¦",
-      "successTitle": "Your sell enquiry has been received",
-      "successBody": "We have received your crane details and will contact you to discuss the options.",
-      "successReference": "Reference",
-      "successHome": "Back to homepage",
-      "successInventory": "Browse available cranes",
-      "errorSummary": "Please check the highlighted fields before continuing.",
+      "attachmentsDrop": "Dateien hierher ziehen oder auswählen",
+      "attachmentsBrowse": "Dateien auswählen",
+      "attachmentsLimits": "Maximal {maxFiles} Dateien, {maxMb} MB pro Datei. Formate: {formats}.",
+      "attachmentsSelectedNote": "Ausgewählt — wird im weiteren Kontakt zu Ihrer Anfrage berücksichtigt.",
+      "attachmentsRemove": "Entfernen",
+      "attachmentsEmpty": "Noch keine Dateien ausgewählt",
+      "notProvided": "Nicht angegeben",
+      "edit": "Bearbeiten",
+      "reviewContact": "Kontaktdaten",
+      "reviewMachine": "Maschinendaten",
+      "reviewFiles": "Fotos und Dokumente",
+      "reviewMessage": "Weitere Informationen",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Verkaufsanfrage zu und habe die <privacy>Datenschutzerklärung</privacy> gelesen.",
+      "nextMachine": "Weiter zu den Maschinendaten",
+      "nextFiles": "Weiter zu Fotos und Dokumenten",
+      "nextReview": "Anfrage prüfen",
+      "back": "Zurück",
+      "submit": "Verkaufsanfrage senden",
+      "submitting": "Anfrage wird gesendet…",
+      "successTitle": "Ihre Verkaufsanfrage ist eingegangen",
+      "successBody": "Wir haben die Daten Ihres Krans erhalten und melden uns, um die Möglichkeiten zu besprechen.",
+      "successReference": "Referenz",
+      "successHome": "Zur Startseite",
+      "successInventory": "Verfügbare Krane ansehen",
+      "errorSummary": "Bitte prüfen Sie die markierten Felder, bevor Sie fortfahren.",
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "phone": "Enter a valid phone number.",
-        "contactRequired": "Enter an email address or phone number.",
-        "manufacturer": "Enter the manufacturer.",
-        "model": "Enter the model.",
-        "year": "Enter a valid year.",
-        "location": "Enter the machine location.",
-        "consent": "Consent is required.",
-        "fileTooMany": "You can select a maximum of {maxFiles} files.",
-        "fileTooLarge": "â€œ{name}â€ is too large. Maximum is {maxMb} MB per file.",
-        "fileInvalidType": "â€œ{name}â€ is not a supported file type.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Geben Sie Ihren Namen ein.",
+        "email": "Geben Sie eine gültige E-Mail-Adresse ein.",
+        "phone": "Geben Sie eine gültige Telefonnummer ein.",
+        "contactRequired": "Geben Sie eine E-Mail-Adresse oder Telefonnummer ein.",
+        "manufacturer": "Geben Sie den Hersteller ein.",
+        "model": "Geben Sie das Modell ein.",
+        "year": "Geben Sie ein gültiges Baujahr ein.",
+        "location": "Geben Sie den Standort der Maschine ein.",
+        "consent": "Ihre Zustimmung ist erforderlich.",
+        "fileTooMany": "Sie können maximal {maxFiles} Dateien auswählen.",
+        "fileTooLarge": "„{name}“ ist zu groß. Maximal {maxMb} MB pro Datei.",
+        "fileInvalidType": "„{name}“ ist kein unterstützter Dateityp.",
+        "generic": "Senden fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+        "config": "Der E-Mail-Versand ist noch nicht eingerichtet. Schreiben Sie an info@pj-cranes.com oder rufen Sie uns an."
       },
       "attachments": "Dateien auswählen",
       "attachmentsHint": "Fotos und Dokumente helfen bei der Bewertung. Sie können diese auch später nachreichen.",
@@ -1103,149 +1100,149 @@
   },
   "Find": {
     "meta": {
-      "title": "Find a crane",
-      "description": "Tell PJ Cranes what machine you need. We source mobile and crawler cranes across brands and capacity ranges through our international network."
+      "title": "Kran finden",
+      "description": "Sagen Sie PJ Cranes, welche Maschine Sie brauchen. Wir suchen Mobil- und Raupenkrane aller Marken und Kapazitätsklassen über unser internationales Netzwerk."
     },
     "hero": {
-      "badge": "International sourcing",
-      "title": "Find a crane",
-      "body": "Not in stock? Share your requirements — we search our network for the right mobile or crawler crane."
+      "badge": "Internationale Suche",
+      "title": "Kran finden",
+      "body": "Nicht auf Lager? Teilen Sie uns Ihre Anforderungen mit — wir suchen in unserem Netzwerk nach dem passenden Mobil- oder Raupenkran."
     },
     "trust": {
       "network": {
-        "title": "International network",
-        "body": "Access to machines and suppliers in dozens of countries through our proven trading network."
+        "title": "Internationales Netzwerk",
+        "body": "Zugang zu Maschinen und Lieferanten in Dutzenden Ländern über unser bewährtes Handelsnetzwerk."
       },
       "match": {
-        "title": "Targeted search",
-        "body": "We match brand, model, capacity and timing with what is actually available."
+        "title": "Gezielte Suche",
+        "body": "Wir gleichen Marke, Modell, Kapazität und Zeitplan mit dem tatsächlichen Angebot ab."
       },
       "range": {
-        "title": "20–1000 tonnes",
-        "body": "From compact city cranes to heavy all-terrain and crawler cranes for demanding projects."
+        "title": "20–1000 Tonnen",
+        "body": "Von kompakten City-Kranen bis zu schweren All-Terrain- und Raupenkranen für anspruchsvolle Projekte."
       },
       "handover": {
-        "title": "Through to handover",
-        "body": "Documentation, export and transport can be included once the deal is agreed."
+        "title": "Bis zur Übergabe",
+        "body": "Dokumentation, Export und Transport können nach der Einigung hinzukommen."
       }
     },
     "process": {
-      "eyebrow": "How it works",
-      "title": "Our sourcing process",
-      "body": "You describe the machine you need. We search our network actively, shortlist suitable options and guide you to a clear next step.",
+      "eyebrow": "So funktioniert es",
+      "title": "Unser Suchprozess",
+      "body": "Sie beschreiben die Maschine, die Sie brauchen. Wir suchen aktiv in unserem Netzwerk, erstellen eine Auswahl passender Optionen und führen Sie zu einem klaren nächsten Schritt.",
       "steps": {
         "brief": {
-          "title": "Share your brief",
-          "body": "Brand, model, capacity, year, destination and timing — the clearer the brief, the faster we can search."
+          "title": "Anforderungen mitteilen",
+          "body": "Marke, Modell, Kapazität, Baujahr, Bestimmungsort und Zeitplan — je klarer die Angaben, desto schneller können wir suchen."
         },
         "search": {
-          "title": "Active market search",
-          "body": "We check available stock and source through our international network for matching machines."
+          "title": "Aktive Marktsuche",
+          "body": "Wir prüfen den verfügbaren Bestand und suchen über unser internationales Netzwerk nach passenden Maschinen."
         },
         "shortlist": {
-          "title": "Shortlist of options",
-          "body": "You receive a focused selection with relevant specs so you can compare machines without noise."
+          "title": "Auswahl an Optionen",
+          "body": "Sie erhalten eine gezielte Auswahl mit relevanten Daten, damit Sie Maschinen ohne Ballast vergleichen können."
         },
         "verify": {
-          "title": "Review & verification",
-          "body": "Together we review condition, documentation and practical feasibility before you proceed."
+          "title": "Prüfung & Verifizierung",
+          "body": "Gemeinsam prüfen wir Zustand, Dokumentation und praktische Machbarkeit, bevor Sie weitergehen."
         },
         "close": {
-          "title": "Deal, docs & delivery",
-          "body": "Once agreed, we handle the next steps: paperwork, payment and transport where needed."
+          "title": "Abschluss, Papiere & Lieferung",
+          "body": "Nach der Einigung übernehmen wir die nächsten Schritte: Papiere, Zahlung und bei Bedarf Transport."
         }
       }
     },
     "formSection": {
-      "title": "Submit your sourcing request",
-      "body": "Fill in the form — more detail helps. Or call us directly on <phone>(+31) 033 20 48 020</phone>."
+      "title": "Suchauftrag senden",
+      "body": "Füllen Sie das Formular aus — je mehr Details, desto besser. Oder rufen Sie uns direkt an unter <phone>(+31) 033 20 48 020</phone>."
     },
     "inventoryCta": {
-      "eyebrow": "Stock",
-      "title": "Want to browse current stock first?",
-      "body": "The machine you need may already be listed. Filter by brand, type and capacity in our catalogue.",
-      "cta": "View available cranes"
+      "eyebrow": "Bestand",
+      "title": "Lieber zuerst den aktuellen Bestand ansehen?",
+      "body": "Vielleicht ist die gesuchte Maschine schon gelistet. Filtern Sie in unserem Katalog nach Marke, Typ und Kapazität.",
+      "cta": "Verfügbare Krane ansehen"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Answers about finding a crane",
+      "title": "Antworten zur Kransuche",
       "items": {
         "stockVsSource": {
-          "question": "Should I check stock first?",
-          "answer": "That can help. If the right machine is not listed, we source targeted options through our network based on your requirements."
+          "question": "Sollte ich zuerst den Bestand prüfen?",
+          "answer": "Das kann helfen. Ist die passende Maschine nicht gelistet, suchen wir anhand Ihrer Anforderungen gezielt über unser Netzwerk."
         },
         "whatToShare": {
-          "question": "What information should I provide?",
-          "answer": "Preferably brand or model, capacity, type, preferred year, destination country and timing. Missing details can be added later."
+          "question": "Welche Informationen sollte ich angeben?",
+          "answer": "Am besten Marke oder Modell, Kapazität, Typ, gewünschtes Baujahr, Zielland und Zeitplan. Fehlende Angaben können später ergänzt werden."
         },
         "howLong": {
-          "question": "How long does a sourcing request take?",
-          "answer": "It depends on the specification and market supply. After your request we contact you with an initial assessment and any available options."
+          "question": "Wie lange dauert ein Suchauftrag?",
+          "answer": "Das hängt von der Spezifikation und dem Marktangebot ab. Nach Ihrer Anfrage melden wir uns mit einer ersten Einschätzung und eventuell verfügbaren Optionen."
         },
         "brands": {
-          "question": "Which brands do you source?",
-          "answer": "We work with brands such as Liebherr, Grove, Terex-Demag and Tadano Faun, and also consider other brands when they better match your brief."
+          "question": "Welche Marken suchen Sie?",
+          "answer": "Wir arbeiten mit Marken wie Liebherr, Grove, Terex-Demag und Tadano Faun und berücksichtigen auch andere Marken, wenn sie besser zu Ihren Anforderungen passen."
         },
         "inspection": {
-          "question": "Can you help assess machine condition?",
-          "answer": "Yes. We help review specifications, documentation and practical points of attention before you decide."
+          "question": "Können Sie bei der Beurteilung des Maschinenzustands helfen?",
+          "answer": "Ja. Wir helfen bei der Prüfung von Spezifikationen, Dokumentation und praktischen Punkten, bevor Sie entscheiden."
         },
         "docsTransport": {
-          "question": "Does PJ Cranes help with documentation and transport?",
-          "answer": "Documentation, export and transport can be part of the next steps after agreement. Exact needs are aligned per machine."
+          "question": "Hilft PJ Cranes bei Dokumentation und Transport?",
+          "answer": "Dokumentation, Export und Transport können nach einer Einigung Teil der nächsten Schritte sein. Der genaue Bedarf wird pro Maschine abgestimmt."
         }
       }
     },
     "finalCta": {
-      "title": "Still have questions about your search?",
-      "body": "Contact PJ Cranes directly to discuss requirements, timing and possible machines.",
-      "contact": "Contact us",
-      "callSales": "Call sales"
+      "title": "Noch Fragen zu Ihrer Suche?",
+      "body": "Kontaktieren Sie PJ Cranes direkt, um Anforderungen, Zeitplan und mögliche Maschinen zu besprechen.",
+      "contact": "Kontakt aufnehmen",
+      "callSales": "Vertrieb anrufen"
     },
     "form": {
       "sections": {
-        "contact": "Your details",
-        "requirements": "Requirements"
+        "contact": "Ihre Daten",
+        "requirements": "Anforderungen"
       },
       "name": "Name",
-      "email": "Email address",
-      "phone": "Phone",
-      "company": "Company",
-      "manufacturer": "Preferred manufacturer",
-      "model": "Preferred model",
-      "craneType": "Crane type",
-      "yearMin": "Year from",
-      "yearMax": "Year to",
-      "capacityMinTons": "Min. capacity (t)",
-      "capacityMaxTons": "Max. capacity (t)",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefon",
+      "company": "Unternehmen",
+      "manufacturer": "Bevorzugter Hersteller",
+      "model": "Bevorzugtes Modell",
+      "craneType": "Krantyp",
+      "yearMin": "Baujahr von",
+      "yearMax": "Baujahr bis",
+      "capacityMinTons": "Min. Kapazität (t)",
+      "capacityMaxTons": "Max. Kapazität (t)",
       "budget": "Budget",
-      "budgetPlaceholder": "Indicative / on request",
-      "destinationCountry": "Destination country",
-      "timeframe": "Timeframe",
-      "timeframePlaceholder": "e.g. within 3 months",
-      "message": "Requirements",
-      "messagePlaceholder": "Describe the job, specs that matter, and any must-havesâ€¦",
-      "consent": "I agree to the processing of my data for this sourcing request and have read the privacy notice.",
-      "submit": "Send sourcing request",
-      "submitting": "Sendingâ€¦",
-      "successTitle": "Request sent",
-      "successBody": "Thank you. We will review your requirements and follow up with options.",
+      "budgetPlaceholder": "Richtwert / auf Anfrage",
+      "destinationCountry": "Zielland",
+      "timeframe": "Zeitrahmen",
+      "timeframePlaceholder": "z. B. innerhalb von 3 Monaten",
+      "message": "Anforderungen",
+      "messagePlaceholder": "Beschreiben Sie den Einsatz, wichtige Spezifikationen und Muss-Kriterien…",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diesen Suchauftrag zu und habe die Datenschutzerklärung gelesen.",
+      "submit": "Suchauftrag senden",
+      "submitting": "Wird gesendet…",
+      "successTitle": "Anfrage gesendet",
+      "successBody": "Vielen Dank. Wir prüfen Ihre Anforderungen und melden uns mit Optionen.",
       "types": {
-        "any": "Any type",
-        "mobile": "Mobile",
-        "crawler": "Crawler",
-        "all_terrain": "All terrain",
-        "city": "City",
-        "rough_terrain": "Rough terrain",
-        "other": "Other"
+        "any": "Beliebiger Typ",
+        "mobile": "Mobilkran",
+        "crawler": "Raupenkran",
+        "all_terrain": "All-Terrain",
+        "city": "City-Kran",
+        "rough_terrain": "Rough-Terrain",
+        "other": "Sonstige"
       },
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "message": "Please describe your requirements (at least a short message).",
-        "consent": "Consent is required.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Geben Sie Ihren Namen ein.",
+        "email": "Geben Sie eine gültige E-Mail-Adresse ein.",
+        "message": "Bitte beschreiben Sie Ihre Anforderungen (mindestens eine kurze Nachricht).",
+        "consent": "Ihre Zustimmung ist erforderlich.",
+        "generic": "Senden fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+        "config": "Der E-Mail-Versand ist noch nicht eingerichtet. Schreiben Sie an info@pj-cranes.com oder rufen Sie uns an."
       },
       "similarNotice": "Ihre Anfrage ist auf Basis des verkauften {crane} vorausgefüllt. Passen Sie sie gerne an.",
       "similarMessage": "Ich suche einen Kran vergleichbar mit dem {crane} ({year}, {capacity} t, Ref. {reference})."
@@ -1254,12 +1251,12 @@
   "About": {
     "meta": {
       "title": "Über PJ Cranes | Internationaler Handel mit Mobilkranen",
-      "description": "Erfahren Sie mehr über PJ Cranes, Spezialist für internationalen An- und Verkauf gebrauchter Mobilkrane über fünf weltweite Büros."
+      "description": "Erfahren Sie mehr über PJ Cranes, Spezialist für internationalen An- und Verkauf gebrauchter Mobilkrane über vier weltweite Büros."
     },
     "hero": {
       "eyebrow": "Über PJ Cranes",
       "title": "Mehr als 20 Jahre internationaler Kranhandel",
-      "subtitle": "PJ Cranes verbindet Käufer und Verkäufer gebrauchter Mobilkrane über fünf Büros und ein weltweites Netzwerk.",
+      "subtitle": "PJ Cranes verbindet Käufer und Verkäufer gebrauchter Mobilkrane über vier Büros und ein weltweites Netzwerk.",
       "support": "Von Ankauf und Verkauf bis Dokumentation und Übergabe.",
       "ctaInventory": "Verfügbare Krane ansehen",
       "ctaContact": "Kontakt aufnehmen",
@@ -1280,7 +1277,7 @@
       "title": "Spezialisierte Marktkenntnis, weltweit eingesetzt",
       "body": [
         "PJ Cranes ist seit mehr als 20 Jahren im An- und Verkauf gebrauchter Mobilkrane tätig. Vom Hauptsitz in Nijkerk begleiten wir internationale Käufer und Verkäufer bei Maschinen von Marken wie Liebherr, Grove, Terex-Demag und Tadano Faun.",
-        "Mit fünf Büros und einem internationalen Netzwerk verbinden wir verfügbare Maschinen mit relevanter Nachfrage — typisch von etwa 20 bis 1000 Tonnen. Spezifikationen stehen pro Inserat; Preise immer auf Anfrage.",
+        "Mit vier Büros und einem internationalen Netzwerk verbinden wir verfügbare Maschinen mit relevanter Nachfrage — typisch von etwa 20 bis 1000 Tonnen. Spezifikationen stehen pro Inserat; Preise immer auf Anfrage.",
         "Sie behalten einen festen Ansprechpartner: von der ersten Such- oder Verkaufsanfrage bis zu Dokumentation, Exportkoordination und Transport, wenn erforderlich."
       ],
       "ctaInventory": "Unseren Bestand ansehen",
@@ -1321,10 +1318,6 @@
           "city": "Nijkerk",
           "country": "Niederlande"
         },
-        "germany": {
-          "city": "",
-          "country": "Deutschland"
-        },
         "turkiye": {
           "city": "",
           "country": "Türkiye"
@@ -1349,7 +1342,7 @@
         },
         "network": {
           "title": "Internationales Netzwerk",
-          "body": "Verbindung verfügbarer Maschinen mit relevanten potenziellen Käufern über fünf Büros."
+          "body": "Verbindung verfügbarer Maschinen mit relevanten potenziellen Käufern über vier Büros."
         },
         "communication": {
           "title": "Klare Kommunikation",
@@ -1372,100 +1365,104 @@
   "Faq": {
     "meta": {
       "title": "FAQ",
-      "description": "Answers about delivery, documents, origin, payment and inspection at PJ Cranes."
+      "description": "Antworten zu Lieferung, Dokumenten, Herkunft, Zahlung und Besichtigung bei PJ Cranes."
     },
     "eyebrow": "FAQ",
-    "title": "Frequently asked questions",
-    "subtitle": "Short answers on how we buy, sell and deliver cranes. Missing your question? Contact us.",
-    "cta": "Contact us",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Kurze Antworten dazu, wie wir Krane kaufen, verkaufen und liefern. Ihre Frage ist nicht dabei? Kontaktieren Sie uns.",
+    "cta": "Kontakt aufnehmen",
     "items": {
       "countries": {
-        "question": "Which countries have you been in business with?",
-        "answer": "P.J. Cranes has done business with different people and companies all over the world. Feel free to contact us if you have a question regarding the possibilities of buying or selling from a specific continent or country."
+        "question": "Mit welchen Ländern haben Sie bereits Geschäfte gemacht?",
+        "answer": "P.J. Cranes hat mit Personen und Unternehmen auf der ganzen Welt Geschäfte gemacht. Kontaktieren Sie uns gern, wenn Sie Fragen zu den Möglichkeiten des Kaufs oder Verkaufs in einem bestimmten Kontinent oder Land haben."
       },
       "experience": {
-        "question": "How long has P.J. Cranes been in business for?",
-        "answer": "P.J. Cranes has been a nested name within the crane industry for more than 20 years. With a family that has been in the market for decades, P.J. Cranes has a wide knowledge and a great network which guarantees the best service and most suitable offer for our clients."
+        "question": "Wie lange ist P.J. Cranes schon im Geschäft?",
+        "answer": "P.J. Cranes ist seit über 20 Jahren ein fester Name in der Kranbranche. Als Familie, die seit Jahrzehnten im Markt tätig ist, verfügt P.J. Cranes über umfassendes Wissen und ein starkes Netzwerk — das garantiert besten Service und das passendste Angebot für unsere Kunden."
       },
       "delivery": {
-        "question": "Does P.J. Cranes organize delivery?",
-        "answer": "At a client's request, we will deliver cranes wherever you desire (from port to doorstep). Delivery is not included in the original cost of the crane and will be calculated separately."
+        "question": "Organisiert P.J. Cranes die Lieferung?",
+        "answer": "Auf Wunsch liefern wir Krane überallhin (vom Hafen bis vor die Tür). Die Lieferung ist nicht im Kranpreis enthalten und wird separat berechnet."
       },
       "origin": {
-        "question": "Where do the cranes P.J. Cranes sells come from?",
-        "answer": "P.J. Cranes B.V. sources the best cranes from all over the world. We have a vast and reliable network of suppliers of used cranes with whom we have been working with for years. The majority of the cranes we sell are originating Germany, France, the Netherlands and Belgium."
+        "question": "Woher stammen die Krane, die P.J. Cranes verkauft?",
+        "answer": "P.J. Cranes B.V. bezieht die besten Krane aus der ganzen Welt. Wir verfügen über ein großes, zuverlässiges Netzwerk von Lieferanten gebrauchter Krane, mit denen wir seit Jahren zusammenarbeiten. Die meisten unserer Krane stammen aus Deutschland, Frankreich, den Niederlanden und Belgien."
       },
       "condition": {
-        "question": "How is the condition of the cranes?",
-        "answer": "All details of each crane are described on the technical data sheets. We sell cranes from different suppliers, origins and construction years. Evidently all our cranes are in perfect working condition and are carefully investigated before selling."
+        "question": "In welchem Zustand sind die Krane?",
+        "answer": "Alle Details zu jedem Kran stehen in den technischen Datenblättern. Wir verkaufen Krane verschiedener Lieferanten, Herkunft und Baujahre. Selbstverständlich sind alle unsere Krane voll funktionsfähig und werden vor dem Verkauf sorgfältig geprüft."
       },
       "payment": {
-        "question": "What are the payment methods P.J. Cranes uses?",
-        "answer": "We accept payments through TT bank transfer or via a letter of credit (L/C)."
+        "question": "Welche Zahlungsmethoden nutzt P.J. Cranes?",
+        "answer": "Wir akzeptieren Zahlungen per Banküberweisung (TT) oder per Akkreditiv (L/C)."
       },
       "inspectionVisit": {
-        "question": "How and where can I see the cranes?",
-        "answer": "The cranes can be inspected in our yard in the Netherlands or at our suppliers' terrain. To keep costs as low as possible we don't ship to the Netherlands if it isn't necessary."
+        "question": "Wie und wo kann ich die Krane besichtigen?",
+        "answer": "Die Krane können auf unserem Gelände in den Niederlanden oder beim Lieferanten besichtigt werden. Um die Kosten so gering wie möglich zu halten, transportieren wir nicht unnötig in die Niederlande."
       },
       "documents": {
-        "question": "What documents will I get when purchasing a crane?",
-        "answer": "Usually these include the crane's passport, certificate of origin, service book, parts catalog, user manual and other necessary documents. For the exact content of the package of documents, we will inform you at the time of the crane purchase."
+        "question": "Welche Dokumente erhalte ich beim Kauf eines Krans?",
+        "answer": "In der Regel gehören dazu Kranpass, Ursprungszeugnis, Servicebuch, Ersatzteilkatalog, Bedienungsanleitung und weitere notwendige Dokumente. Über den genauen Inhalt des Dokumentenpakets informieren wir Sie beim Kauf."
       },
       "thirdPartyInspection": {
-        "question": "Does P.J. Cranes supply third party inspection reports?",
-        "answer": "We organize third party inspections of the crane on request."
+        "question": "Stellt P.J. Cranes Prüfberichte von Dritten bereit?",
+        "answer": "Auf Wunsch organisieren wir eine Inspektion des Krans durch Dritte."
       },
       "deliveryTime": {
-        "question": "How long will it take to have a purchased crane delivered?",
-        "answer": "Usually all of the cranes we offer are available immediately. Delivery times differ on the current location of a crane. Feel free to get in touch with us when you have a question regarding the delivery time of a certain crane."
+        "question": "Wie lange dauert die Lieferung eines gekauften Krans?",
+        "answer": "In der Regel sind alle angebotenen Krane sofort verfügbar. Die Lieferzeit hängt vom aktuellen Standort des Krans ab. Kontaktieren Sie uns gern bei Fragen zur Lieferzeit eines bestimmten Krans."
       },
       "ownership": {
-        "question": "Does P.J. Cranes own the cranes they sell?",
-        "answer": "80% of our stock is owned by us. For the other 20% we work on a consignment base with our suppliers."
+        "question": "Gehören P.J. Cranes die Krane, die verkauft werden?",
+        "answer": "80 % unseres Bestands ist unser Eigentum. Für die übrigen 20 % arbeiten wir auf Kommissionsbasis mit unseren Lieferanten."
       }
     }
   },
   "Privacy": {
     "meta": {
-      "title": "Privacy",
-      "description": "Privacy notice for PJ Cranes B.V. on how personal data is processed via the website and forms."
+      "title": "Datenschutz",
+      "description": "Datenschutzerklärung der PJ Cranes B.V. zur Verarbeitung personenbezogener Daten über die Website und Formulare."
     },
-    "eyebrow": "Legal",
-    "title": "Privacy notice",
-    "subtitle": "How we process personal data when you use our site or send an enquiry.",
-    "reviewNote": "Draft for this redesign â€” have counsel review before production launch."
+    "eyebrow": "Rechtliches",
+    "title": "Datenschutzerklärung",
+    "subtitle": "Wie wir personenbezogene Daten verarbeiten, wenn Sie unsere Website nutzen oder eine Anfrage senden.",
+    "reviewNote": "Entwurf für dieses Redesign — vor dem Livegang juristisch prüfen lassen."
   },
   "Terms": {
     "meta": {
-      "title": "Terms and conditions",
-      "description": "General terms and conditions of PJ Cranes B.V. (version May 2025)."
+      "title": "Allgemeine Geschäftsbedingungen",
+      "description": "Allgemeine Geschäftsbedingungen der PJ Cranes B.V. (Fassung Mai 2025)."
     },
-    "eyebrow": "Legal",
-    "title": "General terms and conditions PJ Cranes B.V.",
-    "subtitle": "Applicable to quotations, agreements and deliveries by PJ Cranes â€” B2B only.",
-    "articleLabel": "Article {number}",
-    "dutchPrevails": "The Dutch version of these terms prevails over any translation.",
-    "reviewNote": "Have counsel review before production launch."
+    "eyebrow": "Rechtliches",
+    "title": "Allgemeine Geschäftsbedingungen PJ Cranes B.V.",
+    "subtitle": "Gültig für Angebote, Verträge und Lieferungen von PJ Cranes — nur B2B.",
+    "articleLabel": "Artikel {number}",
+    "dutchPrevails": "Die niederländische Fassung dieser Bedingungen hat Vorrang vor jeder Übersetzung. Der folgende Text ist die englische Fassung.",
+    "reviewNote": "Vor dem Livegang juristisch prüfen lassen."
   },
   "News": {
     "meta": {
       "title": "News",
-      "description": "News and updates from PJ Cranes on inventory and company announcements."
+      "description": "News und Updates von PJ Cranes zu Bestand und Unternehmensmeldungen."
     },
     "eyebrow": "News",
     "title": "Newsroom",
-    "subtitle": "Market updates, new arrivals and company news will appear here.",
+    "subtitle": "Hier erscheinen Marktupdates, Neuzugänge und Unternehmensnews.",
     "empty": {
-      "title": "No articles yet",
-      "description": "There are no published news articles at the moment. Browse inventory or contact us for current machines.",
-      "ctaInventory": "View inventory",
-      "ctaContact": "Contact"
+      "title": "Noch keine Beiträge",
+      "description": "Derzeit sind keine Beiträge veröffentlicht. Sehen Sie sich den Bestand an oder kontaktieren Sie uns zu aktuellen Maschinen.",
+      "ctaInventory": "Bestand ansehen",
+      "ctaContact": "Kontakt"
     },
     "notFound": {
-      "title": "Article not found",
-      "description": "This news article does not exist or is not published.",
-      "back": "Back to news"
+      "title": "Beitrag nicht gefunden",
+      "description": "Dieser Beitrag existiert nicht oder ist nicht veröffentlicht.",
+      "back": "Zurück zu den News"
     },
-    "published": "Published {date}"
+    "published": "Veröffentlicht am {date}"
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben."
   }
 }

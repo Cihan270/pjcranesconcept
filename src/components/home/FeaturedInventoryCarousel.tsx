@@ -9,7 +9,7 @@ import {
   type ReactNode,
 } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useReducedMotion } from "motion/react";
 import { Link } from "@/i18n/navigation";
 import { SectionHeader } from "@/components/shared/SectionHeader";
@@ -49,12 +49,16 @@ export function FeaturedInventoryCarousel({
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(slides.length > 1);
   const [progress, setProgress] = useState(0);
+  /** Vertical centre of the card photos (4:3), so the arrows sit on the images. */
+  const [arrowTop, setArrowTop] = useState<number | null>(null);
 
   const syncState = useCallback(() => {
     if (!emblaApi) return;
     setCanPrev(emblaApi.canScrollPrev());
     setCanNext(emblaApi.canScrollNext());
     setProgress(Math.min(1, Math.max(0, emblaApi.scrollProgress())));
+    const firstSlide = emblaApi.slideNodes()[0];
+    if (firstSlide) setArrowTop((firstSlide.offsetWidth * 3) / 4 / 2);
   }, [emblaApi]);
 
   useEffect(() => {
@@ -64,6 +68,7 @@ export function FeaturedInventoryCarousel({
     emblaApi.on("reInit", syncState);
     emblaApi.on("scroll", syncState);
     emblaApi.on("settle", syncState);
+    emblaApi.on("resize", syncState);
 
     const frame = requestAnimationFrame(() => {
       syncState();
@@ -75,6 +80,7 @@ export function FeaturedInventoryCarousel({
       emblaApi.off("reInit", syncState);
       emblaApi.off("scroll", syncState);
       emblaApi.off("settle", syncState);
+      emblaApi.off("resize", syncState);
     };
   }, [emblaApi, syncState]);
 
@@ -95,36 +101,42 @@ export function FeaturedInventoryCarousel({
     }
   };
 
-  const navButtons = (
-    <div className="flex items-center gap-2">
-      <button
-        type="button"
-        onClick={() => emblaApi?.scrollPrev()}
-        disabled={!canPrev}
-        aria-label={previousLabel}
-        className={cn(
-          "focus-ring inline-flex size-9 items-center justify-center rounded-[var(--radius)] border border-line bg-surface text-foreground transition-colors",
-          "hover:border-charcoal/25 hover:bg-secondary",
-          "disabled:pointer-events-none disabled:opacity-35",
-        )}
-      >
-        <ChevronLeft className="size-4" aria-hidden />
-      </button>
-      <button
-        type="button"
-        onClick={() => emblaApi?.scrollNext()}
-        disabled={!canNext}
-        aria-label={nextLabel}
-        className={cn(
-          "focus-ring inline-flex size-9 items-center justify-center rounded-[var(--radius)] border border-line bg-surface text-foreground transition-colors",
-          "hover:border-charcoal/25 hover:bg-secondary",
-          "disabled:pointer-events-none disabled:opacity-35",
-        )}
-      >
-        <ChevronRight className="size-4" aria-hidden />
-      </button>
-    </div>
+  // Round side arrows, vertically centred on the photos. On md+ they straddle
+  // the carousel edge; on small screens they sit just inside the cards.
+  const arrowClass = cn(
+    "focus-ring absolute z-10 grid size-11 -translate-y-1/2 place-items-center rounded-full md:size-12",
+    "bg-charcoal text-surface shadow-[0_14px_32px_-14px_rgba(20,20,22,0.75)] ring-1 ring-white/10",
+    "transition-[opacity,scale,background-color,color] duration-200 ease-out",
+    "hover:bg-brand hover:text-charcoal active:scale-95",
+    "disabled:pointer-events-none disabled:scale-90 disabled:opacity-0",
   );
+  const arrowStyle = { top: arrowTop ?? "40%" };
+
+  const navArrows =
+    slides.length > 1 ? (
+      <>
+        <button
+          type="button"
+          onClick={() => emblaApi?.scrollPrev()}
+          disabled={!canPrev}
+          aria-label={previousLabel}
+          className={cn(arrowClass, "left-2 md:left-0 md:-translate-x-1/2")}
+          style={arrowStyle}
+        >
+          <ArrowLeft className="size-5" strokeWidth={2} aria-hidden />
+        </button>
+        <button
+          type="button"
+          onClick={() => emblaApi?.scrollNext()}
+          disabled={!canNext}
+          aria-label={nextLabel}
+          className={cn(arrowClass, "right-2 md:right-0 md:translate-x-1/2")}
+          style={arrowStyle}
+        >
+          <ArrowRight className="size-5" strokeWidth={2} aria-hidden />
+        </button>
+      </>
+    ) : null;
 
   return (
     <div className="space-y-5 md:space-y-6">
@@ -135,22 +147,18 @@ export function FeaturedInventoryCarousel({
           title={title}
           description={description}
           action={
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
-              <Link
-                href="/cranes"
-                className="focus-ring group inline-flex min-h-10 items-center gap-2 rounded-[var(--radius)] text-sm font-medium text-foreground transition-colors hover:text-steel"
-              >
-                {viewAllLabel}
-                <ArrowRight
-                  className="size-4 transition-transform duration-300 group-hover:translate-x-0.5"
-                  aria-hidden
-                />
-              </Link>
-              <div className="hidden sm:block">{navButtons}</div>
-            </div>
+            <Link
+              href="/cranes"
+              className="focus-ring group inline-flex min-h-10 items-center gap-2 rounded-[var(--radius)] text-sm font-medium text-foreground transition-colors hover:text-steel"
+            >
+              {viewAllLabel}
+              <ArrowRight
+                className="size-4 transition-transform duration-300 group-hover:translate-x-0.5"
+                aria-hidden
+              />
+            </Link>
           }
         />
-        <div className="sm:hidden">{navButtons}</div>
       </div>
 
       <div
@@ -178,6 +186,8 @@ export function FeaturedInventoryCarousel({
             </ul>
           </div>
         </div>
+
+        {navArrows}
 
         <div className="mt-5 pr-0">
           <div

@@ -58,7 +58,7 @@ export function HeroView({
             preload
             quality={90}
             sizes="100vw"
-            className="object-cover object-[78%_42%] sm:object-[74%_34%] md:object-[76%_30%] lg:object-[80%_28%]"
+            className="object-cover object-[76%_50%] md:object-[88%_50%] lg:object-[100%_50%]"
           />
         ) : (
           <div
@@ -79,7 +79,7 @@ export function HeroView({
         aria-hidden
       />
 
-      <div className="relative mx-auto flex h-full w-full max-w-[1440px] flex-col justify-center px-4 pt-24 pb-16 md:px-8 md:pt-28 md:pb-20 lg:px-12 lg:pt-28 lg:pb-28">
+      <div className="relative mx-auto flex h-full w-full max-w-[1440px] flex-col justify-center px-4 py-14 md:px-8 md:py-16 lg:px-12 lg:py-20">
         <div className="max-w-[34rem]">
           <motion.p
             {...reveal(0.06)}

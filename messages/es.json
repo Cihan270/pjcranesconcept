@@ -1,24 +1,24 @@
 {
   "Meta": {
-    "title": "PJ Cranes | Comercio de grÃºas mÃ³viles",
-    "description": "PJ Cranes B.V. compra, vende y gestiona grÃºas mÃ³viles de 20 a 1000 toneladas. Con sede en Nijkerk, PaÃ­ses Bajos."
+    "title": "PJ Cranes | Comercio de grúas móviles",
+    "description": "PJ Cranes B.V. compra, vende y gestiona grúas móviles de 20 a 1000 toneladas. Con sede en Nijkerk, Países Bajos."
   },
   "Nav": {
-    "cranes": "GrÃºas disponibles",
-    "sell": "Venda su grÃºa",
-    "find": "Buscar una grÃºa",
+    "cranes": "Grúas disponibles",
+    "sell": "Venda su grúa",
+    "find": "Buscar una grúa",
     "services": "Servicios",
     "about": "Nosotros",
     "contact": "Contacto",
     "enquiry": "Consulta",
     "viewInventory": "Ver inventario",
     "search": "Buscar",
-    "searchTitle": "Buscar una grÃºa",
+    "searchTitle": "Buscar una grúa",
     "searchDescription": "Busque en el inventario disponible por marca, modelo o referencia.",
-    "searchPlaceholder": "Marca, modelo o referenciaâ€¦",
+    "searchPlaceholder": "Marca, modelo o referencia…",
     "searchSubmit": "Buscar",
-    "searchBrowseAll": "Todas las grÃºas",
-    "menu": "MenÃº",
+    "searchBrowseAll": "Todas las grúas",
+    "menu": "Menú",
     "close": "Cerrar",
     "home": "Inicio",
     "skipToContent": "Saltar al contenido",
@@ -31,40 +31,40 @@
     "nl": "Nederlands",
     "en": "English",
     "de": "Deutsch",
-    "es": "EspaÃ±ol",
-    "fr": "FranÃ§ais"
+    "es": "Español",
+    "fr": "Français"
   },
   "Footer": {
-    "tagline": "Comercio internacional de grÃºas mÃ³viles â€” comprar, vender, localizar y transportar.",
+    "tagline": "Comercio internacional de grúas móviles — comprar, vender, localizar y transportar.",
     "company": "Empresa",
     "services": "Servicios",
     "legal": "Legal",
     "contact": "Contacto",
     "privacy": "Privacidad",
     "terms": "Condiciones generales",
-    "cookies": "PolÃ­tica de cookies",
+    "cookies": "Política de cookies",
     "faq": "FAQ",
     "news": "Noticias",
     "offices": "Nuestras oficinas",
-    "headOffice": "Sede Â· Nijkerk",
+    "headOffice": "Sede · Nijkerk",
     "phoneGeneral": "General",
-    "phoneSales": "Sales",
+    "phoneSales": "Ventas",
     "emailLabel": "Correo",
     "whatsapp": "WhatsApp",
     "viewAllOffices": "Ver todas las oficinas",
     "kvk": "Registro mercantil",
     "vat": "IVA",
     "rights": "Todos los derechos reservados.",
-    "transport": "Transporte y envÃ­o",
-    "documentation": "DocumentaciÃ³n y exportaciÃ³n"
+    "transport": "Transporte y envío",
+    "documentation": "Documentación y exportación"
   },
   "Crane": {
     "reference": "Ref.",
-    "year": "AÃ±o",
+    "year": "Año",
     "capacity": "Capacidad",
     "hours": "Horas",
     "mileage": "Kilometraje",
-    "location": "UbicaciÃ³n",
+    "location": "Ubicación",
     "tons": "{value} t",
     "status": {
       "available": "Disponible",
@@ -73,21 +73,21 @@
       "on_request": "Bajo consulta"
     },
     "viewDetails": "Ver detalles",
-    "viewMachine": "Ver mÃ¡quina",
+    "viewMachine": "Ver máquina",
     "type": {
-      "mobile": "GrÃºa mÃ³vil",
-      "crawler": "GrÃºa sobre orugas",
+      "mobile": "Grúa móvil",
+      "crawler": "Grúa sobre orugas",
       "all_terrain": "Todo terreno",
-      "city": "GrÃºa urbana",
+      "city": "Grúa urbana",
       "rough_terrain": "Terreno irregular",
       "other": "Otra"
     },
     "spec": {
       "boom": "Pluma",
-      "flyJib": "PlumÃ­n",
-      "drive": "TracciÃ³n",
-      "transmission": "TransmisiÃ³n",
-      "tyres": "NeumÃ¡ticos",
+      "flyJib": "Plumín",
+      "drive": "Tracción",
+      "transmission": "Transmisión",
+      "tyres": "Neumáticos",
       "engineSuperstructure": "Motor superestructura",
       "engineCarrier": "Motor chasis",
       "lmi": "LMI",
@@ -100,355 +100,356 @@
   },
   "Services": {
     "buy": {
-      "title": "GrÃºas usadas",
-      "summary": "GrÃºas mÃ³viles y sobre orugas usadas de Liebherr, Grove, Terex-Demag y Tadano Faun â€” precio bajo consulta."
+      "title": "Grúas usadas",
+      "summary": "Grúas móviles y sobre orugas usadas de Liebherr, Grove, Terex-Demag y Tadano Faun — precio bajo consulta."
     },
     "sell": {
-      "title": "Venda su grÃºa",
-      "summary": "No cure, no pay: valoraciÃ³n, exclusividad, enfoque activo de mercado, documentaciÃ³n y entrega."
+      "title": "Venda su grúa",
+      "summary": "No cure, no pay: valoración, exclusividad, enfoque activo de mercado, documentación y entrega."
     },
     "find": {
-      "title": "Localice su grÃºa",
-      "summary": "Â¿Busca una mÃ¡quina concreta? IndÃ­quenos fabricante, modelo y capacidad â€” buscamos en nuestra red internacional."
+      "title": "Localice su grúa",
+      "summary": "¿Busca una máquina concreta? Indíquenos fabricante, modelo y capacidad — buscamos en nuestra red internacional."
     },
     "transport": {
-      "title": "Transporte y envÃ­o",
-      "summary": "LogÃ­stica por carretera y marÃ­tima bajo peticiÃ³n, del puerto a la puerta. La entrega se calcula aparte del precio de la mÃ¡quina."
+      "title": "Transporte y envío",
+      "summary": "Logística por carretera y marítima bajo petición, del puerto a la puerta. La entrega se calcula aparte del precio de la máquina."
     },
     "documentation": {
-      "title": "DocumentaciÃ³n y exportaciÃ³n",
-      "summary": "Certificados, inspecciones, coordinaciÃ³n aduanera y el paquete documental para la entrega internacional."
+      "title": "Documentación y exportación",
+      "summary": "Certificados, inspecciones, coordinación aduanera y el paquete documental para la entrega internacional."
     },
     "hub": {
       "meta": {
-        "title": "Services",
-        "description": "Buy, sell, source, transport and documentation — PJ Cranes services around international crane trading."
+        "title": "Servicios",
+        "description": "Comprar, vender, buscar, transportar y documentar: los servicios de PJ Cranes en torno al comercio internacional de grúas."
       },
-      "explore": "Explore",
-      "ctaContact": "Contact us",
+      "explore": "Descubrir",
+      "ctaContact": "Contáctenos",
       "hero": {
-        "badge": "Five focused services",
-        "title": "From acquisition to handover",
-        "body": "PJ Cranes supports international crane trading from first enquiry through documentation and delivery — concrete processes, not generic claims."
+        "badge": "Cinco servicios específicos",
+        "title": "De la compra a la entrega",
+        "body": "PJ Cranes acompaña el comercio internacional de grúas desde la primera consulta hasta la documentación y la entrega: procesos concretos, no promesas genéricas."
       },
       "trust": {
         "endToEnd": {
-          "title": "End-to-end support",
-          "body": "From stock or sourcing through paperwork and transport — one fixed point of contact."
+          "title": "Acompañamiento integral",
+          "body": "Desde el stock o la búsqueda hasta la documentación y el transporte: un único interlocutor."
         },
         "specialist": {
-          "title": "Specialist knowledge",
-          "body": "20+ years of experience with mobile and crawler cranes from roughly 20 to 1000 tonnes."
+          "title": "Conocimiento especializado",
+          "body": "Más de 20 años de experiencia con grúas móviles y sobre orugas de aproximadamente 20 a 1000 toneladas."
         },
         "network": {
-          "title": "International network",
-          "body": "Buyers, sellers and machines through a proven trading network across dozens of countries."
+          "title": "Red internacional",
+          "body": "Compradores, vendedores y máquinas a través de una red comercial probada en decenas de países."
         },
         "base": {
-          "title": "Based in Nijkerk",
-          "body": "Your fixed contact in the Netherlands, with reach through international offices."
+          "title": "Con sede en Nijkerk",
+          "body": "Su interlocutor fijo en los Países Bajos, con alcance a través de oficinas internacionales."
         }
       },
       "list": {
-        "eyebrow": "Our services",
-        "title": "Choose the path that fits",
-        "body": "Five focused services. Each with its own process — from stock to export paperwork."
+        "eyebrow": "Nuestros servicios",
+        "title": "Elija el camino adecuado",
+        "body": "Cinco servicios específicos. Cada uno con su propio proceso: del stock a los documentos de exportación."
       },
       "process": {
-        "eyebrow": "How we work",
-        "title": "A clear working method",
-        "body": "Whether you buy, sell or source: we start from your goal and work toward a clear next step.",
+        "eyebrow": "Cómo trabajamos",
+        "title": "Un método de trabajo claro",
+        "body": "Tanto si compra, vende o busca: partimos de su objetivo y trabajamos hacia un siguiente paso claro.",
         "steps": {
           "brief": {
-            "title": "Clarify the brief",
-            "body": "We discuss machine, timing, destination and constraints so the route is clear."
+            "title": "Aclarar el encargo",
+            "body": "Hablamos de la máquina, los plazos, el destino y las condiciones para que el camino quede claro."
           },
           "match": {
-            "title": "Stock or sourcing",
-            "body": "We match current inventory or source targeted options through our international network."
+            "title": "Stock o búsqueda",
+            "body": "Comparamos con el stock actual o buscamos opciones específicas a través de nuestra red internacional."
           },
           "agree": {
-            "title": "Align terms",
-            "body": "Price, timing and practical conditions are set clearly before moving forward."
+            "title": "Acordar las condiciones",
+            "body": "El precio, los plazos y las condiciones prácticas se fijan con claridad antes de avanzar."
           },
           "paperwork": {
-            "title": "Handle documentation",
-            "body": "Certificates, inspections and export papers are aligned to the machine and destination."
+            "title": "Gestionar la documentación",
+            "body": "Certificados, inspecciones y documentos de exportación se ajustan a la máquina y al destino."
           },
           "deliver": {
-            "title": "Transport & handover",
-            "body": "On request we coordinate logistics through to delivery, with one point of contact."
+            "title": "Transporte y entrega",
+            "body": "A petición coordinamos la logística hasta la entrega, con un único interlocutor."
           }
         }
       },
       "faq": {
-        "eyebrow": "FAQ",
-        "title": "Answers about our services",
+        "eyebrow": "Preguntas frecuentes",
+        "title": "Respuestas sobre nuestros servicios",
         "items": {
           "whatIncluded": {
-            "question": "Which services does PJ Cranes offer?",
-            "answer": "We support buying from stock, selling your crane, targeted sourcing, transport & shipping, and documentation & export."
+            "question": "¿Qué servicios ofrece PJ Cranes?",
+            "answer": "Le ayudamos a comprar del stock, vender su grúa, buscar de forma específica, con el transporte y envío, y con la documentación y exportación."
           },
           "pricing": {
-            "question": "Are prices inclusive of transport?",
-            "answer": "No. Machine prices are on request. Transport and delivery are quoted separately based on route and timing."
+            "question": "¿Los precios incluyen el transporte?",
+            "answer": "No. Los precios de las máquinas se facilitan a petición. El transporte y la entrega se presupuestan aparte según la ruta y los plazos."
           },
           "stockOrSource": {
-            "question": "What if the crane is not in stock?",
-            "answer": "We source through our network. Share brand, model, capacity and timing — we come back with options."
+            "question": "¿Y si la grúa no está en stock?",
+            "answer": "La buscamos a través de nuestra red. Indíquenos marca, modelo, capacidad y plazos, y le presentaremos opciones."
           },
           "international": {
-            "question": "Do you work internationally?",
-            "answer": "Yes. From Nijkerk we trade internationally and support cross-border handover, including documentation where needed."
+            "question": "¿Trabajan a nivel internacional?",
+            "answer": "Sí. Desde Nijkerk comerciamos internacionalmente y apoyamos entregas transfronterizas, incluida la documentación cuando es necesaria."
           },
           "transportDocs": {
-            "question": "Can I use transport or documentation on their own?",
-            "answer": "Yes. Those tracks can be part of a machine purchase, or requested separately via contact."
+            "question": "¿Puedo contratar el transporte o la documentación por separado?",
+            "answer": "Sí. Estos servicios pueden formar parte de la compra de una máquina o solicitarse por separado a través de contacto."
           },
           "contact": {
-            "question": "How do I start?",
-            "answer": "Choose the relevant service above, or contact sales directly. We will guide you to the right next step."
+            "question": "¿Cómo empiezo?",
+            "answer": "Elija el servicio correspondiente arriba o contacte directamente con ventas. Le guiaremos hacia el siguiente paso adecuado."
           }
         }
       },
       "finalCta": {
-        "title": "Which service do you need?",
-        "body": "Contact PJ Cranes to discuss your path, timing and options.",
-        "contact": "Contact us",
-        "callSales": "Call sales"
+        "title": "¿Qué servicio necesita?",
+        "body": "Contacte con PJ Cranes para hablar de su caso, los plazos y las opciones.",
+        "contact": "Contáctenos",
+        "callSales": "Llamar a ventas"
       }
     },
     "transportPage": {
       "meta": {
-        "title": "Transport & shipping",
-        "description": "Road and ocean logistics for mobile cranes on request — port to doorstep, separate from the machine price."
+        "title": "Transporte y envío",
+        "description": "Logística por carretera y por mar para grúas móviles a petición: del puerto hasta la puerta, aparte del precio de la máquina."
       },
       "hero": {
-        "badge": "Logistics",
-        "title": "Transport & shipping",
-        "body": "On request we arrange logistics so your machine arrives where you need it — road or ocean, matched to weight and destination."
+        "badge": "Logística",
+        "title": "Transporte y envío",
+        "body": "A petición organizamos la logística para que su máquina llegue donde la necesita, por carretera o por mar, según el peso y el destino."
       },
       "featuresSection": {
-        "eyebrow": "What we arrange",
-        "title": "Logistics without noise",
-        "body": "Transport is not an afterthought. We align route, timing and parties so handover stays practical."
+        "eyebrow": "Lo que organizamos",
+        "title": "Logística sin complicaciones",
+        "body": "El transporte no es algo secundario. Coordinamos ruta, plazos y partes implicadas para que la entrega sea práctica."
       },
       "features": {
         "scope": {
-          "title": "Road & ocean",
-          "body": "We coordinate transport routes matched to machine weight, dimensions and destination — including port-to-doorstep when required."
+          "title": "Carretera y mar",
+          "body": "Coordinamos rutas de transporte según el peso, las dimensiones y el destino de la máquina, incluso del puerto hasta la puerta si es necesario."
         },
         "pricing": {
-          "title": "Quoted separately",
-          "body": "Delivery is not included in the machine price. Transport is calculated separately based on route and timing."
+          "title": "Presupuesto aparte",
+          "body": "La entrega no está incluida en el precio de la máquina. El transporte se calcula aparte según la ruta y los plazos."
         },
         "coordination": {
-          "title": "One point of contact",
-          "body": "Your fixed contact in Nijkerk aligns timing with seller, haulier and receiver so handover stays coordinated."
+          "title": "Un único interlocutor",
+          "body": "Su interlocutor fijo en Nijkerk coordina los plazos con el vendedor, el transportista y el destinatario para que la entrega esté bien organizada."
         }
       },
-      "cta": "Request transport",
+      "cta": "Solicitar transporte",
       "finalCta": {
-        "title": "Need transport for your machine?",
-        "body": "Get in touch — we will quote the route and align the schedule.",
-        "contact": "Contact us",
-        "callSales": "Call sales"
+        "title": "¿Necesita transporte para su máquina?",
+        "body": "Póngase en contacto: presupuestaremos la ruta y coordinaremos el calendario.",
+        "contact": "Contáctenos",
+        "callSales": "Llamar a ventas"
       }
     },
     "documentationPage": {
       "meta": {
-        "title": "Documentation & export",
-        "description": "Certificates, inspections and customs coordination for international handover of mobile cranes."
+        "title": "Documentación y exportación",
+        "description": "Certificados, inspecciones y coordinación aduanera para la entrega internacional de grúas móviles."
       },
       "hero": {
-        "badge": "Documentation",
-        "title": "Documentation & export",
-        "body": "The document package and export coordination that make international handover workable — matched to machine and destination."
+        "badge": "Documentación",
+        "title": "Documentación y exportación",
+        "body": "El paquete de documentos y la coordinación de exportación que hacen viable una entrega internacional, adaptados a la máquina y al destino."
       },
       "featuresSection": {
-        "eyebrow": "What we arrange",
-        "title": "Paperwork that fits",
-        "body": "Cross-border handover needs the right package. We help organise the papers and align them to destination and Incoterm."
+        "eyebrow": "Lo que organizamos",
+        "title": "Documentación a medida",
+        "body": "Una entrega transfronteriza requiere el paquete adecuado. Le ayudamos a organizar los documentos y ajustarlos al destino y al Incoterm."
       },
       "features": {
         "package": {
-          "title": "Document package",
-          "body": "Typically passport, certificate of origin, service book, manuals and related papers for handover — exact contents confirmed per machine."
+          "title": "Paquete de documentos",
+          "body": "Normalmente el pasaporte de la grúa, certificado de origen, libro de mantenimiento, manuales y otros documentos para la entrega; el contenido exacto se confirma por máquina."
         },
         "inspections": {
-          "title": "Inspections",
-          "body": "On request we organise third-party inspections and help gather the relevant inspection information."
+          "title": "Inspecciones",
+          "body": "A petición organizamos inspecciones por terceros y ayudamos a reunir la información de inspección relevante."
         },
         "customs": {
-          "title": "Customs & export",
-          "body": "We coordinate documentation steps around export and customs so paperwork matches destination and Incoterm."
+          "title": "Aduanas y exportación",
+          "body": "Coordinamos los pasos documentales de exportación y aduanas para que los documentos se ajusten al destino y al Incoterm."
         }
       },
-      "cta": "Ask about documentation",
+      "cta": "Consultar sobre documentación",
       "finalCta": {
-        "title": "Need help with documentation or export?",
-        "body": "Contact us — we will discuss which package fits your machine and destination.",
-        "contact": "Contact us",
-        "callSales": "Call sales"
+        "title": "¿Necesita ayuda con la documentación o la exportación?",
+        "body": "Contáctenos: veremos qué paquete se ajusta a su máquina y destino.",
+        "contact": "Contáctenos",
+        "callSales": "Llamar a ventas"
       }
     }
   },
   "Home": {
-    "eyebrow": "Comercio internacional de grÃºas mÃ³viles",
-    "title": "GrÃºas mÃ³viles usadas.\nEntrega en todo el mundo.",
-    "subtitle": "Comercio internacional de grÃºas mÃ³viles usadas de {min} a {max} toneladas, incluida intermediaciÃ³n, documentaciÃ³n y transporte.",
-    "ctaInventory": "Ver grÃºas disponibles",
-    "ctaSell": "Venda su grÃºa",
-    "findLink": "Â¿No encuentra lo que busca? EnvÃ­e una solicitud de bÃºsqueda",
+    "eyebrow": "Comercio internacional de grúas móviles",
+    "title": "Grúas móviles usadas.\nEntrega en todo el mundo.",
+    "subtitle": "Comercio internacional de grúas móviles usadas de {min} a {max} toneladas, incluida intermediación, documentación y transporte.",
+    "heroImageAlt": "Grúa móvil amarilla con la pluma extendida en un patio mojado al anochecer",
+    "ctaInventory": "Ver grúas disponibles",
+    "ctaSell": "Venda su grúa",
+    "findLink": "¿No encuentra lo que busca? Envíe una solicitud de búsqueda",
     "trust": {
-      "capacityValue": "{min}â€“{max} toneladas",
-      "capacityLabel": "GrÃºas mÃ³viles y sobre orugas",
+      "capacityValue": "{min}–{max} toneladas",
+      "capacityLabel": "Grúas móviles y sobre orugas",
       "officesValue": "{count} oficinas internacionales",
       "officesLabel": "Alcance mundial",
-      "experienceValue": "{years}+ aÃ±os de experiencia",
+      "experienceValue": "{years}+ años de experiencia",
       "experienceLabel": "Conocimiento especializado del mercado"
     },
     "scrollCue": "Desplazar",
     "search": {
       "eyebrow": "Inventario",
-      "title": "Buscar grÃºas disponibles",
-      "subtitle": "Filtre el stock actual segÃºn las especificaciones relevantes para usted.",
+      "title": "Buscar grúas disponibles",
+      "subtitle": "Filtre el stock actual según las especificaciones relevantes para usted.",
       "queryLabel": "Marca o modelo",
-      "placeholder": "Marca, modelo o referenciaâ€¦",
+      "placeholder": "Marca, modelo o referencia…",
       "manufacturer": "Marca",
       "allManufacturers": "Todas las marcas",
-      "capacityMin": "Capacidad mÃ­n.",
-      "capacityMax": "Capacidad mÃ¡x.",
+      "capacityMin": "Capacidad mín.",
+      "capacityMax": "Capacidad máx.",
       "capacityAny": "Cualquiera",
-      "yearMin": "AÃ±o desde",
-      "yearMax": "AÃ±o hasta",
+      "yearMin": "Año desde",
+      "yearMax": "Año hasta",
       "yearAny": "Cualquiera",
       "submit": "Buscar",
       "filters": "Filtros",
-      "filtersTitle": "Filtros de bÃºsqueda",
-      "filtersSubtitle": "Refine por marca, capacidad y aÃ±o de fabricaciÃ³n.",
+      "filtersTitle": "Filtros de búsqueda",
+      "filtersSubtitle": "Refine por marca, capacidad y año de fabricación.",
       "clear": "Borrar filtros",
-      "results": "{count, plural, =0 {No se encontraron grÃºas} one {# grÃºa disponible} other {# grÃºas disponibles}}",
-      "secondaryPrompt": "Â¿No encuentra lo que busca?",
+      "results": "{count, plural, =0 {No se encontraron grúas} one {# grúa disponible} other {# grúas disponibles}}",
+      "secondaryPrompt": "¿No encuentra lo que busca?",
       "secondaryCta": "Deje que PJ Cranes busque"
     },
     "featured": {
       "eyebrow": "Stock actual",
-      "title": "MÃ¡quinas destacadas",
-      "subtitle": "Una selecciÃ³n de nuestras grÃºas mÃ³viles disponibles de inmediato.",
+      "title": "Máquinas destacadas",
+      "subtitle": "Una selección de nuestras grúas móviles disponibles de inmediato.",
       "highlightEyebrow": "Destacada",
-      "newArrival": "ReciÃ©n llegada",
+      "newArrival": "Recién llegada",
       "directAvailable": "Disponible de inmediato",
       "availability": "Estado",
       "noImage": "Sin foto",
-      "resultCount": "{count, plural, =0 {Ninguna grÃºa en stock} one {# grÃºa en stock} other {# grÃºas en stock}}",
-      "viewAll": "Ver todas las grÃºas",
-      "empty": "No hay mÃ¡quinas destacadas por ahora.",
+      "resultCount": "{count, plural, =0 {Ninguna grúa en stock} one {# grúa en stock} other {# grúas en stock}}",
+      "viewAll": "Ver todas las grúas",
+      "empty": "No hay máquinas destacadas por ahora.",
       "carousel": {
-        "previous": "MÃ¡quinas anteriores",
-        "next": "MÃ¡quinas siguientes",
-        "progress": "Progreso de mÃ¡quinas destacadas"
+        "previous": "Máquinas anteriores",
+        "next": "Máquinas siguientes",
+        "progress": "Progreso de máquinas destacadas"
       }
     },
     "findCta": {
-      "eyebrow": "Busca una grÃºa concreta",
-      "title": "Â¿No encuentra lo que busca?",
-      "body": "Indique marca, modelo y tonelaje deseados. Buscamos una mÃ¡quina adecuada en nuestra red internacional.",
-      "cta": "Enviar una solicitud de bÃºsqueda",
+      "eyebrow": "Busca una grúa concreta",
+      "title": "¿No encuentra lo que busca?",
+      "body": "Indique marca, modelo y tonelaje deseados. Buscamos una máquina adecuada en nuestra red internacional.",
+      "cta": "Enviar una solicitud de búsqueda",
       "contact": "Contactar directamente"
     },
     "positioning": {
       "eyebrow": "PJ Cranes",
-      "title": "Socio comercial para proyectos de grÃºas serios",
-      "body": "Desde nuestra sede en {city} y nuestra red internacional de oficinas, acompaÃ±amos la compra, venta y entrega de grÃºas mÃ³viles mÃ¡s allÃ¡ de las fronteras.",
-      "cta": "MÃ¡s sobre PJ Cranes",
+      "title": "Socio comercial para proyectos de grúas serios",
+      "body": "Desde nuestra sede en {city} y nuestra red internacional de oficinas, acompañamos la compra, venta y entrega de grúas móviles más allá de las fronteras.",
+      "cta": "Más sobre PJ Cranes",
       "experienceLabel": "Conocimiento del mercado",
-      "experienceValue": "{years}+ aÃ±os",
+      "experienceValue": "{years}+ años",
       "capacityLabel": "Rango de capacidad",
-      "capacityValue": "{min}â€“{max, number} toneladas",
+      "capacityValue": "{min}–{max, number} toneladas",
       "officesLabel": "Red internacional",
       "officesValue": "{count} oficinas"
     },
     "services": {
       "eyebrow": "Servicios",
-      "title": "De la adquisiciÃ³n a la entrega",
-      "subtitle": "Todo lo necesario para una transacciÃ³n internacional de grÃºas eficiente.",
+      "title": "De la adquisición a la entrega",
+      "subtitle": "Todo lo necesario para una transacción internacional de grúas eficiente.",
       "viewAll": "Ver todos los servicios",
       "tablistLabel": "Servicios",
       "panels": {
         "buy": {
-          "title": "GrÃºas disponibles",
-          "summary": "Consulte grÃºas mÃ³viles y sobre orugas disponibles de inmediato, con especificaciones claras e informaciÃ³n actual.",
+          "title": "Grúas disponibles",
+          "summary": "Consulte grúas móviles y sobre orugas disponibles de inmediato, con especificaciones claras e información actual.",
           "cta": "Ver inventario"
         },
         "sell": {
-          "title": "Venda su grÃºa",
-          "summary": "Evaluamos su mÃ¡quina, posiciÃ³n de mercado y la ruta de venta adecuada.",
-          "cta": "Venda su grÃºa"
+          "title": "Venda su grúa",
+          "summary": "Evaluamos su máquina, posición de mercado y la ruta de venta adecuada.",
+          "cta": "Venda su grúa"
         },
         "find": {
-          "title": "GrÃºa buscada",
-          "summary": "Â¿No encuentra la mÃ¡quina adecuada en stock? Buscamos dentro de nuestra red internacional.",
-          "cta": "Enviar solicitud de bÃºsqueda"
+          "title": "Grúa buscada",
+          "summary": "¿No encuentra la máquina adecuada en stock? Buscamos dentro de nuestra red internacional.",
+          "cta": "Enviar solicitud de búsqueda"
         },
         "transport": {
-          "title": "Transporte y envÃ­o",
-          "summary": "AcompaÃ±amiento en el transporte desde el punto de recogida hasta el destino final.",
+          "title": "Transporte y envío",
+          "summary": "Acompañamiento en el transporte desde el punto de recogida hasta el destino final.",
           "cta": "Ver servicio de transporte"
         },
         "documentation": {
-          "title": "DocumentaciÃ³n y exportaciÃ³n",
-          "summary": "Apoyo con documentos de exportaciÃ³n, entrega y gestiÃ³n internacional.",
-          "cta": "Ver acompaÃ±amiento de exportaciÃ³n"
+          "title": "Documentación y exportación",
+          "summary": "Apoyo con documentos de exportación, entrega y gestión internacional.",
+          "cta": "Ver acompañamiento de exportación"
         }
       }
     },
     "process": {
       "eyebrow": "Proceso",
       "title": "De la solicitud a la entrega",
-      "body": "Un recorrido claro con un Ãºnico interlocutor fijo.",
+      "body": "Un recorrido claro con un único interlocutor fijo.",
       "cta": "Comente su solicitud",
       "steps": {
         "request": {
           "title": "Solicitud",
-          "body": "Comparta la mÃ¡quina que busca o la grÃºa que desea vender."
+          "body": "Comparta la máquina que busca o la grúa que desea vender."
         },
         "assessment": {
-          "title": "EvaluaciÃ³n",
-          "body": "Revisamos la informaciÃ³n disponible y comentamos las opciones."
+          "title": "Evaluación",
+          "body": "Revisamos la información disponible y comentamos las opciones."
         },
         "agreement": {
-          "title": "Acuerdo y documentaciÃ³n",
-          "body": "Se preparan los acuerdos, documentos y requisitos de exportaciÃ³n."
+          "title": "Acuerdo y documentación",
+          "body": "Se preparan los acuerdos, documentos y requisitos de exportación."
         },
         "transport": {
           "title": "Transporte y entrega",
-          "body": "La mÃ¡quina se prepara para la entrega en el destino final."
+          "body": "La máquina se prepara para la entrega en el destino final."
         }
       }
     },
     "sellCta": {
       "eyebrow": "Venta",
-      "title": "Â¿Listo para vender su grÃºa?",
-      "body": "Comparta las especificaciones y fotos de su grÃºa. Evaluamos la posiciÃ³n de mercado y comentamos la mejor ruta de venta.",
-      "cta": "Solicitar una valoraciÃ³n de venta",
+      "title": "¿Listo para vender su grúa?",
+      "body": "Comparta las especificaciones y fotos de su grúa. Evaluamos la posición de mercado y comentamos la mejor ruta de venta.",
+      "cta": "Solicitar una valoración de venta",
       "call": "Llámenos"
     },
     "international": {
       "eyebrow": "Red internacional",
       "title": "Red mundial. Un interlocutor fijo.",
-      "body": "Con {count} oficinas y una red internacional, PJ Cranes apoya a sus clientes en compra, venta, documentaciÃ³n y transporte a travÃ©s de fronteras.",
+      "body": "Con {count} oficinas y una red internacional, PJ Cranes apoya a sus clientes en compra, venta, documentación y transporte a través de fronteras.",
       "ctaOffices": "Ver nuestras oficinas",
       "ctaContact": "Contactar",
       "mapLabel": "Mapa mundial de oficinas de PJ Cranes",
       "hqBadge": "Sede central",
-      "regionLabel": "RegiÃ³n",
+      "regionLabel": "Región",
       "typeLabel": "Tipo de oficina",
-      "phoneLabel": "TelÃ©fono",
+      "phoneLabel": "Teléfono",
       "emailLabel": "Correo",
       "listHeading": "Oficinas de PJ Cranes",
       "regions": {
-        "americas": "AmÃ©rica",
+        "americas": "América",
         "europe": "Europa",
         "middleEast": "Oriente Medio"
       },
@@ -463,43 +464,39 @@
         },
         "netherlands": {
           "city": "Nijkerk",
-          "country": "PaÃ­ses Bajos"
-        },
-        "germany": {
-          "city": "",
-          "country": "Alemania"
+          "country": "Países Bajos"
         },
         "turkiye": {
           "city": "",
-          "country": "TÃ¼rkiye"
+          "country": "Türkiye"
         },
         "dubai": {
-          "city": "DubÃ¡i",
+          "city": "Dubái",
           "country": "EAU"
         }
       }
     },
     "brands": {
       "eyebrow": "Marcas",
-      "subtitle": "Consulte el stock actual de marcas lÃ­deres.",
+      "subtitle": "Consulte el stock actual de marcas líderes.",
       "availableCount": "{count, plural, one {# disponible} other {# disponibles}}",
-      "linkLabel": "{name} Â· {count, plural, one {# disponible} other {# disponibles}}"
+      "linkLabel": "{name} · {count, plural, one {# disponible} other {# disponibles}}"
     },
     "newsletter": {
       "eyebrow": "ALERTA DE STOCK",
-      "title": "Reciba grÃºas nuevas directamente en su bandeja",
-      "subtitle": "Deje su correo y le avisaremos cuando se aÃ±adan nuevas mÃ¡quinas al stock.",
-      "email": "Correo electrÃ³nico",
+      "title": "Reciba grúas nuevas directamente en su bandeja",
+      "subtitle": "Deje su correo y le avisaremos cuando se añadan nuevas máquinas al stock.",
+      "email": "Correo electrónico",
       "emailPlaceholder": "nombre@empresa.com",
-      "emailInvalid": "Introduzca un correo vÃ¡lido.",
-      "consent": "Quiero recibir alertas de stock de PJ Cranes y he leÃ­do el <privacy>aviso de privacidad</privacy>.",
+      "emailInvalid": "Introduzca un correo válido.",
+      "consent": "Quiero recibir alertas de stock de PJ Cranes y he leído el <privacy>aviso de privacidad</privacy>.",
       "consentRequired": "Se requiere el consentimiento para activar la alerta de stock.",
       "submit": "Activar alerta",
-      "submitting": "Enviandoâ€¦",
+      "submitting": "Enviando…",
       "successTitle": "Alerta de stock activada",
-      "successBody": "Gracias. Le avisaremos cuando se aÃ±adan nuevas mÃ¡quinas al stock.",
-      "error": "No se pudo activar. IntÃ©ntelo mÃ¡s tarde.",
-      "errorConfig": "El envÃ­o de correo aÃºn no estÃ¡ configurado. IntÃ©ntelo mÃ¡s tarde o escriba a info@pj-cranes.com."
+      "successBody": "Gracias. Le avisaremos cuando se añadan nuevas máquinas al stock.",
+      "error": "No se pudo activar. Inténtelo más tarde.",
+      "errorConfig": "El envío de correo aún no está configurado. Inténtelo más tarde o escriba a info@pj-cranes.com."
     },
     "ctaInventoryCount": "Ver stock ({count})",
     "quickSearch": {
@@ -580,123 +577,123 @@
   },
   "Inventory": {
     "meta": {
-      "title": "GrÃºas disponibles",
-      "description": "Browse current mobile and crawler crane inventory at PJ Cranes. Filter by brand, capacity, year and more â€” pricing on request."
+      "title": "Grúas disponibles",
+      "description": "Consulte el stock actual de grúas móviles y sobre orugas de PJ Cranes. Filtre por marca, capacidad, año y más; precios a petición."
     },
-    "eyebrow": "Marketplace",
-    "title": "GrÃºas disponibles",
-    "subtitle": "Filter stock by manufacturer, type, capacity and more. Published specs only; pricing always on request.",
-    "results": "{count, plural, =0 {No cranes} one {# crane} other {# cranes}}",
+    "eyebrow": "Mercado",
+    "title": "Grúas disponibles",
+    "subtitle": "Filtre el stock por fabricante, tipo, capacidad y más. Solo datos publicados; precios siempre a petición.",
+    "results": "{count, plural, =0 {Ninguna grúa} one {# grúa} other {# grúas}}",
     "empty": {
-      "title": "No cranes found",
-      "description": "Adjust or reset the filters to see more machines."
+      "title": "No se han encontrado grúas",
+      "description": "Ajuste o restablezca los filtros para ver más máquinas."
     },
     "filters": {
-      "eyebrow": "Filters",
-      "title": "Refine search",
-      "subtitle": "Combine filters to find the right machine faster.",
-      "open": "Filters",
-      "query": "Search",
-      "queryPlaceholder": "Brand, model or referenceâ€¦",
-      "manufacturer": "Manufacturer",
-      "model": "Model",
-      "allModels": "All models",
-      "type": "Type",
-      "yearMin": "Year from",
-      "yearMax": "Year to",
-      "capacityMin": "Min. capacity",
-      "capacityMax": "Max. capacity",
-      "mileageMax": "Max. mileage",
-      "hoursMax": "Max. hours",
-      "availability": "Availability",
-      "includeSold": "Show sold machines",
-      "reset": "Reset filters",
-      "any": "Any",
-      "mileageUpTo": "Up to {value} km",
-      "hoursUpTo": "Up to {value} h"
+      "eyebrow": "Filtros",
+      "title": "Refinar la búsqueda",
+      "subtitle": "Combine filtros para encontrar más rápido la máquina adecuada.",
+      "open": "Filtros",
+      "query": "Buscar",
+      "queryPlaceholder": "Marca, modelo o referencia…",
+      "manufacturer": "Fabricante",
+      "model": "Modelo",
+      "allModels": "Todos los modelos",
+      "type": "Tipo",
+      "yearMin": "Año desde",
+      "yearMax": "Año hasta",
+      "capacityMin": "Capacidad mín.",
+      "capacityMax": "Capacidad máx.",
+      "mileageMax": "Kilometraje máx.",
+      "hoursMax": "Horas máx.",
+      "availability": "Disponibilidad",
+      "includeSold": "Mostrar máquinas vendidas",
+      "reset": "Restablecer filtros",
+      "any": "Cualquiera",
+      "mileageUpTo": "Hasta {value} km",
+      "hoursUpTo": "Hasta {value} h"
     },
     "sort": {
-      "label": "Sort",
-      "newest": "Newest first",
-      "year_desc": "Year (newâ†’old)",
-      "year_asc": "Year (oldâ†’new)",
-      "capacity_desc": "Capacity (highâ†’low)",
-      "capacity_asc": "Capacity (lowâ†’high)",
-      "manufacturer_asc": "Manufacturer Aâ€“Z"
+      "label": "Ordenar",
+      "newest": "Más recientes primero",
+      "year_desc": "Año (nuevo→antiguo)",
+      "year_asc": "Año (antiguo→nuevo)",
+      "capacity_desc": "Capacidad (alta→baja)",
+      "capacity_asc": "Capacidad (baja→alta)",
+      "manufacturer_asc": "Fabricante A–Z"
     },
     "view": {
-      "label": "View",
-      "grid": "Grid",
-      "list": "List"
+      "label": "Vista",
+      "grid": "Cuadrícula",
+      "list": "Lista"
     },
     "chips": {
-      "yearFrom": "From {year}",
-      "yearTo": "To {year}",
-      "capacityFrom": "From {value} t",
-      "capacityTo": "To {value} t",
-      "mileageMax": "Max {value} km",
-      "hoursMax": "Max {value} h",
-      "remove": "Remove filter"
+      "yearFrom": "Desde {year}",
+      "yearTo": "Hasta {year}",
+      "capacityFrom": "Desde {value} t",
+      "capacityTo": "Hasta {value} t",
+      "mileageMax": "Máx. {value} km",
+      "hoursMax": "Máx. {value} h",
+      "remove": "Quitar filtro"
     }
   },
   "CraneDetail": {
-    "notFoundTitle": "Crane not found",
-    "specsTitle": "Specifications",
-    "specsSubtitle": "Only fields published on the listing.",
-    "technicalCaption": "Technical specifications",
-    "featuresTitle": "Equipment & features",
-    "hoursSuperstructure": "Superstructure hours",
-    "hoursCarrier": "Carrier hours",
+    "notFoundTitle": "Grúa no encontrada",
+    "specsTitle": "Especificaciones",
+    "specsSubtitle": "Solo los datos publicados en el anuncio.",
+    "technicalCaption": "Datos técnicos",
+    "featuresTitle": "Equipamiento y características",
+    "hoursSuperstructure": "Horas de la superestructura",
+    "hoursCarrier": "Horas del chasis",
     "gallery": {
-      "empty": "No images available",
-      "open": "Open image {index} of {total}",
-      "previous": "Previous image",
-      "next": "Next image",
-      "thumb": "Show image {index}"
+      "empty": "No hay imágenes disponibles",
+      "open": "Abrir imagen {index} de {total}",
+      "previous": "Imagen anterior",
+      "next": "Imagen siguiente",
+      "thumb": "Mostrar imagen {index}"
     },
     "share": {
-      "label": "Share",
-      "copied": "Link copied"
+      "label": "Compartir",
+      "copied": "Enlace copiado"
     },
     "related": {
-      "eyebrow": "Similar",
-      "title": "Related cranes",
-      "subtitle": "Other machines with a similar brand, type or capacity."
+      "eyebrow": "Similares",
+      "title": "Grúas similares",
+      "subtitle": "Otras máquinas de marca, tipo o capacidad similares."
     },
     "sticky": {
-      "call": "Call",
-      "enquire": "Enquire"
+      "call": "Llamar",
+      "enquire": "Consultar"
     },
     "enquiry": {
-      "eyebrow": "Enquiry",
+      "eyebrow": "Consulta",
       "title": "Consulta sobre esta grúa",
-      "subtitle": "Ask about {crane}. We reply with current status and terms.",
-      "priceOnRequest": "Price on request",
-      "call": "Call us",
-      "email": "Email",
-      "name": "Name",
-      "emailField": "Email address",
-      "phone": "Phone",
-      "company": "Company",
-      "message": "Message",
-      "messagePlaceholder": "Briefly describe what you needâ€¦",
-      "consent": "I agree to the processing of my data for this enquiry and have read the privacy notice.",
-      "submit": "Send enquiry",
-      "submitting": "Sendingâ€¦",
-      "successTitle": "Enquiry sent",
-      "successBody": "Thank you. Our team will get back to you.",
-      "disclaimer": "No WhatsApp CTA until a number is confirmed. Call or email for fast follow-up.",
-      "defaultSubject": "Enquiry {crane} ({reference})",
-      "defaultMessage": "I am interested in {crane} (ref. {reference}). Please share availability and pricing.",
+      "subtitle": "Consulte sobre {crane}. Le responderemos con el estado actual y las condiciones.",
+      "priceOnRequest": "Precio a consultar",
+      "call": "Llámenos",
+      "email": "Correo electrónico",
+      "name": "Nombre",
+      "emailField": "Correo electrónico",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "messagePlaceholder": "Describa brevemente lo que necesita…",
+      "consent": "Acepto el tratamiento de mis datos para esta consulta y he leído el aviso de privacidad.",
+      "submit": "Enviar consulta",
+      "submitting": "Enviando…",
+      "successTitle": "Consulta enviada",
+      "successBody": "Gracias. Nuestro equipo se pondrá en contacto con usted.",
+      "disclaimer": "Para una respuesta rápida, llámenos o envíenos un correo electrónico.",
+      "defaultSubject": "Consulta {crane} ({reference})",
+      "defaultMessage": "Estoy interesado en {crane} (ref. {reference}). Por favor, indíquenme disponibilidad y precio.",
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "phone": "Enter a valid phone number.",
-        "contactRequired": "Enter an email address or phone number.",
-        "message": "Message is too short.",
-        "consent": "Consent is required.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Introduzca su nombre.",
+        "email": "Introduzca un correo electrónico válido.",
+        "phone": "Introduzca un número de teléfono válido.",
+        "contactRequired": "Introduzca un correo electrónico o un número de teléfono.",
+        "message": "El mensaje es demasiado corto.",
+        "consent": "Es necesario su consentimiento.",
+        "generic": "No se ha podido enviar. Inténtelo de nuevo más tarde.",
+        "config": "El envío de correos aún no está configurado. Escriba a info@pj-cranes.com o llámenos."
       },
       "requestLabel": "¿En qué podemos ayudarle?",
       "country": "País de destino",
@@ -743,122 +740,122 @@
   },
   "Contact": {
     "meta": {
-      "title": "Contact | PJ Cranes",
-      "description": "Contact PJ Cranes for available mobile cranes, sell enquiries, sourcing requests and international crane trading."
+      "title": "Contacto | PJ Cranes",
+      "description": "Contacte con PJ Cranes para grúas móviles disponibles, consultas de venta, solicitudes de búsqueda y comercio internacional de grúas."
     },
     "hero": {
-      "eyebrow": "Contact",
-      "title": "Get in touch with PJ Cranes",
-      "body": "Contact us directly for available cranes, sell enquiries, sourcing requests and international delivery.",
-      "ctaMessage": "Send a message",
-      "ctaCall": "Call us",
-      "headOfficeLabel": "Location",
-      "imageAlt": "PJ Cranes mobile crane"
+      "eyebrow": "Contacto",
+      "title": "Póngase en contacto con PJ Cranes",
+      "body": "Contáctenos directamente para grúas disponibles, consultas de venta, solicitudes de búsqueda y entregas internacionales.",
+      "ctaMessage": "Enviar un mensaje",
+      "ctaCall": "Llámenos",
+      "headOfficeLabel": "Ubicación",
+      "imageAlt": "Grúa móvil de PJ Cranes"
     },
     "quickRoutes": {
-      "eyebrow": "How can we help?",
+      "eyebrow": "¿Cómo podemos ayudarle?",
       "buy": {
-        "title": "I want to buy a crane",
-        "body": "Browse current stock and request information about a machine.",
-        "cta": "View available cranes"
+        "title": "Quiero comprar una grúa",
+        "body": "Consulte el stock actual y solicite información sobre una máquina.",
+        "cta": "Ver grúas disponibles"
       },
       "sell": {
-        "title": "I want to sell my crane",
-        "body": "Share the specifications and photos of your machine.",
-        "cta": "Start sell enquiry"
+        "title": "Quiero vender mi grúa",
+        "body": "Comparta las especificaciones y fotos de su máquina.",
+        "cta": "Iniciar consulta de venta"
       },
       "source": {
-        "title": "I am looking for a specific crane",
-        "body": "Let PJ Cranes search within the international network.",
-        "cta": "Submit sourcing request"
+        "title": "Busco una grúa concreta",
+        "body": "Deje que PJ Cranes busque en su red internacional.",
+        "cta": "Enviar solicitud de búsqueda"
       }
     },
     "main": {
-      "eyebrow": "Direct contact",
-      "title": "How can we help you?",
-      "body": "Choose the subject of your enquiry and leave your details. We will contact you to discuss the next steps."
+      "eyebrow": "Contacto directo",
+      "title": "¿Cómo podemos ayudarle?",
+      "body": "Elija el asunto de su consulta y deje sus datos. Nos pondremos en contacto para hablar de los siguientes pasos."
     },
     "details": {
       "general": "General",
-      "sales": "Sales",
-      "email": "Email",
+      "sales": "Ventas",
+      "email": "Correo electrónico",
       "whatsapp": "WhatsApp",
-      "whatsappAction": "Chat on WhatsApp",
-      "headOffice": "Head office",
-      "directions": "Get directions"
+      "whatsappAction": "Chatear por WhatsApp",
+      "headOffice": "Sede central",
+      "directions": "Cómo llegar"
     },
     "salesContacts": {
-      "eyebrow": "Contacts",
-      "title": "Direct contact with sales",
-      "body": "Reach us via the sales line or email. Our team can help with buying, selling and sourcing.",
-      "call": "Call",
-      "email": "Email",
-      "sharedNote": "Personal phone numbers and email addresses are not published. Use the sales line or info@pj-cranes.com."
+      "eyebrow": "Contactos",
+      "title": "Contacto directo con ventas",
+      "body": "Contáctenos por la línea de ventas o por correo electrónico. Nuestro equipo le ayuda a comprar, vender y buscar.",
+      "call": "Llamar",
+      "email": "Correo electrónico",
+      "sharedNote": "No publicamos números de teléfono ni correos personales. Utilice la línea de ventas o info@pj-cranes.com."
     },
     "headOffice": {
-      "eyebrow": "Head office",
+      "eyebrow": "Sede central",
       "title": "PJ Cranes in Nijkerk",
-      "directions": "Get directions",
-      "callOffice": "Call head office",
-      "viewOffices": "View all offices",
-      "mapTitle": "Map of PJ Cranes head office in Nijkerk",
-      "mapLoad": "Load map",
+      "directions": "Cómo llegar",
+      "callOffice": "Llamar a la sede",
+      "viewOffices": "Ver todas las oficinas",
+      "mapTitle": "Mapa de la sede de PJ Cranes en Nijkerk",
+      "mapLoad": "Cargar mapa",
       "mapMarker": "PJ Cranes",
-      "internationalTitle": "Also reachable internationally",
-      "internationalBody": "View the contact details of our {count} offices and reach the location that fits your region.",
-      "internationalCta": "View our offices"
+      "internationalTitle": "También disponibles a nivel internacional",
+      "internationalBody": "Consulte los datos de contacto de nuestras {count} oficinas y contacte con la que corresponda a su región.",
+      "internationalCta": "Ver nuestras oficinas"
     },
     "company": {
-      "title": "Company details",
-      "legalName": "Legal name",
-      "address": "Registered address",
-      "invoiceTitle": "Invoicing details",
-      "invoiceBody": "For invoicing questions, email the general address. Bank details are not published publicly on this page."
+      "title": "Datos de la empresa",
+      "legalName": "Razón social",
+      "address": "Domicilio social",
+      "invoiceTitle": "Datos de facturación",
+      "invoiceBody": "Para consultas de facturación, escriba a la dirección general. Los datos bancarios no se publican en esta página."
     },
     "finalCta": {
-      "title": "Buy, sell or source a crane?",
-      "body": "Get in touch directly or choose the route that fits your enquiry.",
-      "ctaInventory": "View available cranes",
-      "ctaContact": "Get in touch",
-      "ctaSell": "Sell your crane"
+      "title": "¿Comprar, vender o buscar una grúa?",
+      "body": "Póngase en contacto directamente o elija la vía que mejor se ajuste a su consulta.",
+      "ctaInventory": "Ver grúas disponibles",
+      "ctaContact": "Contáctenos",
+      "ctaSell": "Venda su grúa"
     },
     "form": {
-      "name": "Name",
-      "email": "Email address",
-      "phone": "Phone number",
-      "company": "Company",
-      "optional": "optional",
-      "subject": "Subject",
-      "subjectPlaceholder": "Select a subject",
-      "craneReference": "Reference or crane",
-      "referenceLabel": "Reference",
-      "message": "Message",
-      "contactHint": "Provide at least an email address or phone number.",
-      "sellHint": "For a full sell enquiry with specifications and photos, use the <link>sell form</link>.",
-      "sourceHint": "For a targeted sourcing request, use the <link>sourcing form</link>.",
-      "consent": "I agree to the processing of my data for this enquiry and have read the <privacy>privacy notice</privacy>.",
-      "submit": "Send message",
-      "submitting": "Sending message…",
-      "successTitle": "Your message has been sent",
-      "successBody": "PJ Cranes has received your enquiry and will contact you to discuss the next steps.",
-      "errorSummary": "Please check the highlighted fields and try again.",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "company": "Empresa",
+      "optional": "opcional",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Seleccione un asunto",
+      "craneReference": "Referencia o grúa",
+      "referenceLabel": "Referencia",
+      "message": "Mensaje",
+      "contactHint": "Indique al menos un correo electrónico o un número de teléfono.",
+      "sellHint": "Para una consulta de venta completa con especificaciones y fotos, utilice el <link>formulario de venta</link>.",
+      "sourceHint": "Para una solicitud de búsqueda específica, utilice el <link>formulario de búsqueda</link>.",
+      "consent": "Acepto el tratamiento de mis datos para esta consulta y he leído el <privacy>aviso de privacidad</privacy>.",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando mensaje…",
+      "successTitle": "Su mensaje se ha enviado",
+      "successBody": "PJ Cranes ha recibido su consulta y se pondrá en contacto para hablar de los siguientes pasos.",
+      "errorSummary": "Revise los campos marcados e inténtelo de nuevo.",
       "subjects": {
-        "inventory": "Question about an available crane",
-        "sell": "Sell a crane",
-        "source": "Looking for a specific crane",
-        "transport": "Transport and documentation",
-        "general": "General contact"
+        "inventory": "Pregunta sobre una grúa disponible",
+        "sell": "Vender una grúa",
+        "source": "Busco una grúa concreta",
+        "transport": "Transporte y documentación",
+        "general": "Consulta general"
       },
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "phone": "Enter a valid phone number.",
-        "contactRequired": "Enter an email address or phone number.",
-        "subject": "Select a subject.",
-        "message": "Message is too short.",
-        "consent": "Consent is required.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Introduzca su nombre.",
+        "email": "Introduzca un correo electrónico válido.",
+        "phone": "Introduzca un número de teléfono válido.",
+        "contactRequired": "Introduzca un correo electrónico o un número de teléfono.",
+        "subject": "Seleccione un asunto.",
+        "message": "El mensaje es demasiado corto.",
+        "consent": "Es necesario su consentimiento.",
+        "generic": "No se ha podido enviar. Inténtelo de nuevo más tarde.",
+        "config": "El envío de correos aún no está configurado. Escriba a info@pj-cranes.com o llámenos."
       }
     }
   },
@@ -923,178 +920,178 @@
       "body": "Rellene el formulario y le contactaremos en un plazo de 24 horas. O llámenos directamente al <phone>(+31) 033 20 48 020</phone>."
     },
     "sidebar": {
-      "afterTitle": "After your enquiry",
+      "afterTitle": "Después de su consulta",
       "afterSteps": {
-        "review": "We review the information provided.",
-        "contact": "A specialist contacts you.",
-        "next": "We discuss market position and next steps."
+        "review": "Revisamos la información facilitada.",
+        "contact": "Un especialista se pone en contacto con usted.",
+        "next": "Hablamos de la posición en el mercado y de los siguientes pasos."
       },
-      "prepTitle": "Useful to have ready",
+      "prepTitle": "Conviene tener a mano",
       "prepItems": {
-        "brandModel": "Make and model",
-        "year": "Year of manufacture",
-        "hoursMileage": "Operating hours or mileage",
-        "serial": "Type plate or serial number",
-        "photos": "Recent photos",
-        "docs": "Maintenance documentation"
+        "brandModel": "Marca y modelo",
+        "year": "Año de fabricación",
+        "hoursMileage": "Horas de funcionamiento o kilometraje",
+        "serial": "Placa de identificación o número de serie",
+        "photos": "Fotos recientes",
+        "docs": "Documentación de mantenimiento"
       },
-      "contactTitle": "Prefer to talk directly?",
-      "contactBody": "Contact sales for a short initial assessment.",
-      "salesLabel": "Sales",
-      "phoneLabel": "Phone",
-      "emailLabel": "Email"
+      "contactTitle": "¿Prefiere hablar directamente?",
+      "contactBody": "Contacte con ventas para una primera valoración rápida.",
+      "salesLabel": "Ventas",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo electrónico"
     },
     "prep": {
-      "eyebrow": "Preparation",
-      "title": "What information helps the assessment?",
-      "body": "You do not need everything available immediately. We can discuss missing information later.",
+      "eyebrow": "Preparación",
+      "title": "¿Qué información ayuda a la valoración?",
+      "body": "No necesita tenerlo todo disponible de inmediato. Podemos hablar más tarde de la información que falte.",
       "items": {
-        "photos": "General photos of the crane",
-        "plate": "Photo of the type plate",
-        "yearSerial": "Year and serial number",
-        "hoursMileage": "Operating hours and mileage",
-        "capacity": "Capacity and configuration",
-        "docs": "Maintenance or inspection documents"
+        "photos": "Fotos generales de la grúa",
+        "plate": "Foto de la placa de identificación",
+        "yearSerial": "Año y número de serie",
+        "hoursMileage": "Horas de funcionamiento y kilometraje",
+        "capacity": "Capacidad y configuración",
+        "docs": "Documentos de mantenimiento o inspección"
       }
     },
     "faq": {
-      "eyebrow": "FAQ",
-      "title": "Answers about selling your crane",
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Respuestas sobre la venta de su grúa",
       "items": {
         "whichCranes": {
-          "question": "Which cranes can I offer?",
-          "answer": "PJ Cranes focuses on mobile and crawler cranes within the capacity range of our trading network. Unsure whether your machine fits? Contact us for an initial indication."
+          "question": "¿Qué grúas puedo ofrecer?",
+          "answer": "PJ Cranes se centra en grúas móviles y sobre orugas dentro del rango de capacidad de nuestra red comercial. ¿No está seguro de si su máquina encaja? Contáctenos para una primera valoración."
         },
         "allSpecs": {
-          "question": "Do I need to provide all specifications immediately?",
-          "answer": "No. Enter what you have available. Missing specifications can be completed together later during the conversation."
+          "question": "¿Debo facilitar todas las especificaciones de inmediato?",
+          "answer": "No. Indique lo que tenga disponible. Las especificaciones que falten pueden completarse juntos más adelante."
         },
         "photos": {
-          "question": "Which photos are important?",
-          "answer": "Overview shots, cabin, type plate, meter readings and carrier help most. Maintenance documentation is useful when available."
+          "question": "¿Qué fotos son importantes?",
+          "answer": "Lo más útil son las fotos generales, la cabina, la placa de identificación, los contadores y el chasis. La documentación de mantenimiento es útil si la tiene."
         },
         "valuation": {
-          "question": "How is the value of my crane determined?",
-          "answer": "We review brand, model, year, condition, hours or mileage and current market demand. Then we discuss market position and a suitable sales route."
+          "question": "¿Cómo se determina el valor de mi grúa?",
+          "answer": "Analizamos marca, modelo, año, estado, horas o kilometraje y la demanda actual del mercado. Después hablamos de la posición en el mercado y de una vía de venta adecuada."
         },
         "docsTransport": {
-          "question": "Does PJ Cranes help with documentation and transport?",
-          "answer": "Documentation and transport can form part of the next steps after agreement. What is required is coordinated per machine."
+          "question": "¿Ayuda PJ Cranes con la documentación y el transporte?",
+          "answer": "La documentación y el transporte pueden formar parte de los siguientes pasos tras el acuerdo. Lo necesario se coordina para cada máquina."
         },
         "responseTime": {
-          "question": "How quickly will someone get in touch?",
-          "answer": "After receiving your enquiry we review the details and contact you to discuss the options."
+          "question": "¿Con qué rapidez se pondrán en contacto?",
+          "answer": "Tras recibir su consulta revisamos los datos y nos ponemos en contacto para hablar de las opciones."
         }
       }
     },
     "finalCta": {
-      "title": "Still have questions about selling your crane?",
-      "body": "Contact PJ Cranes directly to discuss your machine and possible next steps.",
-      "contact": "Contact us",
-      "callSales": "Call sales"
+      "title": "¿Tiene más preguntas sobre la venta de su grúa?",
+      "body": "Contacte directamente con PJ Cranes para hablar de su máquina y de los posibles siguientes pasos.",
+      "contact": "Contáctenos",
+      "callSales": "Llamar a ventas"
     },
     "form": {
       "steps": {
-        "contact": "Your details",
-        "machine": "Machine",
-        "files": "Files",
-        "review": "Review"
+        "contact": "Sus datos",
+        "machine": "Máquina",
+        "files": "Archivos",
+        "review": "Revisión"
       },
-      "stepAnnounce": "Step {current} of {total}: {label}",
+      "stepAnnounce": "Paso {current} de {total}: {label}",
       "sections": {
-        "contact": "Your details",
-        "machine": "Machine details",
-        "attachments": "Photos & documents",
-        "review": "Review your enquiry"
+        "contact": "Sus datos",
+        "machine": "Datos de la máquina",
+        "attachments": "Fotos y documentos",
+        "review": "Revise su consulta"
       },
-      "name": "Name",
-      "email": "Email address",
-      "phone": "Phone number",
-      "company": "Company",
-      "companyOptional": "optional",
-      "preferredContact": "Preferred contact",
-      "preferredContactOptional": "optional",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "company": "Empresa",
+      "companyOptional": "opcional",
+      "preferredContact": "Contacto preferido",
+      "preferredContactOptional": "opcional",
       "preferredOptions": {
-        "phone": "Phone",
+        "phone": "Teléfono",
         "whatsapp": "WhatsApp",
-        "email": "Email"
+        "email": "Correo electrónico"
       },
-      "contactHint": "Provide at least an email address or phone number.",
-      "manufacturer": "Manufacturer",
-      "manufacturerOther": "Other",
-      "manufacturerOtherLabel": "Manufacturer (other)",
-      "model": "Model",
-      "year": "Year of manufacture",
-      "yearOptional": "optional",
-      "capacityTons": "Capacity in tonnes",
-      "capacityOptional": "optional",
-      "serialNumber": "Serial number",
-      "serialOptional": "optional",
-      "operatingHours": "Operating hours",
-      "hoursOptional": "optional",
-      "mileageKm": "Mileage",
-      "mileageOptional": "optional",
-      "location": "Location",
-      "askingPrice": "Expected asking price",
-      "askingPriceOptional": "optional",
-      "askingCurrency": "Currency",
-      "askingCurrencyOptional": "optional",
-      "conditionNotes": "Condition and remarks",
-      "conditionOptional": "optional",
-      "machineHint": "No problem if you do not have every specification available right away.",
-      "message": "Additional information",
-      "messageOptional": "optional",
-      "messagePlaceholder": "Anything else we should knowâ€¦",
-      "attachmentsTitle": "Add photos and documents",
-      "attachmentsBody": "Good photos and documentation help us assess the machine more accurately.",
+      "contactHint": "Indique al menos un correo electrónico o un número de teléfono.",
+      "manufacturer": "Fabricante",
+      "manufacturerOther": "Otro",
+      "manufacturerOtherLabel": "Fabricante (otro)",
+      "model": "Modelo",
+      "year": "Año de fabricación",
+      "yearOptional": "opcional",
+      "capacityTons": "Capacidad en toneladas",
+      "capacityOptional": "opcional",
+      "serialNumber": "Número de serie",
+      "serialOptional": "opcional",
+      "operatingHours": "Horas de funcionamiento",
+      "hoursOptional": "opcional",
+      "mileageKm": "Kilometraje",
+      "mileageOptional": "opcional",
+      "location": "Ubicación",
+      "askingPrice": "Precio de venta esperado",
+      "askingPriceOptional": "opcional",
+      "askingCurrency": "Moneda",
+      "askingCurrencyOptional": "opcional",
+      "conditionNotes": "Estado y observaciones",
+      "conditionOptional": "opcional",
+      "machineHint": "No pasa nada si no tiene todas las especificaciones a mano.",
+      "message": "Información adicional",
+      "messageOptional": "opcional",
+      "messagePlaceholder": "Cualquier otra cosa que debamos saber…",
+      "attachmentsTitle": "Añadir fotos y documentos",
+      "attachmentsBody": "Buenas fotos y documentación nos ayudan a valorar la máquina con más precisión.",
       "attachmentsGuidance": {
-        "overview": "Overview photos",
-        "cabin": "Cabin",
-        "plate": "Type plate",
-        "meters": "Meter readings",
-        "carrier": "Carrier",
-        "docs": "Maintenance documentation"
+        "overview": "Fotos generales",
+        "cabin": "Cabina",
+        "plate": "Placa de identificación",
+        "meters": "Contadores",
+        "carrier": "Chasis",
+        "docs": "Documentación de mantenimiento"
       },
-      "attachmentsDrop": "Drop files here or choose files",
-      "attachmentsBrowse": "Choose files",
-      "attachmentsLimits": "Maximum {maxFiles} files, {maxMb} MB per file. Formats: {formats}.",
-      "attachmentsSelectedNote": "Selected â€” shared with your enquiry during follow-up contact.",
-      "attachmentsRemove": "Remove",
-      "attachmentsEmpty": "No files selected yet",
-      "notProvided": "Not provided",
-      "edit": "Edit",
-      "reviewContact": "Contact details",
-      "reviewMachine": "Machine details",
-      "reviewFiles": "Photos and documents",
-      "reviewMessage": "Additional information",
-      "consent": "I agree to the processing of my data for this sell enquiry and have read the <privacy>privacy notice</privacy>.",
-      "nextMachine": "Continue to machine details",
-      "nextFiles": "Continue to photos and documents",
-      "nextReview": "Review enquiry",
-      "back": "Back",
-      "submit": "Send sell enquiry",
-      "submitting": "Sending enquiryâ€¦",
-      "successTitle": "Your sell enquiry has been received",
-      "successBody": "We have received your crane details and will contact you to discuss the options.",
-      "successReference": "Reference",
-      "successHome": "Back to homepage",
-      "successInventory": "Browse available cranes",
-      "errorSummary": "Please check the highlighted fields before continuing.",
+      "attachmentsDrop": "Arrastre los archivos aquí o selecciónelos",
+      "attachmentsBrowse": "Seleccionar archivos",
+      "attachmentsLimits": "Máximo {maxFiles} archivos, {maxMb} MB por archivo. Formatos: {formats}.",
+      "attachmentsSelectedNote": "Seleccionados: se tendrán en cuenta con su consulta en el contacto posterior.",
+      "attachmentsRemove": "Quitar",
+      "attachmentsEmpty": "Aún no ha seleccionado archivos",
+      "notProvided": "No indicado",
+      "edit": "Editar",
+      "reviewContact": "Datos de contacto",
+      "reviewMachine": "Datos de la máquina",
+      "reviewFiles": "Fotos y documentos",
+      "reviewMessage": "Información adicional",
+      "consent": "Acepto el tratamiento de mis datos para esta consulta de venta y he leído el <privacy>aviso de privacidad</privacy>.",
+      "nextMachine": "Continuar con los datos de la máquina",
+      "nextFiles": "Continuar con fotos y documentos",
+      "nextReview": "Revisar la consulta",
+      "back": "Atrás",
+      "submit": "Enviar consulta de venta",
+      "submitting": "Enviando consulta…",
+      "successTitle": "Hemos recibido su consulta de venta",
+      "successBody": "Hemos recibido los datos de su grúa y nos pondremos en contacto para hablar de las opciones.",
+      "successReference": "Referencia",
+      "successHome": "Volver a la página de inicio",
+      "successInventory": "Ver grúas disponibles",
+      "errorSummary": "Revise los campos marcados antes de continuar.",
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "phone": "Enter a valid phone number.",
-        "contactRequired": "Enter an email address or phone number.",
-        "manufacturer": "Enter the manufacturer.",
-        "model": "Enter the model.",
-        "year": "Enter a valid year.",
-        "location": "Enter the machine location.",
-        "consent": "Consent is required.",
-        "fileTooMany": "You can select a maximum of {maxFiles} files.",
-        "fileTooLarge": "â€œ{name}â€ is too large. Maximum is {maxMb} MB per file.",
-        "fileInvalidType": "â€œ{name}â€ is not a supported file type.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Introduzca su nombre.",
+        "email": "Introduzca un correo electrónico válido.",
+        "phone": "Introduzca un número de teléfono válido.",
+        "contactRequired": "Introduzca un correo electrónico o un número de teléfono.",
+        "manufacturer": "Indique el fabricante.",
+        "model": "Indique el modelo.",
+        "year": "Introduzca un año válido.",
+        "location": "Indique la ubicación de la máquina.",
+        "consent": "Es necesario su consentimiento.",
+        "fileTooMany": "Puede seleccionar un máximo de {maxFiles} archivos.",
+        "fileTooLarge": "«{name}» es demasiado grande. El máximo es {maxMb} MB por archivo.",
+        "fileInvalidType": "«{name}» no es un tipo de archivo compatible.",
+        "generic": "No se ha podido enviar. Inténtelo de nuevo más tarde.",
+        "config": "El envío de correos aún no está configurado. Escriba a info@pj-cranes.com o llámenos."
       },
       "attachments": "Seleccionar archivos",
       "attachmentsHint": "Las fotos y documentos ayudan a valorar la máquina. También puede añadirlos más adelante.",
@@ -1103,149 +1100,149 @@
   },
   "Find": {
     "meta": {
-      "title": "Find a crane",
-      "description": "Tell PJ Cranes what machine you need. We source mobile and crawler cranes across brands and capacity ranges through our international network."
+      "title": "Buscar una grúa",
+      "description": "Indique a PJ Cranes qué máquina necesita. Buscamos grúas móviles y sobre orugas de todas las marcas y capacidades a través de nuestra red internacional."
     },
     "hero": {
-      "badge": "International sourcing",
-      "title": "Find a crane",
-      "body": "Not in stock? Share your requirements — we search our network for the right mobile or crawler crane."
+      "badge": "Búsqueda internacional",
+      "title": "Buscar una grúa",
+      "body": "¿No está en stock? Indíquenos sus requisitos y buscaremos en nuestra red la grúa móvil o sobre orugas adecuada."
     },
     "trust": {
       "network": {
-        "title": "International network",
-        "body": "Access to machines and suppliers in dozens of countries through our proven trading network."
+        "title": "Red internacional",
+        "body": "Acceso a máquinas y proveedores en decenas de países a través de nuestra red comercial probada."
       },
       "match": {
-        "title": "Targeted search",
-        "body": "We match brand, model, capacity and timing with what is actually available."
+        "title": "Búsqueda específica",
+        "body": "Comparamos marca, modelo, capacidad y plazos con lo que realmente está disponible."
       },
       "range": {
-        "title": "20–1000 tonnes",
-        "body": "From compact city cranes to heavy all-terrain and crawler cranes for demanding projects."
+        "title": "20–1000 toneladas",
+        "body": "Desde grúas urbanas compactas hasta grúas todoterreno pesadas y sobre orugas para proyectos exigentes."
       },
       "handover": {
-        "title": "Through to handover",
-        "body": "Documentation, export and transport can be included once the deal is agreed."
+        "title": "Hasta la entrega",
+        "body": "La documentación, la exportación y el transporte pueden incluirse una vez cerrado el acuerdo."
       }
     },
     "process": {
-      "eyebrow": "How it works",
-      "title": "Our sourcing process",
-      "body": "You describe the machine you need. We search our network actively, shortlist suitable options and guide you to a clear next step.",
+      "eyebrow": "Cómo funciona",
+      "title": "Nuestro proceso de búsqueda",
+      "body": "Usted describe la máquina que necesita. Buscamos activamente en nuestra red, seleccionamos opciones adecuadas y le guiamos hacia un siguiente paso claro.",
       "steps": {
         "brief": {
-          "title": "Share your brief",
-          "body": "Brand, model, capacity, year, destination and timing — the clearer the brief, the faster we can search."
+          "title": "Comparta sus requisitos",
+          "body": "Marca, modelo, capacidad, año, destino y plazos: cuanto más claro sea el encargo, más rápido podremos buscar."
         },
         "search": {
-          "title": "Active market search",
-          "body": "We check available stock and source through our international network for matching machines."
+          "title": "Búsqueda activa en el mercado",
+          "body": "Revisamos el stock disponible y buscamos máquinas adecuadas a través de nuestra red internacional."
         },
         "shortlist": {
-          "title": "Shortlist of options",
-          "body": "You receive a focused selection with relevant specs so you can compare machines without noise."
+          "title": "Selección de opciones",
+          "body": "Recibe una selección concreta con los datos relevantes para comparar máquinas sin ruido."
         },
         "verify": {
-          "title": "Review & verification",
-          "body": "Together we review condition, documentation and practical feasibility before you proceed."
+          "title": "Revisión y verificación",
+          "body": "Revisamos juntos el estado, la documentación y la viabilidad práctica antes de que siga adelante."
         },
         "close": {
-          "title": "Deal, docs & delivery",
-          "body": "Once agreed, we handle the next steps: paperwork, payment and transport where needed."
+          "title": "Acuerdo, documentos y entrega",
+          "body": "Una vez cerrado el acuerdo, nos ocupamos de los siguientes pasos: documentación, pago y transporte si es necesario."
         }
       }
     },
     "formSection": {
-      "title": "Submit your sourcing request",
-      "body": "Fill in the form — more detail helps. Or call us directly on <phone>(+31) 033 20 48 020</phone>."
+      "title": "Envíe su solicitud de búsqueda",
+      "body": "Rellene el formulario: cuantos más detalles, mejor. O llámenos directamente al <phone>(+31) 033 20 48 020</phone>."
     },
     "inventoryCta": {
       "eyebrow": "Stock",
-      "title": "Want to browse current stock first?",
-      "body": "The machine you need may already be listed. Filter by brand, type and capacity in our catalogue.",
-      "cta": "View available cranes"
+      "title": "¿Prefiere ver primero el stock actual?",
+      "body": "Puede que la máquina que necesita ya esté publicada. Filtre por marca, tipo y capacidad en nuestro catálogo.",
+      "cta": "Ver grúas disponibles"
     },
     "faq": {
-      "eyebrow": "FAQ",
-      "title": "Answers about finding a crane",
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Respuestas sobre la búsqueda de grúas",
       "items": {
         "stockVsSource": {
-          "question": "Should I check stock first?",
-          "answer": "That can help. If the right machine is not listed, we source targeted options through our network based on your requirements."
+          "question": "¿Debo consultar primero el stock?",
+          "answer": "Puede ser útil. Si la máquina adecuada no está publicada, buscamos opciones específicas a través de nuestra red según sus requisitos."
         },
         "whatToShare": {
-          "question": "What information should I provide?",
-          "answer": "Preferably brand or model, capacity, type, preferred year, destination country and timing. Missing details can be added later."
+          "question": "¿Qué información debo facilitar?",
+          "answer": "Preferiblemente marca o modelo, capacidad, tipo, año preferido, país de destino y plazos. Los datos que falten pueden añadirse más tarde."
         },
         "howLong": {
-          "question": "How long does a sourcing request take?",
-          "answer": "It depends on the specification and market supply. After your request we contact you with an initial assessment and any available options."
+          "question": "¿Cuánto tarda una solicitud de búsqueda?",
+          "answer": "Depende de la especificación y de la oferta del mercado. Tras su solicitud le contactamos con una primera valoración y las opciones disponibles."
         },
         "brands": {
-          "question": "Which brands do you source?",
-          "answer": "We work with brands such as Liebherr, Grove, Terex-Demag and Tadano Faun, and also consider other brands when they better match your brief."
+          "question": "¿Qué marcas buscan?",
+          "answer": "Trabajamos con marcas como Liebherr, Grove, Terex-Demag y Tadano Faun, y también valoramos otras marcas si se ajustan mejor a su encargo."
         },
         "inspection": {
-          "question": "Can you help assess machine condition?",
-          "answer": "Yes. We help review specifications, documentation and practical points of attention before you decide."
+          "question": "¿Pueden ayudar a valorar el estado de la máquina?",
+          "answer": "Sí. Le ayudamos a revisar especificaciones, documentación y aspectos prácticos antes de que decida."
         },
         "docsTransport": {
-          "question": "Does PJ Cranes help with documentation and transport?",
-          "answer": "Documentation, export and transport can be part of the next steps after agreement. Exact needs are aligned per machine."
+          "question": "¿Ayuda PJ Cranes con la documentación y el transporte?",
+          "answer": "La documentación, la exportación y el transporte pueden formar parte de los siguientes pasos tras el acuerdo. Las necesidades exactas se definen por máquina."
         }
       }
     },
     "finalCta": {
-      "title": "Still have questions about your search?",
-      "body": "Contact PJ Cranes directly to discuss requirements, timing and possible machines.",
-      "contact": "Contact us",
-      "callSales": "Call sales"
+      "title": "¿Tiene más preguntas sobre su búsqueda?",
+      "body": "Contacte directamente con PJ Cranes para hablar de requisitos, plazos y posibles máquinas.",
+      "contact": "Contáctenos",
+      "callSales": "Llamar a ventas"
     },
     "form": {
       "sections": {
-        "contact": "Your details",
-        "requirements": "Requirements"
+        "contact": "Sus datos",
+        "requirements": "Requisitos"
       },
-      "name": "Name",
-      "email": "Email address",
-      "phone": "Phone",
-      "company": "Company",
-      "manufacturer": "Preferred manufacturer",
-      "model": "Preferred model",
-      "craneType": "Crane type",
-      "yearMin": "Year from",
-      "yearMax": "Year to",
-      "capacityMinTons": "Min. capacity (t)",
-      "capacityMaxTons": "Max. capacity (t)",
-      "budget": "Budget",
-      "budgetPlaceholder": "Indicative / on request",
-      "destinationCountry": "Destination country",
-      "timeframe": "Timeframe",
-      "timeframePlaceholder": "e.g. within 3 months",
-      "message": "Requirements",
-      "messagePlaceholder": "Describe the job, specs that matter, and any must-havesâ€¦",
-      "consent": "I agree to the processing of my data for this sourcing request and have read the privacy notice.",
-      "submit": "Send sourcing request",
-      "submitting": "Sendingâ€¦",
-      "successTitle": "Request sent",
-      "successBody": "Thank you. We will review your requirements and follow up with options.",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "manufacturer": "Fabricante preferido",
+      "model": "Modelo preferido",
+      "craneType": "Tipo de grúa",
+      "yearMin": "Año desde",
+      "yearMax": "Año hasta",
+      "capacityMinTons": "Capacidad mín. (t)",
+      "capacityMaxTons": "Capacidad máx. (t)",
+      "budget": "Presupuesto",
+      "budgetPlaceholder": "Orientativo / a consultar",
+      "destinationCountry": "País de destino",
+      "timeframe": "Plazo",
+      "timeframePlaceholder": "p. ej., en un plazo de 3 meses",
+      "message": "Requisitos",
+      "messagePlaceholder": "Describa el trabajo, las especificaciones importantes y los requisitos imprescindibles…",
+      "consent": "Acepto el tratamiento de mis datos para esta solicitud de búsqueda y he leído el aviso de privacidad.",
+      "submit": "Enviar solicitud de búsqueda",
+      "submitting": "Enviando…",
+      "successTitle": "Solicitud enviada",
+      "successBody": "Gracias. Revisaremos sus requisitos y le enviaremos opciones.",
       "types": {
-        "any": "Any type",
-        "mobile": "Mobile",
-        "crawler": "Crawler",
-        "all_terrain": "All terrain",
-        "city": "City",
-        "rough_terrain": "Rough terrain",
-        "other": "Other"
+        "any": "Cualquier tipo",
+        "mobile": "Grúa móvil",
+        "crawler": "Grúa sobre orugas",
+        "all_terrain": "Todoterreno",
+        "city": "Grúa urbana",
+        "rough_terrain": "Todoterreno para obra",
+        "other": "Otro"
       },
       "errors": {
-        "name": "Enter your name.",
-        "email": "Enter a valid email address.",
-        "message": "Please describe your requirements (at least a short message).",
-        "consent": "Consent is required.",
-        "generic": "Could not send. Please try again later.",
-        "config": "Email delivery is not configured yet. Email info@pj-cranes.com or call us."
+        "name": "Introduzca su nombre.",
+        "email": "Introduzca un correo electrónico válido.",
+        "message": "Describa sus requisitos (al menos un mensaje breve).",
+        "consent": "Es necesario su consentimiento.",
+        "generic": "No se ha podido enviar. Inténtelo de nuevo más tarde.",
+        "config": "El envío de correos aún no está configurado. Escriba a info@pj-cranes.com o llámenos."
       },
       "similarNotice": "Su solicitud se ha rellenado a partir de la {crane} vendida. Ajuste lo que necesite.",
       "similarMessage": "Busco una grúa similar a la {crane} ({year}, {capacity} t, ref. {reference})."
@@ -1254,12 +1251,12 @@
   "About": {
     "meta": {
       "title": "Sobre PJ Cranes | Comercio internacional de grúas móviles",
-      "description": "Conozca PJ Cranes, especialista en compra y venta internacional de grúas móviles usadas desde cinco oficinas en todo el mundo."
+      "description": "Conozca PJ Cranes, especialista en compra y venta internacional de grúas móviles usadas desde cuatro oficinas en todo el mundo."
     },
     "hero": {
       "eyebrow": "Sobre PJ Cranes",
       "title": "Más de 20 años de comercio internacional de grúas",
-      "subtitle": "PJ Cranes conecta compradores y vendedores de grúas móviles usadas a través de cinco oficinas y una red mundial.",
+      "subtitle": "PJ Cranes conecta compradores y vendedores de grúas móviles usadas a través de cuatro oficinas y una red mundial.",
       "support": "Desde la compra y venta hasta la documentación y la entrega.",
       "ctaInventory": "Ver grúas disponibles",
       "ctaContact": "Contactar",
@@ -1280,7 +1277,7 @@
       "title": "Conocimiento especializado del mercado, aplicado en todo el mundo",
       "body": [
         "PJ Cranes lleva más de 20 años activo en la compra y venta de grúas móviles usadas. Desde la sede en Nijkerk acompañamos a compradores y vendedores internacionales con máquinas de marcas como Liebherr, Grove, Terex-Demag y Tadano Faun.",
-        "Con cinco oficinas y una red internacional vinculamos máquinas disponibles con la demanda relevante — normalmente de unos 20 a 1000 toneladas. Las especificaciones se publican por anuncio; los precios siempre bajo petición.",
+        "Con cuatro oficinas y una red internacional vinculamos máquinas disponibles con la demanda relevante — normalmente de unos 20 a 1000 toneladas. Las especificaciones se publican por anuncio; los precios siempre bajo petición.",
         "Mantiene un único interlocutor: desde la primera consulta de búsqueda o venta hasta la documentación, la coordinación de exportación y el transporte cuando sea necesario."
       ],
       "ctaInventory": "Ver nuestro inventario",
@@ -1321,10 +1318,6 @@
           "city": "Nijkerk",
           "country": "Países Bajos"
         },
-        "germany": {
-          "city": "",
-          "country": "Alemania"
-        },
         "turkiye": {
           "city": "",
           "country": "Türkiye"
@@ -1349,7 +1342,7 @@
         },
         "network": {
           "title": "Red internacional",
-          "body": "Conexión entre máquinas disponibles y compradores potenciales a través de cinco oficinas."
+          "body": "Conexión entre máquinas disponibles y compradores potenciales a través de cuatro oficinas."
         },
         "communication": {
           "title": "Comunicación clara",
@@ -1371,101 +1364,105 @@
   },
   "Faq": {
     "meta": {
-      "title": "FAQ",
-      "description": "Answers about delivery, documents, origin, payment and inspection at PJ Cranes."
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas sobre entrega, documentos, origen, pago e inspección en PJ Cranes."
     },
     "eyebrow": "FAQ",
-    "title": "Frequently asked questions",
-    "subtitle": "Short answers on how we buy, sell and deliver cranes. Missing your question? Contact us.",
-    "cta": "Contact us",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Respuestas breves sobre cómo compramos, vendemos y entregamos grúas. ¿No encuentra su pregunta? Contáctenos.",
+    "cta": "Contáctenos",
     "items": {
       "countries": {
-        "question": "Which countries have you been in business with?",
-        "answer": "P.J. Cranes has done business with different people and companies all over the world. Feel free to contact us if you have a question regarding the possibilities of buying or selling from a specific continent or country."
+        "question": "¿Con qué países han trabajado?",
+        "answer": "P.J. Cranes ha trabajado con personas y empresas de todo el mundo. No dude en contactarnos si tiene preguntas sobre las posibilidades de comprar o vender en un continente o país concreto."
       },
       "experience": {
-        "question": "How long has P.J. Cranes been in business for?",
-        "answer": "P.J. Cranes has been a nested name within the crane industry for more than 20 years. With a family that has been in the market for decades, P.J. Cranes has a wide knowledge and a great network which guarantees the best service and most suitable offer for our clients."
+        "question": "¿Cuánto tiempo lleva P.J. Cranes en el sector?",
+        "answer": "P.J. Cranes es un nombre consolidado en el sector de las grúas desde hace más de 20 años. Como familia presente en el mercado desde hace décadas, P.J. Cranes cuenta con amplios conocimientos y una gran red, lo que garantiza el mejor servicio y la oferta más adecuada para nuestros clientes."
       },
       "delivery": {
-        "question": "Does P.J. Cranes organize delivery?",
-        "answer": "At a client's request, we will deliver cranes wherever you desire (from port to doorstep). Delivery is not included in the original cost of the crane and will be calculated separately."
+        "question": "¿Organiza P.J. Cranes la entrega?",
+        "answer": "A petición del cliente, entregamos las grúas donde desee (del puerto hasta la puerta). La entrega no está incluida en el precio de la grúa y se calcula aparte."
       },
       "origin": {
-        "question": "Where do the cranes P.J. Cranes sells come from?",
-        "answer": "P.J. Cranes B.V. sources the best cranes from all over the world. We have a vast and reliable network of suppliers of used cranes with whom we have been working with for years. The majority of the cranes we sell are originating Germany, France, the Netherlands and Belgium."
+        "question": "¿De dónde proceden las grúas que vende P.J. Cranes?",
+        "answer": "P.J. Cranes B.V. obtiene las mejores grúas de todo el mundo. Contamos con una amplia y fiable red de proveedores de grúas usadas con los que trabajamos desde hace años. La mayoría de las grúas que vendemos proceden de Alemania, Francia, los Países Bajos y Bélgica."
       },
       "condition": {
-        "question": "How is the condition of the cranes?",
-        "answer": "All details of each crane are described on the technical data sheets. We sell cranes from different suppliers, origins and construction years. Evidently all our cranes are in perfect working condition and are carefully investigated before selling."
+        "question": "¿En qué estado están las grúas?",
+        "answer": "Todos los detalles de cada grúa figuran en las fichas técnicas. Vendemos grúas de distintos proveedores, orígenes y años de fabricación. Por supuesto, todas nuestras grúas están en perfecto estado de funcionamiento y se revisan cuidadosamente antes de la venta."
       },
       "payment": {
-        "question": "What are the payment methods P.J. Cranes uses?",
-        "answer": "We accept payments through TT bank transfer or via a letter of credit (L/C)."
+        "question": "¿Qué métodos de pago utiliza P.J. Cranes?",
+        "answer": "Aceptamos pagos por transferencia bancaria (TT) o mediante carta de crédito (L/C)."
       },
       "inspectionVisit": {
-        "question": "How and where can I see the cranes?",
-        "answer": "The cranes can be inspected in our yard in the Netherlands or at our suppliers' terrain. To keep costs as low as possible we don't ship to the Netherlands if it isn't necessary."
+        "question": "¿Cómo y dónde puedo ver las grúas?",
+        "answer": "Las grúas pueden inspeccionarse en nuestras instalaciones en los Países Bajos o en las de nuestros proveedores. Para mantener los costes lo más bajos posible, no las trasladamos a los Países Bajos si no es necesario."
       },
       "documents": {
-        "question": "What documents will I get when purchasing a crane?",
-        "answer": "Usually these include the crane's passport, certificate of origin, service book, parts catalog, user manual and other necessary documents. For the exact content of the package of documents, we will inform you at the time of the crane purchase."
+        "question": "¿Qué documentos recibo al comprar una grúa?",
+        "answer": "Normalmente incluyen el pasaporte de la grúa, certificado de origen, libro de mantenimiento, catálogo de piezas, manual de usuario y otros documentos necesarios. Le informaremos del contenido exacto del paquete en el momento de la compra."
       },
       "thirdPartyInspection": {
-        "question": "Does P.J. Cranes supply third party inspection reports?",
-        "answer": "We organize third party inspections of the crane on request."
+        "question": "¿Ofrece P.J. Cranes informes de inspección de terceros?",
+        "answer": "A petición organizamos inspecciones de la grúa por terceros."
       },
       "deliveryTime": {
-        "question": "How long will it take to have a purchased crane delivered?",
-        "answer": "Usually all of the cranes we offer are available immediately. Delivery times differ on the current location of a crane. Feel free to get in touch with us when you have a question regarding the delivery time of a certain crane."
+        "question": "¿Cuánto tarda la entrega de una grúa comprada?",
+        "answer": "Normalmente todas las grúas que ofrecemos están disponibles de inmediato. El plazo de entrega depende de la ubicación actual de la grúa. No dude en contactarnos si tiene preguntas sobre el plazo de entrega de una grúa concreta."
       },
       "ownership": {
-        "question": "Does P.J. Cranes own the cranes they sell?",
-        "answer": "80% of our stock is owned by us. For the other 20% we work on a consignment base with our suppliers."
+        "question": "¿Son de P.J. Cranes las grúas que vende?",
+        "answer": "El 80 % de nuestro stock es de nuestra propiedad. Para el 20 % restante trabajamos en régimen de consignación con nuestros proveedores."
       }
     }
   },
   "Privacy": {
     "meta": {
-      "title": "Privacy",
-      "description": "Privacy notice for PJ Cranes B.V. on how personal data is processed via the website and forms."
+      "title": "Privacidad",
+      "description": "Aviso de privacidad de PJ Cranes B.V. sobre el tratamiento de datos personales a través del sitio web y los formularios."
     },
     "eyebrow": "Legal",
-    "title": "Privacy notice",
-    "subtitle": "How we process personal data when you use our site or send an enquiry.",
-    "reviewNote": "Draft for this redesign â€” have counsel review before production launch."
+    "title": "Aviso de privacidad",
+    "subtitle": "Cómo tratamos los datos personales cuando utiliza nuestro sitio o envía una consulta.",
+    "reviewNote": "Borrador para este rediseño: debe revisarlo un abogado antes de su publicación."
   },
   "Terms": {
     "meta": {
-      "title": "Terms and conditions",
-      "description": "General terms and conditions of PJ Cranes B.V. (version May 2025)."
+      "title": "Términos y condiciones",
+      "description": "Condiciones generales de PJ Cranes B.V. (versión de mayo de 2025)."
     },
     "eyebrow": "Legal",
-    "title": "General terms and conditions PJ Cranes B.V.",
-    "subtitle": "Applicable to quotations, agreements and deliveries by PJ Cranes â€” B2B only.",
-    "articleLabel": "Article {number}",
-    "dutchPrevails": "The Dutch version of these terms prevails over any translation.",
-    "reviewNote": "Have counsel review before production launch."
+    "title": "Condiciones generales de PJ Cranes B.V.",
+    "subtitle": "Aplicables a ofertas, contratos y entregas de PJ Cranes; solo B2B.",
+    "articleLabel": "Artículo {number}",
+    "dutchPrevails": "La versión neerlandesa de estas condiciones prevalece sobre cualquier traducción. El texto siguiente es la versión inglesa.",
+    "reviewNote": "Debe revisarlo un abogado antes de su publicación."
   },
   "News": {
     "meta": {
-      "title": "News",
-      "description": "News and updates from PJ Cranes on inventory and company announcements."
+      "title": "Noticias",
+      "description": "Noticias y novedades de PJ Cranes sobre el stock y la empresa."
     },
-    "eyebrow": "News",
-    "title": "Newsroom",
-    "subtitle": "Market updates, new arrivals and company news will appear here.",
+    "eyebrow": "Noticias",
+    "title": "Sala de prensa",
+    "subtitle": "Aquí aparecerán novedades del mercado, nuevas incorporaciones y noticias de la empresa.",
     "empty": {
-      "title": "No articles yet",
-      "description": "There are no published news articles at the moment. Browse inventory or contact us for current machines.",
-      "ctaInventory": "View inventory",
-      "ctaContact": "Contact"
+      "title": "Aún no hay artículos",
+      "description": "Por ahora no hay noticias publicadas. Consulte el stock o contáctenos para conocer las máquinas actuales.",
+      "ctaInventory": "Ver stock",
+      "ctaContact": "Contacto"
     },
     "notFound": {
-      "title": "Article not found",
-      "description": "This news article does not exist or is not published.",
-      "back": "Back to news"
+      "title": "Artículo no encontrado",
+      "description": "Esta noticia no existe o no está publicada.",
+      "back": "Volver a noticias"
     },
-    "published": "Published {date}"
+    "published": "Publicado el {date}"
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "description": "La página que busca no existe o se ha movido."
   }
 }

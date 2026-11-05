@@ -6,14 +6,12 @@
 export type NetworkOfficeId =
   | "usa"
   | "netherlands"
-  | "germany"
   | "turkiye"
   | "dubai";
 
 export const NETWORK_OFFICE_IDS = [
   "usa",
   "netherlands",
-  "germany",
   "turkiye",
   "dubai",
 ] as const satisfies readonly NetworkOfficeId[];

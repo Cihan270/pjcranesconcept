@@ -37,10 +37,6 @@ export async function InternationalBand() {
         city: t("offices.netherlands.city"),
         country: t("offices.netherlands.country"),
       },
-      germany: {
-        city: t("offices.germany.city"),
-        country: t("offices.germany.country"),
-      },
       turkiye: {
         city: t("offices.turkiye.city"),
         country: t("offices.turkiye.country"),
@@ -53,11 +49,11 @@ export async function InternationalBand() {
   };
 
   return (
-    <section className="bg-surface" aria-labelledby="international-title">
+    <section className="bg-charcoal text-surface" aria-labelledby="international-title">
       <div className="mx-auto grid w-full max-w-[1440px] gap-12 px-4 py-20 md:px-8 md:py-24 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:items-start lg:gap-16 lg:px-12 lg:py-28">
         <Reveal>
           <div className="max-w-xl space-y-5">
-            <p className="font-heading text-xs font-semibold tracking-[0.22em] text-steel uppercase">
+            <p className="font-heading text-xs font-semibold tracking-[0.22em] text-brand uppercase">
               {t("eyebrow")}
             </p>
             <h2
@@ -66,13 +62,13 @@ export async function InternationalBand() {
             >
               {t("title")}
             </h2>
-            <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
+            <p className="text-base leading-relaxed text-surface/70 md:text-lg">
               {t("body", { count: officeCount })}
             </p>
             <div className="flex flex-col gap-3 pt-2 sm:flex-row">
               <Link
                 href="/about#network"
-                className="focus-ring group inline-flex min-h-12 flex-1 items-center justify-center gap-2 rounded-[var(--radius)] bg-charcoal px-5 text-sm font-medium text-surface transition-colors hover:bg-charcoal/90"
+                className="focus-ring group inline-flex min-h-12 flex-1 items-center justify-center gap-2 rounded-[var(--radius)] bg-brand px-5 text-sm font-semibold text-charcoal transition-colors hover:bg-accent"
               >
                 {t("ctaOffices")}
                 <ArrowRight
@@ -82,7 +78,7 @@ export async function InternationalBand() {
               </Link>
               <Link
                 href="/contact"
-                className="focus-ring inline-flex min-h-12 flex-1 items-center justify-center rounded-[var(--radius)] border border-line bg-background px-5 text-sm font-medium transition-colors hover:border-foreground/30"
+                className="focus-ring inline-flex min-h-12 flex-1 items-center justify-center rounded-[var(--radius)] border border-surface/25 px-5 text-sm font-medium text-surface transition-colors hover:border-surface/60 hover:bg-surface/10"
               >
                 {t("ctaContact")}
               </Link>

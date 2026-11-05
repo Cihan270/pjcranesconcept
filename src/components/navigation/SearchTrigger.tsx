@@ -130,7 +130,7 @@ export function SearchTrigger({
         ref={triggerRef}
         type="button"
         className={cn(
-          "inline-flex size-10 items-center justify-center rounded-[var(--radius)] text-white/80 transition-colors duration-200 outline-none hover:bg-white/8 hover:text-white focus-visible:bg-white/8 focus-visible:text-white focus-visible:ring-2 focus-visible:ring-brand/70 focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal",
+          "inline-flex size-10 items-center justify-center rounded-[var(--radius)] text-steel transition-colors duration-200 outline-none hover:bg-charcoal/[0.05] hover:text-charcoal focus-visible:bg-charcoal/[0.05] focus-visible:text-charcoal focus-visible:ring-2 focus-visible:ring-brand/70 focus-visible:ring-offset-2 focus-visible:ring-offset-white",
           className,
         )}
         aria-label={t("search")}

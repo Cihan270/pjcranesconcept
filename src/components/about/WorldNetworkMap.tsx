@@ -71,9 +71,7 @@ const LABEL_OFFSET: Record<
   { x: number; y: number; align?: "left" | "right" | "center" }
 > = {
   usa: { x: 0, y: -4.5, align: "center" },
-  // NL / DE are close on the world canvas — stack above/below, do not shift east
   netherlands: { x: -1.5, y: -5.5, align: "center" },
-  germany: { x: -0.5, y: 4.5, align: "center" },
   turkiye: { x: 0, y: -4, align: "center" },
   dubai: { x: 1, y: 4.5, align: "center" },
 };

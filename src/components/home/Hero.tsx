@@ -1,10 +1,11 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { HeroView } from "@/components/home/HeroView";
 import { company } from "@/data/company";
-import type { CraneImage } from "@/types/crane";
+
+/** Fixed homepage hero photo (public/images). Swap the file to change it. */
+const HERO_IMAGE_SRC = "/images/hero-crane-wide.webp";
 
 type HeroProps = {
-  image?: CraneImage | null;
   /** Available cranes, shown on the inventory CTA. */
   stockCount: number;
 };
@@ -15,7 +16,7 @@ function formatFactNumber(value: number, locale: string) {
   );
 }
 
-export async function Hero({ image, stockCount }: HeroProps) {
+export async function Hero({ stockCount }: HeroProps) {
   const t = await getTranslations("Home");
   const locale = await getLocale();
 
@@ -23,7 +24,7 @@ export async function Hero({ image, stockCount }: HeroProps) {
   const maxTons = formatFactNumber(company.capacityRangeTons.max, locale);
 
   return (
-    <section className="relative isolate flex min-h-[36rem] w-full flex-col overflow-hidden bg-charcoal text-surface -mt-20 md:min-h-[42rem] md:h-[min(82svh,46rem)] lg:-mt-[5.5rem] lg:min-h-[44rem] lg:h-[min(80svh,48rem)] xl:h-[min(78svh,50rem)]">
+    <section className="relative isolate flex min-h-[36rem] w-full flex-col overflow-hidden bg-charcoal text-surface md:min-h-[42rem] md:h-[min(82svh,46rem)] lg:min-h-[38rem] lg:h-[min(80svh,42vw)]">
       <HeroView
         eyebrow={t("eyebrow")}
         title={t("title")}
@@ -49,7 +50,7 @@ export async function Hero({ image, stockCount }: HeroProps) {
             label: t("trust.experienceLabel"),
           },
         ]}
-        image={image}
+        image={{ src: HERO_IMAGE_SRC, alt: t("heroImageAlt") }}
       />
     </section>
   );

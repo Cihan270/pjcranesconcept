@@ -16,13 +16,13 @@ export async function ProcessSection() {
 
   return (
     <section
-      className="border-t border-line bg-surface"
+      className="bg-charcoal text-surface"
       aria-labelledby="process-title"
     >
       <div className="mx-auto w-full max-w-[1440px] px-4 py-14 md:px-8 md:py-16 lg:px-12">
         <Reveal>
           <div className="max-w-xl space-y-3">
-            <p className="font-heading text-xs font-semibold tracking-[0.22em] text-steel uppercase">
+            <p className="font-heading text-xs font-semibold tracking-[0.22em] text-brand uppercase">
               {t("eyebrow")}
             </p>
             <h2
@@ -31,7 +31,7 @@ export async function ProcessSection() {
             >
               {t("title")}
             </h2>
-            <p className="text-base leading-relaxed text-muted-foreground">
+            <p className="text-base leading-relaxed text-surface/70">
               {t("body")}
             </p>
           </div>
@@ -52,14 +52,14 @@ export async function ProcessSection() {
                       {String(index + 1).padStart(2, "0")}
                     </span>
                     {!isLast ? (
-                      <span className="mt-2 w-px flex-1 min-h-[2.5rem] bg-line" />
+                      <span className="mt-2 w-px flex-1 min-h-[2.5rem] bg-surface/15" />
                     ) : null}
                   </div>
                   <div className={isLast ? "pb-0 pt-0.5" : "pb-8 pt-0.5"}>
-                    <h3 className="font-heading text-lg font-semibold tracking-tight text-foreground">
+                    <h3 className="font-heading text-lg font-semibold tracking-tight text-surface">
                       {step.title}
                     </h3>
-                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    <p className="mt-1.5 text-sm leading-relaxed text-surface/65">
                       {step.body}
                     </p>
                   </div>
@@ -78,22 +78,22 @@ export async function ProcessSection() {
                 <li key={step.key} className="relative min-w-0">
                   <div className="relative flex items-center">
                     <span
-                      className="relative z-10 bg-surface pr-3 font-heading text-sm font-semibold tabular-nums text-brand"
+                      className="relative z-10 bg-charcoal pr-3 font-heading text-sm font-semibold tabular-nums text-brand"
                       aria-hidden
                     >
                       {String(index + 1).padStart(2, "0")}
                     </span>
                     {!isLast ? (
                       <span
-                        className="absolute top-1/2 left-8 -right-8 h-px -translate-y-1/2 bg-line lg:-right-10"
+                        className="absolute top-1/2 left-8 -right-8 h-px -translate-y-1/2 bg-surface/15 lg:-right-10"
                         aria-hidden
                       />
                     ) : null}
                   </div>
-                  <h3 className="mt-5 font-heading text-lg font-semibold tracking-tight text-foreground lg:text-xl">
+                  <h3 className="mt-5 font-heading text-lg font-semibold tracking-tight text-surface lg:text-xl">
                     {step.title}
                   </h3>
-                  <p className="mt-2 max-w-[16rem] text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-2 max-w-[16rem] text-sm leading-relaxed text-surface/65">
                     {step.body}
                   </p>
                 </li>
@@ -105,7 +105,7 @@ export async function ProcessSection() {
         <Reveal delay={0.1} className="mt-10 md:mt-12">
           <Link
             href="/contact"
-            className="focus-ring group inline-flex min-h-11 items-center gap-2 text-sm font-medium text-foreground/80 underline decoration-line underline-offset-[0.35em] transition-colors hover:text-foreground hover:decoration-brand"
+            className="focus-ring group inline-flex min-h-11 items-center gap-2 text-sm font-medium text-surface/80 underline decoration-surface/30 underline-offset-[0.35em] transition-colors hover:text-surface hover:decoration-brand"
           >
             {t("cta")}
             <ArrowRight

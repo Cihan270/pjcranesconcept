@@ -297,6 +297,7 @@
     "eyebrow": "International mobile crane trading",
     "title": "Gebruikte mobiele kranen.\nWereldwijd geleverd.",
     "subtitle": "Internationale handel in gebruikte mobiele kranen van {min} tot {max} ton, inclusief bemiddeling, documentatie en transport.",
+    "heroImageAlt": "Gele mobiele kraan met uitgeschoven giek op een nat bedrijfsterrein bij schemering",
     "ctaInventory": "Bekijk beschikbare kranen",
     "ctaSell": "Verkoop uw kraan",
     "findLink": "Niet gevonden wat u zoekt? Dien een zoekopdracht in",
@@ -464,10 +465,6 @@
         "netherlands": {
           "city": "Nijkerk",
           "country": "Nederland"
-        },
-        "germany": {
-          "city": "",
-          "country": "Duitsland"
         },
         "turkiye": {
           "city": "",
@@ -1253,12 +1250,12 @@
   "About": {
     "meta": {
       "title": "Over PJ Cranes | Internationale handel in mobiele kranen",
-      "description": "Lees meer over PJ Cranes, specialist in internationale aankoop en verkoop van gebruikte mobiele kranen vanuit vijf wereldwijde kantoren."
+      "description": "Lees meer over PJ Cranes, specialist in internationale aankoop en verkoop van gebruikte mobiele kranen vanuit vier wereldwijde kantoren."
     },
     "hero": {
       "eyebrow": "Over PJ Cranes",
       "title": "Meer dan 20 jaar internationale kraanhandel",
-      "subtitle": "PJ Cranes verbindt kopers en verkopers van gebruikte mobiele kranen via vijf kantoren en een wereldwijd netwerk.",
+      "subtitle": "PJ Cranes verbindt kopers en verkopers van gebruikte mobiele kranen via vier kantoren en een wereldwijd netwerk.",
       "support": "Van aankoop en verkoop tot documentatie en overdracht.",
       "ctaInventory": "Bekijk beschikbare kranen",
       "ctaContact": "Neem contact op",
@@ -1279,7 +1276,7 @@
       "title": "Specialistische marktkennis, wereldwijd ingezet",
       "body": [
         "PJ Cranes is al meer dan 20 jaar actief in de aankoop en verkoop van gebruikte mobiele kranen. Vanuit het hoofdkantoor in Nijkerk begeleiden wij internationale kopers en verkopers bij machines van merken zoals Liebherr, Grove, Terex-Demag en Tadano Faun.",
-        "Met vijf kantoren en een internationaal netwerk koppelen wij beschikbare machines aan relevante marktvraag — typisch in het bereik van circa 20 tot 1000 ton. Specificaties staan per listing; prijzen altijd op aanvraag.",
+        "Met vier kantoren en een internationaal netwerk koppelen wij beschikbare machines aan relevante marktvraag — typisch in het bereik van circa 20 tot 1000 ton. Specificaties staan per listing; prijzen altijd op aanvraag.",
         "U houdt één vast aanspreekpunt: van eerste zoekvraag of verkoopaanvraag tot documentatie, exportcoördinatie en transport wanneer dat nodig is."
       ],
       "ctaInventory": "Bekijk onze voorraad",
@@ -1314,7 +1311,6 @@
       "offices": {
         "usa": { "city": "", "country": "USA" },
         "netherlands": { "city": "Nijkerk", "country": "Nederland" },
-        "germany": { "city": "", "country": "Duitsland" },
         "turkiye": { "city": "", "country": "Türkiye" },
         "dubai": { "city": "Dubai", "country": "UAE" }
       }
@@ -1333,7 +1329,7 @@
         },
         "network": {
           "title": "Internationaal netwerk",
-          "body": "Verbinding tussen beschikbare machines en relevante potentiële kopers via vijf kantoren."
+          "body": "Verbinding tussen beschikbare machines en relevante potentiële kopers via vier kantoren."
         },
         "communication": {
           "title": "Duidelijke communicatie",
@@ -1451,5 +1447,9 @@
       "back": "Terug naar nieuws"
     },
     "published": "Gepubliceerd {date}"
+  },
+  "NotFound": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die u zoekt bestaat niet of is verplaatst."
   }
 }

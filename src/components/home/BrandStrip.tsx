@@ -27,10 +27,10 @@ export async function BrandStrip({ brands }: BrandStripProps) {
 
   return (
     <section
-      className="border-y border-line bg-background"
+      className="bg-background"
       aria-labelledby="brands-title"
     >
-      <div className="mx-auto w-full max-w-[1440px] px-4 py-10 md:px-8 md:py-12 lg:px-12">
+      <div className="mx-auto w-full max-w-[1440px] px-4 pt-2 pb-12 md:px-8 md:pb-14 lg:px-12 lg:pb-16">
         <Reveal>
           <div className="max-w-md space-y-2">
             <p

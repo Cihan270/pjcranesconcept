@@ -297,6 +297,7 @@
     "eyebrow": "International mobile crane trading",
     "title": "Used mobile cranes.\nDelivered worldwide.",
     "subtitle": "International trade in used mobile cranes from {min} to {max} tonnes, including brokerage, documentation and transport.",
+    "heroImageAlt": "Yellow mobile crane with extended boom on a wet yard at dusk",
     "ctaInventory": "View available cranes",
     "ctaSell": "Sell your crane",
     "findLink": "Can't find what you're looking for? Submit a search request",
@@ -464,10 +465,6 @@
         "netherlands": {
           "city": "Nijkerk",
           "country": "Netherlands"
-        },
-        "germany": {
-          "city": "",
-          "country": "Germany"
         },
         "turkiye": {
           "city": "",
@@ -1253,12 +1250,12 @@
   "About": {
     "meta": {
       "title": "About PJ Cranes | International mobile crane trading",
-      "description": "Learn more about PJ Cranes, specialist in international buying and selling of used mobile cranes from five worldwide offices."
+      "description": "Learn more about PJ Cranes, specialist in international buying and selling of used mobile cranes from four worldwide offices."
     },
     "hero": {
       "eyebrow": "About PJ Cranes",
       "title": "More than 20 years of international crane trading",
-      "subtitle": "PJ Cranes connects buyers and sellers of used mobile cranes through five offices and a worldwide network.",
+      "subtitle": "PJ Cranes connects buyers and sellers of used mobile cranes through four offices and a worldwide network.",
       "support": "From purchase and sale to documentation and handover.",
       "ctaInventory": "View available cranes",
       "ctaContact": "Contact us",
@@ -1279,7 +1276,7 @@
       "title": "Specialist market knowledge, applied worldwide",
       "body": [
         "PJ Cranes has been active for more than 20 years in buying and selling used mobile cranes. From our headquarters in Nijkerk we guide international buyers and sellers on machines from brands such as Liebherr, Grove, Terex-Demag and Tadano Faun.",
-        "With five offices and an international network we match available machines to relevant demand — typically from roughly 20 to 1000 tonnes. Specs are published per listing; pricing is always on request.",
+        "With four offices and an international network we match available machines to relevant demand — typically from roughly 20 to 1000 tonnes. Specs are published per listing; pricing is always on request.",
         "You keep one fixed point of contact: from the first sourcing or sell enquiry through documentation, export coordination and transport when required."
       ],
       "ctaInventory": "View our inventory",
@@ -1314,7 +1311,6 @@
       "offices": {
         "usa": { "city": "", "country": "USA" },
         "netherlands": { "city": "Nijkerk", "country": "Netherlands" },
-        "germany": { "city": "", "country": "Germany" },
         "turkiye": { "city": "", "country": "Türkiye" },
         "dubai": { "city": "Dubai", "country": "UAE" }
       }
@@ -1333,7 +1329,7 @@
         },
         "network": {
           "title": "International network",
-          "body": "Connecting available machines with relevant potential buyers through five offices."
+          "body": "Connecting available machines with relevant potential buyers through four offices."
         },
         "communication": {
           "title": "Clear communication",
@@ -1451,5 +1447,9 @@
       "back": "Back to news"
     },
     "published": "Published {date}"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has moved."
   }
 }

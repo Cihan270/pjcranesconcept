@@ -83,7 +83,7 @@ export function MobileNav({ onOpenSearch }: MobileNavProps) {
       <button
         ref={triggerRef}
         type="button"
-        className="inline-flex size-11 items-center justify-center rounded-[var(--radius)] text-white/85 transition-colors duration-200 outline-none hover:bg-white/8 hover:text-white focus-visible:bg-white/8 focus-visible:ring-2 focus-visible:ring-brand/70 focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
+        className="inline-flex size-11 items-center justify-center rounded-[var(--radius)] text-charcoal transition-colors duration-200 outline-none hover:bg-charcoal/[0.05] focus-visible:bg-charcoal/[0.05] focus-visible:ring-2 focus-visible:ring-brand/70 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
         aria-label={open ? t("close") : t("menu")}
         aria-expanded={open}
         aria-controls={panelId}

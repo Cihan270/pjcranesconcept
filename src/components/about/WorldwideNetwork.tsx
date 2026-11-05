@@ -41,10 +41,6 @@ export async function WorldwideNetwork() {
         city: t("offices.netherlands.city"),
         country: t("offices.netherlands.country"),
       },
-      germany: {
-        city: t("offices.germany.city"),
-        country: t("offices.germany.country"),
-      },
       turkiye: {
         city: t("offices.turkiye.city"),
         country: t("offices.turkiye.country"),
