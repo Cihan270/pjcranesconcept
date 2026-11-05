@@ -46,7 +46,7 @@ export async function BrandStrip({ brands }: BrandStripProps) {
         </Reveal>
 
         <Reveal delay={0.06} className="mt-8 md:mt-10">
-          <ul className="grid grid-cols-1 border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid grid-cols-1 border-t border-line sm:grid-cols-2 lg:grid-cols-4">
             {brands.map((brand) => {
               const countLabel = t("availableCount", { count: brand.count });
               const showCount = brand.count > 0;

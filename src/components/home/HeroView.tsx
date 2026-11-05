@@ -143,7 +143,7 @@ export function HeroView({
 
           <motion.ul
             {...reveal(0.48)}
-            className="mt-7 grid gap-3 border-t border-surface/25 pt-5 sm:mt-8 sm:grid-cols-3 sm:gap-0 sm:pt-5"
+            className="mt-7 grid gap-3 border-t border-surface/25 pt-5 sm:mt-8 sm:grid-cols-3 sm:gap-0 sm:pt-5 lg:w-max lg:grid-cols-[repeat(3,auto)] lg:[&_p]:whitespace-nowrap"
           >
             {trust.map((item, index) => {
               const Icon = trustIcons[index];

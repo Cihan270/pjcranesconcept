@@ -1017,7 +1017,7 @@ export function SellCraneForm({ className }: SellCraneFormProps) {
               />
               <Label
                 htmlFor={`${formId}-consent`}
-                className="text-sm leading-snug font-normal text-muted-foreground"
+                className="block text-sm leading-snug font-normal text-muted-foreground"
               >
                 {t.rich("consent", {
                   privacy: (chunks) => (

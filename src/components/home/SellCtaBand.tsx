@@ -9,7 +9,7 @@ export async function SellCtaBand() {
 
   return (
     <section
-      className="relative overflow-hidden bg-charcoal text-surface"
+      className="relative overflow-hidden border-t border-white/10 bg-charcoal text-surface"
       aria-labelledby="sell-cta-title"
     >
       <div
@@ -29,7 +29,7 @@ export async function SellCtaBand() {
         aria-hidden
       />
 
-      <div className="relative mx-auto grid w-full max-w-[1440px] gap-8 px-4 py-14 md:grid-cols-[minmax(0,1.35fr)_minmax(0,0.65fr)] md:items-center md:gap-12 md:px-8 md:py-16 lg:gap-16 lg:px-12 lg:py-16">
+      <div className="relative mx-auto grid w-full max-w-[1440px] gap-8 px-4 py-14 md:grid-cols-[minmax(0,1fr)_auto] md:items-center md:gap-12 md:px-8 md:py-16 lg:gap-16 lg:px-12 lg:py-16">
         <Reveal className="max-w-xl space-y-4">
           <p className="font-heading text-xs font-semibold tracking-[0.22em] text-brand uppercase">
             {t("eyebrow")}
@@ -51,7 +51,7 @@ export async function SellCtaBand() {
         >
           <Link
             href="/sell-your-crane"
-            className="focus-ring group inline-flex min-h-12 w-fit max-w-full items-center justify-center gap-2 rounded-[var(--radius)] bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+            className="focus-ring group inline-flex min-h-12 w-fit max-w-full items-center justify-center gap-2 rounded-[var(--radius)] bg-primary px-6 text-sm font-medium whitespace-nowrap text-primary-foreground transition-colors hover:bg-accent"
           >
             {t("cta")}
             <ArrowRight
@@ -61,7 +61,7 @@ export async function SellCtaBand() {
           </Link>
           <a
             href={`tel:${company.phone.tel}`}
-            className="focus-ring inline-flex min-h-12 w-fit items-center justify-center gap-2 rounded-[var(--radius)] border border-surface/30 px-6 text-sm font-medium text-surface transition-colors hover:border-surface/70 hover:bg-surface/10"
+            className="focus-ring inline-flex min-h-12 w-fit items-center justify-center gap-2 rounded-[var(--radius)] border border-surface/30 px-6 text-sm font-medium whitespace-nowrap text-surface transition-colors hover:border-surface/70 hover:bg-surface/10"
           >
             <Phone className="size-4 text-brand" aria-hidden />
             {t("call")}

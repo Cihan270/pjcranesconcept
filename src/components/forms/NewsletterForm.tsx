@@ -191,7 +191,7 @@ export function NewsletterForm({
           <Label
             htmlFor="newsletter-consent"
             className={cn(
-              "text-xs leading-snug font-normal sm:text-sm",
+              "block text-xs leading-snug font-normal sm:text-sm",
               inverted ? "text-surface/75" : "text-muted-foreground",
             )}
           >

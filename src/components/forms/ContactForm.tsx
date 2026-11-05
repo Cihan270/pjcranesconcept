@@ -377,7 +377,7 @@ export function ContactForm({
         />
         <Label
           htmlFor="contact-consent"
-          className="text-sm leading-snug font-normal text-muted-foreground"
+          className="block text-sm leading-snug font-normal text-muted-foreground"
         >
           {t.rich("consent", {
             privacy: (chunks) => (

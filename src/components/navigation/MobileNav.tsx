@@ -102,7 +102,7 @@ export function MobileNav({ onOpenSearch }: MobileNavProps) {
           <>
             <motion.button
               type="button"
-              className="fixed inset-0 z-50 bg-black/55 backdrop-blur-[2px]"
+              className="fixed inset-x-0 top-[var(--site-header-height,5.25rem)] bottom-0 z-50 bg-black/55 backdrop-blur-[2px]"
               aria-label={t("close")}
               initial={reduceMotion ? false : { opacity: 0 }}
               animate={{ opacity: 1 }}

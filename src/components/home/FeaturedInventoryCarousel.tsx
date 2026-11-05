@@ -108,7 +108,7 @@ export function FeaturedInventoryCarousel({
     "bg-charcoal text-surface shadow-[0_14px_32px_-14px_rgba(20,20,22,0.75)] ring-1 ring-white/10",
     "transition-[opacity,scale,background-color,color] duration-200 ease-out",
     "hover:bg-brand hover:text-charcoal active:scale-95",
-    "disabled:pointer-events-none disabled:scale-90 disabled:opacity-0",
+    "disabled:cursor-default disabled:opacity-35 disabled:hover:bg-charcoal disabled:hover:text-surface disabled:active:scale-100",
   );
   const arrowStyle = { top: arrowTop ?? "40%" };
 
