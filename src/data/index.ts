@@ -29,6 +29,5 @@ export {
   newsArticles,
   newsStub,
 } from "@/data/news";
-export { getPrivacyDocument } from "@/data/privacy";
 export { getServiceBySlug, getServices, services } from "@/data/services";
 export { getTermsDocument } from "@/data/terms";

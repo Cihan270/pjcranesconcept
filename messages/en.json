@@ -40,9 +40,7 @@
     "services": "Services",
     "legal": "Legal",
     "contact": "Contact",
-    "privacy": "Privacy",
     "terms": "Terms and conditions",
-    "cookies": "Cookie policy",
     "faq": "FAQ",
     "news": "News",
     "offices": "Our offices",
@@ -56,7 +54,8 @@
     "vat": "VAT",
     "rights": "All rights reserved.",
     "transport": "Transport & shipping",
-    "documentation": "Documentation & export"
+    "documentation": "Documentation & export",
+    "poweredBy": "Powered by"
   },
   "Crane": {
     "reference": "Ref.",
@@ -372,7 +371,7 @@
     },
     "services": {
       "eyebrow": "Services",
-      "title": "From acquisition to handover",
+      "title": "What we take care of",
       "subtitle": "Everything needed for an efficient international crane transaction.",
       "viewAll": "View all services",
       "tablistLabel": "Services",
@@ -489,7 +488,7 @@
       "email": "Email address",
       "emailPlaceholder": "name@company.com",
       "emailInvalid": "Enter a valid email address.",
-      "consent": "I want to receive stock alerts from PJ Cranes and have read the <privacy>privacy notice</privacy>.",
+      "consent": "I want to receive stock alerts from PJ Cranes.",
       "consentRequired": "Consent is required to activate the stock alert.",
       "submit": "Activate alert",
       "submitting": "Submitting…",
@@ -677,7 +676,7 @@
       "company": "Company",
       "message": "Message",
       "messagePlaceholder": "Briefly describe what you need…",
-      "consent": "I agree to the processing of my data for this enquiry and have read the privacy notice.",
+      "consent": "I agree to the processing of my data for this enquiry.",
       "submit": "Send enquiry",
       "submitting": "Sending…",
       "successTitle": "Enquiry sent",
@@ -833,7 +832,7 @@
       "contactHint": "Provide at least an email address or phone number.",
       "sellHint": "For a full sell enquiry with specifications and photos, use the <link>sell form</link>.",
       "sourceHint": "For a targeted sourcing request, use the <link>sourcing form</link>.",
-      "consent": "I agree to the processing of my data for this enquiry and have read the <privacy>privacy notice</privacy>.",
+      "consent": "I agree to the processing of my data for this enquiry.",
       "submit": "Send message",
       "submitting": "Sending message…",
       "successTitle": "Your message has been sent",
@@ -1063,7 +1062,7 @@
       "reviewMachine": "Machine details",
       "reviewFiles": "Photos and documents",
       "reviewMessage": "Additional information",
-      "consent": "I agree to the processing of my data for this sell enquiry and have read the <privacy>privacy notice</privacy>.",
+      "consent": "I agree to the processing of my data for this sell enquiry.",
       "nextMachine": "Continue to machine details",
       "nextFiles": "Continue to photos and documents",
       "nextReview": "Review enquiry",
@@ -1221,7 +1220,7 @@
       "timeframePlaceholder": "e.g. within 3 months",
       "message": "Requirements",
       "messagePlaceholder": "Describe the job, specs that matter, and any must-haves…",
-      "consent": "I agree to the processing of my data for this sourcing request and have read the privacy notice.",
+      "consent": "I agree to the processing of my data for this sourcing request.",
       "submit": "Send sourcing request",
       "submitting": "Sending…",
       "successTitle": "Request sent",
@@ -1404,16 +1403,6 @@
         "answer": "80% of our stock is owned by us. For the other 20% we work on a consignment base with our suppliers."
       }
     }
-  },
-  "Privacy": {
-    "meta": {
-      "title": "Privacy",
-      "description": "Privacy notice for PJ Cranes B.V. on how personal data is processed via the website and forms."
-    },
-    "eyebrow": "Legal",
-    "title": "Privacy notice",
-    "subtitle": "How we process personal data when you use our site or send an enquiry.",
-    "reviewNote": "Draft for this redesign — have counsel review before production launch."
   },
   "Terms": {
     "meta": {

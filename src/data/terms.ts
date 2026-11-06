@@ -261,7 +261,7 @@ const termsByLocale: Record<"nl" | "en", TermsDocument> = {
     "title": "Totstandkoming van de Overeenkomst",
     "paragraphs": [
       "Iedere bestelling, opdracht of bevestiging van de Wederpartij geldt als een onherroepelijk aanbod aan PJ Cranes.",
-      "Een Overeenkomst komt uitsluitend tot stand: (a) door Schriftelijke bevestiging door PJ Cranes; (b) doordat PJ Cranes feitelijk uitvoering geeft aan de Overeenkomst; of (c) doordat PJ Cranes een factuur verzendt.",
+      "Een Overeenkomst komt uitsluitend tot stand:\na. door Schriftelijke bevestiging door PJ Cranes;\nb. doordat PJ Cranes feitelijk uitvoering geeft aan de Overeenkomst; of\nc. doordat PJ Cranes een factuur verzendt.",
       "Mondelinge toezeggingen of verklaringen van medewerkers, vertegenwoordigers of derden binden PJ Cranes uitsluitend indien Schriftelijk bevestigd door een bevoegde vertegenwoordiger van PJ Cranes.",
       "PJ Cranes is gerechtigd vooruitbetaling, aanvullende zekerheid of garanties te verlangen alvorens tot levering of uitvoering over te gaan.",
       "Iedere Overeenkomst wordt aangegaan onder de opschortende voorwaarde van tijdige ontvangst van een aanbetaling van minimaal tien procent (10%) van de overeengekomen koopprijs, tenzij Schriftelijk anders overeengekomen.",
@@ -281,7 +281,7 @@ const termsByLocale: Record<"nl" | "en", TermsDocument> = {
       "Vanaf het moment van verzuim is de Wederpartij de wettelijke handelsrente ex artikel 6:119a BW verschuldigd.",
       "Alle buitengerechtelijke en gerechtelijke kosten komen volledig voor rekening van de Wederpartij. De buitengerechtelijke incassokosten bedragen minimaal vijftien procent (15%) van het openstaande bedrag, met een minimum van EUR 1.500,-.",
       "Door de Wederpartij gedane betalingen strekken eerst in mindering op kosten, vervolgens op rente en daarna op de hoofdsom.",
-      "Alle vorderingen van PJ Cranes worden onmiddellijk opeisbaar indien: (a) de Wederpartij tekortschiet in haar verplichtingen; (b) beslag wordt gelegd ten laste van de Wederpartij; (c) surseance van betaling of faillissement wordt aangevraagd; of (d) de onderneming van de Wederpartij wordt beëindigd of overgedragen."
+      "Alle vorderingen van PJ Cranes worden onmiddellijk opeisbaar indien:\na. de Wederpartij tekortschiet in haar verplichtingen;\nb. beslag wordt gelegd ten laste van de Wederpartij;\nc. surseance van betaling of faillissement wordt aangevraagd;\nd. de onderneming van de Wederpartij wordt beëindigd of overgedragen."
     ]
   },
   {
@@ -305,8 +305,8 @@ const termsByLocale: Record<"nl" | "en", TermsDocument> = {
       "Tenzij uitdrukkelijk Schriftelijk anders overeengekomen betreft alle door PJ Cranes verkochte Materieel gebruikt materieel.",
       "Verkoop en levering geschieden strikt op basis van \"as is, where is, with all faults\".",
       "Het Materieel wordt geleverd in de feitelijke staat waarin het zich bevindt ten tijde van levering, inclusief alle zichtbare en onzichtbare gebreken, slijtage, defecten, technische tekortkomingen en ontbrekende onderdelen.",
-      "PJ Cranes verstrekt geen enkele expliciete of impliciete garantie met betrekking tot (voor zover wettelijk is toegestaan): technische staat; functionaliteit; onderhoudsgeschiedenis; draaiuren; marktwaarde; geschiktheid voor enig specifiek doel; naleving van nationale of internationale regelgeving; of CE-markering, certificering of keuringsstatus.",
-      "De Wederpartij erkent voldoende gelegenheid te hebben gehad het Materieel te inspecteren, zelfstandig onderzoek te hebben verricht, niet te hebben vertrouwd op verklaringen van PJ Cranes, en volledig bekend te zijn met de staat van het Materieel. De Wederpartij is zelfstandig verantwoordelijk voor controle op lokale veiligheids-, registratie-, keurings- en toelatingseisen vóór ingebruikname of export.",
+      "PJ Cranes verstrekt geen enkele expliciete of impliciete garantie met betrekking tot (voor zover wettelijk is toegestaan):\na. technische staat;\nb. functionaliteit;\nc. onderhoudsgeschiedenis;\nd. draaiuren;\ne. marktwaarde;\nf. geschiktheid voor enig specifiek doel;\ng. naleving van nationale of internationale regelgeving;\nh. CE-markering, certificering of keuringsstatus.",
+      "De Wederpartij erkent:\na. voldoende gelegenheid te hebben gehad het Materieel te inspecteren;\nb. zelfstandig onderzoek te hebben verricht;\nc. niet te hebben vertrouwd op verklaringen van PJ Cranes;\nd. volledig bekend te zijn met de staat van het Materieel;\nDe Wederpartij is zelfstandig verantwoordelijk voor controle op lokale veiligheids-, registratie-, keurings- en toelatingseisen vóór ingebruikname of export.",
       "Alle verstrekte informatie en documentatie zijn uitsluitend indicatief en niet bindend.",
       "Iedere aanspraak wegens non-conformiteit, dwaling, garantie of misleiding wordt uitgesloten voor zover wettelijk toegestaan.",
       "De Wederpartij doet afstand van ieder recht op ontbinding, prijsvermindering of schadevergoeding wegens zichtbare of onzichtbare gebreken, behoudens in geval van opzet of bewuste roekeloosheid van PJ Cranes."
@@ -372,7 +372,7 @@ const termsByLocale: Record<"nl" | "en", TermsDocument> = {
     "paragraphs": [
       "Iedere aansprakelijkheid van PJ Cranes is beperkt tot directe schade.",
       "PJ Cranes is nooit aansprakelijk voor Gevolgschade.",
-      "Iedere aansprakelijkheid van PJ Cranes is beperkt tot: (a) het factuurbedrag van de betreffende Overeenkomst; of (b) het bedrag dat daadwerkelijk onder de aansprakelijkheidsverzekering van PJ Cranes wordt uitgekeerd, waarbij het laagste bedrag geldt.",
+      "Iedere aansprakelijkheid van PJ Cranes is beperkt tot:\na. het factuurbedrag van de betreffende Overeenkomst; of\nb. het bedrag dat daadwerkelijk onder de aansprakelijkheidsverzekering van PJ Cranes wordt uitgekeerd,\nwaarbij het laagste bedrag geldt.",
       "Iedere vordering jegens PJ Cranes vervalt uiterlijk twaalf (12) maanden na levering of uitvoering.",
       "De Wederpartij vrijwaart PJ Cranes tegen alle aanspraken van derden verband houdende met het Materieel of de uitvoering van de Overeenkomst.",
       "Alle aansprakelijkheidsbeperkingen gelden ongeacht de rechtsgrond van de vordering.",
@@ -384,7 +384,7 @@ const termsByLocale: Record<"nl" | "en", TermsDocument> = {
     "title": "Opschorting en ontbinding",
     "paragraphs": [
       "PJ Cranes is gerechtigd de uitvoering van haar verplichtingen op te schorten indien de Wederpartij tekortschiet in de nakoming van haar verplichtingen.",
-      "PJ Cranes is gerechtigd de Overeenkomst geheel of gedeeltelijk buitengerechtelijk te ontbinden indien: (a) de Wederpartij tekortschiet; (b) faillissement of surseance van betaling wordt aangevraagd; (c) beslag wordt gelegd; of (d) gegronde twijfel bestaat over de kredietwaardigheid van de Wederpartij.",
+      "PJ Cranes is gerechtigd de Overeenkomst geheel of gedeeltelijk buitengerechtelijk te ontbinden indien:\na. de Wederpartij tekortschiet;\nb. faillissement of surseance van betaling wordt aangevraagd;\nc. beslag wordt gelegd;\nd. gegronde twijfel bestaat over de kredietwaardigheid van de Wederpartij.",
       "In geval van ontbinding blijven reeds opeisbare vorderingen volledig verschuldigd.",
       "Reeds betaalde aanbetalingen worden niet gerestitueerd en gelden als minimale gefixeerde schadevergoeding, onverminderd het recht van PJ Cranes aanvullende schadevergoeding te vorderen."
     ]

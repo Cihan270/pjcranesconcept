@@ -14,7 +14,6 @@ export const staticAppPaths = [
   "/contact",
   "/news",
   "/faq",
-  "/privacy",
   "/terms",
 ] as const;
 

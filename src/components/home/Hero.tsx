@@ -3,7 +3,7 @@ import { HeroView } from "@/components/home/HeroView";
 import { company } from "@/data/company";
 
 /** Fixed homepage hero photo (public/images). Swap the file to change it. */
-const HERO_IMAGE_SRC = "/images/hero-crane-wide.webp";
+const HERO_IMAGE_SRC = "/images/hero-crane-dusk.webp";
 
 type HeroProps = {
   /** Available cranes, shown on the inventory CTA. */
@@ -24,7 +24,7 @@ export async function Hero({ stockCount }: HeroProps) {
   const maxTons = formatFactNumber(company.capacityRangeTons.max, locale);
 
   return (
-    <section className="relative isolate flex min-h-[36rem] w-full flex-col overflow-hidden bg-charcoal text-surface md:min-h-[42rem] md:h-[min(82svh,46rem)] lg:min-h-[38rem] lg:h-[min(80svh,42vw)]">
+    <section className="relative isolate flex min-h-[36rem] w-full flex-col overflow-hidden bg-charcoal text-surface md:min-h-[42rem] md:h-[min(82svh,46rem)] lg:min-h-[38rem] lg:h-[min(72svh,36vw)]">
       <HeroView
         eyebrow={t("eyebrow")}
         title={t("title")}

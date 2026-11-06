@@ -40,9 +40,7 @@
     "services": "Services",
     "legal": "Mentions légales",
     "contact": "Contact",
-    "privacy": "Confidentialité",
     "terms": "Conditions générales",
-    "cookies": "Politique relative aux cookies",
     "faq": "FAQ",
     "news": "Actualités",
     "offices": "Nos bureaux",
@@ -56,7 +54,8 @@
     "vat": "TVA",
     "rights": "Tous droits réservés.",
     "transport": "Transport et expédition",
-    "documentation": "Documentation et export"
+    "documentation": "Documentation et export",
+    "poweredBy": "Réalisé par"
   },
   "Crane": {
     "reference": "Réf.",
@@ -372,7 +371,7 @@
     },
     "services": {
       "eyebrow": "Services",
-      "title": "De l'acquisition à la remise",
+      "title": "Ce que nous prenons en charge",
       "subtitle": "Tout ce qu'il faut pour une transaction internationale de grue efficace.",
       "viewAll": "Voir tous les services",
       "tablistLabel": "Services",
@@ -489,7 +488,7 @@
       "email": "Adresse e-mail",
       "emailPlaceholder": "nom@entreprise.com",
       "emailInvalid": "Saisissez une adresse e-mail valide.",
-      "consent": "Je souhaite recevoir les alertes stock de PJ Cranes et j'ai lu la <privacy>notice de confidentialité</privacy>.",
+      "consent": "Je souhaite recevoir les alertes stock de PJ Cranes.",
       "consentRequired": "Le consentement est requis pour activer l'alerte stock.",
       "submit": "Activer l'alerte",
       "submitting": "Envoi…",
@@ -677,7 +676,7 @@
       "company": "Entreprise",
       "message": "Message",
       "messagePlaceholder": "Décrivez brièvement votre besoin…",
-      "consent": "J’accepte le traitement de mes données pour cette demande et j’ai lu la politique de confidentialité.",
+      "consent": "J’accepte le traitement de mes données pour cette demande.",
       "submit": "Envoyer la demande",
       "submitting": "Envoi en cours…",
       "successTitle": "Demande envoyée",
@@ -833,7 +832,7 @@
       "contactHint": "Indiquez au moins une adresse e-mail ou un numéro de téléphone.",
       "sellHint": "Pour une demande de vente complète avec caractéristiques et photos, utilisez le <link>formulaire de vente</link>.",
       "sourceHint": "Pour une demande de recherche ciblée, utilisez le <link>formulaire de recherche</link>.",
-      "consent": "J’accepte le traitement de mes données pour cette demande et j’ai lu la <privacy>politique de confidentialité</privacy>.",
+      "consent": "J’accepte le traitement de mes données pour cette demande.",
       "submit": "Envoyer le message",
       "submitting": "Envoi du message…",
       "successTitle": "Votre message a été envoyé",
@@ -1064,7 +1063,7 @@
       "reviewMachine": "Données de la machine",
       "reviewFiles": "Photos et documents",
       "reviewMessage": "Informations complémentaires",
-      "consent": "J’accepte le traitement de mes données pour cette demande de vente et j’ai lu la <privacy>politique de confidentialité</privacy>.",
+      "consent": "J’accepte le traitement de mes données pour cette demande de vente.",
       "nextMachine": "Continuer vers les données de la machine",
       "nextFiles": "Continuer vers les photos et documents",
       "nextReview": "Vérifier la demande",
@@ -1222,7 +1221,7 @@
       "timeframePlaceholder": "p. ex. sous 3 mois",
       "message": "Besoins",
       "messagePlaceholder": "Décrivez le chantier, les caractéristiques importantes et les critères indispensables…",
-      "consent": "J’accepte le traitement de mes données pour cette demande de recherche et j’ai lu la politique de confidentialité.",
+      "consent": "J’accepte le traitement de mes données pour cette demande de recherche.",
       "submit": "Envoyer la demande de recherche",
       "submitting": "Envoi en cours…",
       "successTitle": "Demande envoyée",
@@ -1417,16 +1416,6 @@
         "answer": "80 % de notre stock nous appartient. Pour les 20 % restants, nous travaillons en dépôt-vente avec nos fournisseurs."
       }
     }
-  },
-  "Privacy": {
-    "meta": {
-      "title": "Confidentialité",
-      "description": "Politique de confidentialité de PJ Cranes B.V. sur le traitement des données personnelles via le site et les formulaires."
-    },
-    "eyebrow": "Mentions légales",
-    "title": "Politique de confidentialité",
-    "subtitle": "Comment nous traitons les données personnelles lorsque vous utilisez notre site ou envoyez une demande.",
-    "reviewNote": "Brouillon pour cette refonte — à faire relire par un juriste avant la mise en ligne."
   },
   "Terms": {
     "meta": {

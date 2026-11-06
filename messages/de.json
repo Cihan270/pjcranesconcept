@@ -40,9 +40,7 @@
     "services": "Leistungen",
     "legal": "Rechtliches",
     "contact": "Kontakt",
-    "privacy": "Datenschutz",
     "terms": "Allgemeine Geschäftsbedingungen",
-    "cookies": "Cookie-Richtlinie",
     "faq": "FAQ",
     "news": "News",
     "offices": "Unsere Büros",
@@ -56,7 +54,8 @@
     "vat": "USt-IdNr.",
     "rights": "Alle Rechte vorbehalten.",
     "transport": "Transport & Versand",
-    "documentation": "Dokumentation & Export"
+    "documentation": "Dokumentation & Export",
+    "poweredBy": "Umgesetzt von"
   },
   "Crane": {
     "reference": "Ref.",
@@ -372,7 +371,7 @@
     },
     "services": {
       "eyebrow": "Leistungen",
-      "title": "Vom Kauf bis zur Übergabe",
+      "title": "Was wir für Sie übernehmen",
       "subtitle": "Alles, was für eine effiziente internationale Krantransaktion nötig ist.",
       "viewAll": "Alle Leistungen ansehen",
       "tablistLabel": "Leistungen",
@@ -489,7 +488,7 @@
       "email": "E-Mail-Adresse",
       "emailPlaceholder": "name@firma.com",
       "emailInvalid": "Bitte eine gültige E-Mail-Adresse eingeben.",
-      "consent": "Ich möchte Bestandsmeldungen von PJ Cranes erhalten und habe den <privacy>Datenschutzhinweis</privacy> gelesen.",
+      "consent": "Ich möchte Bestandsmeldungen von PJ Cranes erhalten.",
       "consentRequired": "Zustimmung ist erforderlich, um den Bestandsalarm zu aktivieren.",
       "submit": "Alarm aktivieren",
       "submitting": "Wird gesendet…",
@@ -677,7 +676,7 @@
       "company": "Unternehmen",
       "message": "Nachricht",
       "messagePlaceholder": "Beschreiben Sie kurz, was Sie benötigen…",
-      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu und habe die Datenschutzerklärung gelesen.",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu.",
       "submit": "Anfrage senden",
       "submitting": "Wird gesendet…",
       "successTitle": "Anfrage gesendet",
@@ -833,7 +832,7 @@
       "contactHint": "Geben Sie mindestens eine E-Mail-Adresse oder Telefonnummer an.",
       "sellHint": "Für eine vollständige Verkaufsanfrage mit Spezifikationen und Fotos nutzen Sie das <link>Verkaufsformular</link>.",
       "sourceHint": "Für einen gezielten Suchauftrag nutzen Sie das <link>Suchformular</link>.",
-      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu und habe die <privacy>Datenschutzerklärung</privacy> gelesen.",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu.",
       "submit": "Nachricht senden",
       "submitting": "Nachricht wird gesendet…",
       "successTitle": "Ihre Nachricht wurde gesendet",
@@ -1064,7 +1063,7 @@
       "reviewMachine": "Maschinendaten",
       "reviewFiles": "Fotos und Dokumente",
       "reviewMessage": "Weitere Informationen",
-      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Verkaufsanfrage zu und habe die <privacy>Datenschutzerklärung</privacy> gelesen.",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diese Verkaufsanfrage zu.",
       "nextMachine": "Weiter zu den Maschinendaten",
       "nextFiles": "Weiter zu Fotos und Dokumenten",
       "nextReview": "Anfrage prüfen",
@@ -1222,7 +1221,7 @@
       "timeframePlaceholder": "z. B. innerhalb von 3 Monaten",
       "message": "Anforderungen",
       "messagePlaceholder": "Beschreiben Sie den Einsatz, wichtige Spezifikationen und Muss-Kriterien…",
-      "consent": "Ich stimme der Verarbeitung meiner Daten für diesen Suchauftrag zu und habe die Datenschutzerklärung gelesen.",
+      "consent": "Ich stimme der Verarbeitung meiner Daten für diesen Suchauftrag zu.",
       "submit": "Suchauftrag senden",
       "submitting": "Wird gesendet…",
       "successTitle": "Anfrage gesendet",
@@ -1417,16 +1416,6 @@
         "answer": "80 % unseres Bestands ist unser Eigentum. Für die übrigen 20 % arbeiten wir auf Kommissionsbasis mit unseren Lieferanten."
       }
     }
-  },
-  "Privacy": {
-    "meta": {
-      "title": "Datenschutz",
-      "description": "Datenschutzerklärung der PJ Cranes B.V. zur Verarbeitung personenbezogener Daten über die Website und Formulare."
-    },
-    "eyebrow": "Rechtliches",
-    "title": "Datenschutzerklärung",
-    "subtitle": "Wie wir personenbezogene Daten verarbeiten, wenn Sie unsere Website nutzen oder eine Anfrage senden.",
-    "reviewNote": "Entwurf für dieses Redesign — vor dem Livegang juristisch prüfen lassen."
   },
   "Terms": {
     "meta": {

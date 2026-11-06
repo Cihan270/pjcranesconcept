@@ -40,9 +40,7 @@
     "services": "Servicios",
     "legal": "Legal",
     "contact": "Contacto",
-    "privacy": "Privacidad",
     "terms": "Condiciones generales",
-    "cookies": "Política de cookies",
     "faq": "FAQ",
     "news": "Noticias",
     "offices": "Nuestras oficinas",
@@ -56,7 +54,8 @@
     "vat": "IVA",
     "rights": "Todos los derechos reservados.",
     "transport": "Transporte y envío",
-    "documentation": "Documentación y exportación"
+    "documentation": "Documentación y exportación",
+    "poweredBy": "Desarrollado por"
   },
   "Crane": {
     "reference": "Ref.",
@@ -372,7 +371,7 @@
     },
     "services": {
       "eyebrow": "Servicios",
-      "title": "De la adquisición a la entrega",
+      "title": "Lo que gestionamos por usted",
       "subtitle": "Todo lo necesario para una transacción internacional de grúas eficiente.",
       "viewAll": "Ver todos los servicios",
       "tablistLabel": "Servicios",
@@ -489,7 +488,7 @@
       "email": "Correo electrónico",
       "emailPlaceholder": "nombre@empresa.com",
       "emailInvalid": "Introduzca un correo válido.",
-      "consent": "Quiero recibir alertas de stock de PJ Cranes y he leído el <privacy>aviso de privacidad</privacy>.",
+      "consent": "Quiero recibir alertas de stock de PJ Cranes.",
       "consentRequired": "Se requiere el consentimiento para activar la alerta de stock.",
       "submit": "Activar alerta",
       "submitting": "Enviando…",
@@ -677,7 +676,7 @@
       "company": "Empresa",
       "message": "Mensaje",
       "messagePlaceholder": "Describa brevemente lo que necesita…",
-      "consent": "Acepto el tratamiento de mis datos para esta consulta y he leído el aviso de privacidad.",
+      "consent": "Acepto el tratamiento de mis datos para esta consulta.",
       "submit": "Enviar consulta",
       "submitting": "Enviando…",
       "successTitle": "Consulta enviada",
@@ -833,7 +832,7 @@
       "contactHint": "Indique al menos un correo electrónico o un número de teléfono.",
       "sellHint": "Para una consulta de venta completa con especificaciones y fotos, utilice el <link>formulario de venta</link>.",
       "sourceHint": "Para una solicitud de búsqueda específica, utilice el <link>formulario de búsqueda</link>.",
-      "consent": "Acepto el tratamiento de mis datos para esta consulta y he leído el <privacy>aviso de privacidad</privacy>.",
+      "consent": "Acepto el tratamiento de mis datos para esta consulta.",
       "submit": "Enviar mensaje",
       "submitting": "Enviando mensaje…",
       "successTitle": "Su mensaje se ha enviado",
@@ -1064,7 +1063,7 @@
       "reviewMachine": "Datos de la máquina",
       "reviewFiles": "Fotos y documentos",
       "reviewMessage": "Información adicional",
-      "consent": "Acepto el tratamiento de mis datos para esta consulta de venta y he leído el <privacy>aviso de privacidad</privacy>.",
+      "consent": "Acepto el tratamiento de mis datos para esta consulta de venta.",
       "nextMachine": "Continuar con los datos de la máquina",
       "nextFiles": "Continuar con fotos y documentos",
       "nextReview": "Revisar la consulta",
@@ -1222,7 +1221,7 @@
       "timeframePlaceholder": "p. ej., en un plazo de 3 meses",
       "message": "Requisitos",
       "messagePlaceholder": "Describa el trabajo, las especificaciones importantes y los requisitos imprescindibles…",
-      "consent": "Acepto el tratamiento de mis datos para esta solicitud de búsqueda y he leído el aviso de privacidad.",
+      "consent": "Acepto el tratamiento de mis datos para esta solicitud de búsqueda.",
       "submit": "Enviar solicitud de búsqueda",
       "submitting": "Enviando…",
       "successTitle": "Solicitud enviada",
@@ -1417,16 +1416,6 @@
         "answer": "El 80 % de nuestro stock es de nuestra propiedad. Para el 20 % restante trabajamos en régimen de consignación con nuestros proveedores."
       }
     }
-  },
-  "Privacy": {
-    "meta": {
-      "title": "Privacidad",
-      "description": "Aviso de privacidad de PJ Cranes B.V. sobre el tratamiento de datos personales a través del sitio web y los formularios."
-    },
-    "eyebrow": "Legal",
-    "title": "Aviso de privacidad",
-    "subtitle": "Cómo tratamos los datos personales cuando utiliza nuestro sitio o envía una consulta.",
-    "reviewNote": "Borrador para este rediseño: debe revisarlo un abogado antes de su publicación."
   },
   "Terms": {
     "meta": {

@@ -40,9 +40,7 @@
     "services": "Diensten",
     "legal": "Juridisch",
     "contact": "Contact",
-    "privacy": "Privacy",
     "terms": "Algemene voorwaarden",
-    "cookies": "Cookiebeleid",
     "faq": "FAQ",
     "news": "Nieuws",
     "offices": "Onze kantoren",
@@ -56,7 +54,8 @@
     "vat": "BTW",
     "rights": "Alle rechten voorbehouden.",
     "transport": "Transport & verzending",
-    "documentation": "Documentatie & export"
+    "documentation": "Documentatie & export",
+    "poweredBy": "Mogelijk gemaakt door"
   },
   "Crane": {
     "reference": "Ref.",
@@ -372,7 +371,7 @@
     },
     "services": {
       "eyebrow": "Diensten",
-      "title": "Van aankoop tot overdracht",
+      "title": "Wat wij voor u regelen",
       "subtitle": "Alles wat nodig is voor een efficiënte internationale kraantransactie.",
       "viewAll": "Bekijk alle diensten",
       "tablistLabel": "Diensten",
@@ -489,7 +488,7 @@
       "email": "E-mailadres",
       "emailPlaceholder": "naam@bedrijf.com",
       "emailInvalid": "Voer een geldig e-mailadres in.",
-      "consent": "Ik wil voorraadalerts van PJ Cranes ontvangen en heb de <privacy>privacyverklaring</privacy> gelezen.",
+      "consent": "Ik wil voorraadalerts van PJ Cranes ontvangen.",
       "consentRequired": "Toestemming is verplicht om de voorraadalert te activeren.",
       "submit": "Activeer alert",
       "submitting": "Bezig…",
@@ -677,7 +676,7 @@
       "company": "Bedrijf",
       "message": "Bericht",
       "messagePlaceholder": "Vertel kort waar u naar op zoek bent…",
-      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze aanvraag en heb de privacyverklaring gelezen.",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze aanvraag.",
       "submit": "Verstuur aanvraag",
       "submitting": "Bezig…",
       "successTitle": "Aanvraag verzonden",
@@ -833,7 +832,7 @@
       "contactHint": "Vul minimaal een e-mailadres of telefoonnummer in.",
       "sellHint": "Voor een volledige verkoopaanvraag met specificaties en foto’s gebruikt u het <link>verkoopformulier</link>.",
       "sourceHint": "Voor een gerichte zoekopdracht gebruikt u het <link>sourcingformulier</link>.",
-      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze aanvraag en heb de <privacy>privacyverklaring</privacy> gelezen.",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze aanvraag.",
       "submit": "Bericht versturen",
       "submitting": "Bericht wordt verstuurd…",
       "successTitle": "Uw bericht is verzonden",
@@ -1063,7 +1062,7 @@
       "reviewMachine": "Machinegegevens",
       "reviewFiles": "Foto’s en documenten",
       "reviewMessage": "Aanvullende informatie",
-      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze verkoopaanvraag en heb de <privacy>privacyverklaring</privacy> gelezen.",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor deze verkoopaanvraag.",
       "nextMachine": "Verder naar machinegegevens",
       "nextFiles": "Verder naar foto’s en documenten",
       "nextReview": "Controleer aanvraag",
@@ -1221,7 +1220,7 @@
       "timeframePlaceholder": "bijv. binnen 3 maanden",
       "message": "Eisen",
       "messagePlaceholder": "Beschrijf de inzet, belangrijke specs en must-haves…",
-      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor dit sourcingverzoek en heb de privacyverklaring gelezen.",
+      "consent": "Ik ga akkoord met de verwerking van mijn gegevens voor dit sourcingverzoek.",
       "submit": "Sourcingverzoek versturen",
       "submitting": "Versturen…",
       "successTitle": "Verzoek verzonden",
@@ -1404,16 +1403,6 @@
         "answer": "80% van onze voorraad is in eigendom. Voor de overige 20% werken wij op consignatiebasis met leveranciers."
       }
     }
-  },
-  "Privacy": {
-    "meta": {
-      "title": "Privacy",
-      "description": "Privacyverklaring van PJ Cranes B.V. over de verwerking van persoonsgegevens via de website en formulieren."
-    },
-    "eyebrow": "Juridisch",
-    "title": "Privacyverklaring",
-    "subtitle": "Hoe wij persoonsgegevens verwerken wanneer u onze site gebruikt of een aanvraag stuurt.",
-    "reviewNote": "Concepttekst voor de redesign — juridisch laten toetsen vóór productielancering."
   },
   "Terms": {
     "meta": {

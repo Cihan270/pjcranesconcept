@@ -70,7 +70,9 @@ export default async function TermsPage({
             </h2>
             <ol className="list-decimal space-y-3 pl-5">
               {article.paragraphs.map((paragraph, index) => (
-                <li key={`${article.number}-${index}`}>{paragraph}</li>
+                <li key={`${article.number}-${index}`} className="whitespace-pre-line">
+                  {paragraph}
+                </li>
               ))}
             </ol>
           </section>

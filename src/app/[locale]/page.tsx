@@ -9,6 +9,7 @@ import { NewsletterBand } from "@/components/home/NewsletterBand";
 import { ProcessSection } from "@/components/home/ProcessSection";
 import { RecentlySold } from "@/components/home/RecentlySold";
 import { SellCtaBand } from "@/components/home/SellCtaBand";
+import { ServicesSection } from "@/components/home/ServicesSection";
 import { SourcingBlock } from "@/components/home/SourcingBlock";
 import { getCranes, getFeaturedCranes } from "@/lib/inventory/repository";
 import type { Crane } from "@/types/crane";
@@ -50,6 +51,7 @@ export default async function HomePage({
   return (
     <PageShell bleed>
       <Hero stockCount={available.total} />
+      <ServicesSection />
       {/* Sections alternate dark / light; keep that rhythm when adding or moving one. */}
       <FeaturedInventory cranes={featured} newestDateAdded={newestDateAdded} />
       <BrandStrip brands={brands} />

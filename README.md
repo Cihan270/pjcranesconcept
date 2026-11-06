@@ -39,13 +39,13 @@ Lead endpoints: `POST /api/contact`, `/api/sell`, `/api/find`, `/api/newsletter`
 - No public prices; enquiry-only.
 - No WhatsApp CTA until a number is explicitly confirmed.
 - Soften unverified marketing claims (e.g. unnamed “global offices”).
-- Privacy/terms copy must be reviewed by counsel before production launch.
+- Terms (NL) are copied verbatim from pj-cranes.com/nl/algemene-voorwaarden. There is no privacy page (removed at the client's request).
 
 ## i18n notes
 
 - `messages/nl.json` is the primary dictionary.
-- `en` is filled professionally; `de` / `es` / `fr` mirror EN for newer namespaces (Contact / Sell / Find / About / Faq / Privacy / Terms / News / Services hub pages) until native copy is supplied — **TODO**: localize DE/ES/FR secondary-page and form strings.
-- Terms body comes from `src/data/terms.ts` (NL + EN May 2025). Privacy draft lives in `src/data/privacy.ts` (NL + EN).
+- `en` is filled professionally; `de` / `es` / `fr` mirror EN for newer namespaces (Contact / Sell / Find / About / Faq / Terms / News / Services hub pages) until native copy is supplied — **TODO**: localize DE/ES/FR secondary-page and form strings.
+- Terms body comes from `src/data/terms.ts` (NL + EN May 2025).
 
 ## Forms & CRM shape
 

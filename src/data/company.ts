@@ -60,10 +60,23 @@ export const company = {
    * Social presence names are known; only render links when `href` is a verified URL.
    * Keep `href` typed as `string | null` (not `as const` null) so URLs can be filled in later.
    */
+  // Verified: these are the profiles linked from the live pj-cranes.com site.
   socialLinks: [
-    { id: "facebook", label: "Facebook", href: null as string | null },
-    { id: "instagram", label: "Instagram", href: null as string | null },
-    { id: "linkedin", label: "LinkedIn", href: null as string | null },
+    {
+      id: "linkedin",
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/company/pj-cranes/" as string | null,
+    },
+    {
+      id: "facebook",
+      label: "Facebook",
+      href: "https://www.facebook.com/PJCRANESBV/" as string | null,
+    },
+    {
+      id: "instagram",
+      label: "Instagram",
+      href: "https://www.instagram.com/pjcranes/" as string | null,
+    },
   ],
   /** @deprecated Prefer socialLinks — kept for any legacy string joins */
   socialNetworks: ["Facebook", "Instagram", "LinkedIn"] as const,

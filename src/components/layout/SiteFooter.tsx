@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { ReactNode } from "react";
 import { BrandLogo } from "@/components/brand/BrandLogo";
+import { SocialIcon } from "@/components/brand/SocialIcon";
 import { Link } from "@/i18n/navigation";
 import {
   company,
@@ -12,7 +13,10 @@ import {
   getOfficeMapUrl,
   officesOverviewHref,
 } from "@/data/offices";
+import { ArrowUpRight } from "lucide-react";
 import { cn } from "cn";
+
+const GENIUZ_URL = "https://geniuzaic.com/nl";
 
 const linkClass =
   "focus-ring rounded-[var(--radius)] text-surface/80 transition-colors hover:text-brand";
@@ -62,24 +66,24 @@ export async function SiteFooter() {
       <div className="mx-auto grid max-w-[1440px] gap-8 px-4 py-10 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 md:px-8 lg:grid-cols-4 lg:gap-x-10 lg:px-12 lg:py-12">
         {/* 1. Company */}
         <div className="space-y-4 sm:col-span-2 lg:col-span-1">
-          <BrandLogo
-            header
-            className="h-8 w-[10rem] md:h-9 md:w-[11rem]"
-          />
+          {/* Same original mark as the header — it carries its own white plate. */}
+          <BrandLogo className="h-8 w-[10rem] md:h-9 md:w-[11rem]" />
           <p className="max-w-sm text-sm leading-relaxed text-surface/75">
             {t("tagline")}
           </p>
           {socialLinks.length > 0 ? (
-            <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+            <ul className="flex flex-wrap gap-2 pt-1">
               {socialLinks.map((link) => (
                 <li key={link.id}>
                   <a
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={linkClass}
+                    aria-label={link.label}
+                    title={link.label}
+                    className="focus-ring flex size-10 items-center justify-center rounded-[var(--radius)] bg-white/[0.06] text-surface/70 transition-colors hover:bg-brand hover:text-brand-foreground"
                   >
-                    {link.label}
+                    <SocialIcon id={link.id} className="size-[1.125rem]" />
                   </a>
                 </li>
               ))}
@@ -204,21 +208,26 @@ export async function SiteFooter() {
           </div>
           <ul className="flex flex-wrap gap-x-4 gap-y-2 text-xs">
             <li>
-              <Link href="/privacy" className={mutedLinkClass}>
-                {t("privacy")}
-              </Link>
-            </li>
-            <li>
               <Link href="/terms" className={mutedLinkClass}>
                 {t("terms")}
               </Link>
             </li>
-            <li>
-              <Link href="/privacy#cookies" className={mutedLinkClass}>
-                {t("cookies")}
-              </Link>
-            </li>
           </ul>
+          <a
+            href={GENIUZ_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="focus-ring group inline-flex items-center gap-1.5 self-start rounded-[var(--radius)] text-xs text-surface/60 lg:self-auto"
+          >
+            {t("poweredBy")}
+            <span className="font-semibold text-brand transition-colors group-hover:text-surface">
+              Geniuz
+            </span>
+            <ArrowUpRight
+              className="size-3.5 text-surface/50 transition-[transform,color] duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-brand"
+              aria-hidden
+            />
+          </a>
         </div>
       </div>
     </footer>

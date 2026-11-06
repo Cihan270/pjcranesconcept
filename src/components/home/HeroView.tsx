@@ -78,6 +78,11 @@ export function HeroView({
         className="absolute inset-0 bg-[linear-gradient(180deg,rgba(20,20,22,0.55)_0%,rgba(20,20,22,0.18)_12%,transparent_28%,transparent_78%,rgba(20,20,22,0.4)_100%)]"
         aria-hidden
       />
+      {/* Fade into the charcoal services band below */}
+      <div
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-b from-transparent via-charcoal/70 to-charcoal md:h-36"
+        aria-hidden
+      />
 
       <div className="relative mx-auto flex h-full w-full max-w-[1440px] flex-col justify-center px-4 py-14 md:px-8 md:py-16 lg:px-12 lg:py-20">
         <div className="max-w-[34rem]">

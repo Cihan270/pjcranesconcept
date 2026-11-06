@@ -13,7 +13,6 @@ import { HoneypotField } from "@/components/forms/HoneypotField";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Link } from "@/i18n/navigation";
 import { mapLeadError, submitLead } from "@/lib/forms/submit-lead";
 import type { FormLocale } from "@/lib/validators/common";
 import {
@@ -195,22 +194,7 @@ export function NewsletterForm({
               inverted ? "text-surface/75" : "text-muted-foreground",
             )}
           >
-            {t.rich("consent", {
-              privacy: (chunks) => (
-                <Link
-                  href="/privacy"
-                  onClick={(event) => event.stopPropagation()}
-                  className={cn(
-                    "underline underline-offset-2 transition-colors",
-                    inverted
-                      ? "text-surface hover:text-brand"
-                      : "text-foreground hover:text-brand",
-                  )}
-                >
-                  {chunks}
-                </Link>
-              ),
-            })}
+            {t("consent")}
           </Label>
         </div>
         {errors.consentMarketing ? (

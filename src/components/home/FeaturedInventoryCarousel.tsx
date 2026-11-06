@@ -58,7 +58,16 @@ export function FeaturedInventoryCarousel({
     setCanNext(emblaApi.canScrollNext());
     setProgress(Math.min(1, Math.max(0, emblaApi.scrollProgress())));
     const firstSlide = emblaApi.slideNodes()[0];
-    if (firstSlide) setArrowTop((firstSlide.offsetWidth * 3) / 4 / 2);
+    if (firstSlide) {
+      // lg+: arrows sit in the side gutters, centred on the whole card.
+      // Smaller screens: centred on the 4:3 photo, on top of the cards.
+      const inGutter = window.matchMedia("(min-width: 1024px)").matches;
+      setArrowTop(
+        inGutter
+          ? firstSlide.offsetHeight / 2
+          : (firstSlide.offsetWidth * 3) / 4 / 2,
+      );
+    }
   }, [emblaApi]);
 
   useEffect(() => {
@@ -104,7 +113,7 @@ export function FeaturedInventoryCarousel({
   // Round side arrows, vertically centred on the photos. On md+ they straddle
   // the carousel edge; on small screens they sit just inside the cards.
   const arrowClass = cn(
-    "focus-ring absolute z-10 grid size-11 -translate-y-1/2 place-items-center rounded-full md:size-12",
+    "focus-ring absolute z-10 grid size-11 -translate-y-1/2 place-items-center rounded-full md:size-12 lg:size-10",
     "bg-charcoal text-surface shadow-[0_14px_32px_-14px_rgba(20,20,22,0.75)] ring-1 ring-white/10",
     "transition-[opacity,scale,background-color,color] duration-200 ease-out",
     "hover:bg-brand hover:text-charcoal active:scale-95",
@@ -120,7 +129,7 @@ export function FeaturedInventoryCarousel({
           onClick={() => emblaApi?.scrollPrev()}
           disabled={!canPrev}
           aria-label={previousLabel}
-          className={cn(arrowClass, "left-2 md:left-0 md:-translate-x-1/2")}
+          className={cn(arrowClass, "left-2 md:left-0 md:-translate-x-1/2 lg:-left-6")}
           style={arrowStyle}
         >
           <ArrowLeft className="size-5" strokeWidth={2} aria-hidden />
@@ -130,7 +139,7 @@ export function FeaturedInventoryCarousel({
           onClick={() => emblaApi?.scrollNext()}
           disabled={!canNext}
           aria-label={nextLabel}
-          className={cn(arrowClass, "right-2 md:right-0 md:translate-x-1/2")}
+          className={cn(arrowClass, "right-2 md:right-0 md:translate-x-1/2 lg:-right-6")}
           style={arrowStyle}
         >
           <ArrowRight className="size-5" strokeWidth={2} aria-hidden />
@@ -170,9 +179,11 @@ export function FeaturedInventoryCarousel({
         onKeyDown={onKeyDown}
       >
         {/* Bleed slightly past the section’s right padding toward the viewport edge */}
-        <div className="-mr-4 md:-mr-8 lg:-mr-12">
+        {/* Below lg the track bleeds into the right padding; on lg+ it stops at
+            the content edge so both arrows get a matching gutter. */}
+        <div className="-mr-4 md:-mr-8 lg:mr-0">
           <div ref={emblaRef} className="overflow-hidden">
-            <ul className="flex touch-pan-y gap-3 pr-4 md:gap-4 md:pr-8 lg:pr-12">
+            <ul className="flex touch-pan-y gap-3 pr-4 md:gap-4 md:pr-8 lg:pr-0">
               {slides.map((slide, index) => (
                 <li
                   key={

@@ -379,16 +379,7 @@ export function ContactForm({
           htmlFor="contact-consent"
           className="block text-sm leading-snug font-normal text-muted-foreground"
         >
-          {t.rich("consent", {
-            privacy: (chunks) => (
-              <Link
-                href="/privacy"
-                className="font-medium text-foreground underline-offset-4 hover:underline"
-              >
-                {chunks}
-              </Link>
-            ),
-          })}
+          {t("consent")}
         </Label>
       </div>
       {errors.consent?.privacy ? (
